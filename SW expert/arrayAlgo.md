@@ -9,20 +9,18 @@
 	- 정수나 정수로 표현할 수 있는 자료에 대해서만 적용 가능 각항목의 발새회수를 기록하기 위해, 정수 항목으로 인덱스되는 카운트들의 Arrary(배열)를 사용하기 때문임
 	- DATA에서 각 항목들의 발생 회수를 세고,정수 항목들로 직접 인덱스 되는 카운트 배열 COUNTS에 저장
 	-정렬된 집합에서 각ㅎㅇ목의 앞에 위치 할 항목의 개수를 반영하기 위해 COUNTS의 원소를 조정
-	1Counting_Sort(A,B,K)
+	`Counting_Sort(A,B,K)
 	// A [1...n] -- 입력 Array(1 to k)
 	// B [1...n] -- 정렬된 array
 	// C [1...n] -- COUNTS array
-
 	for i = i to k do
 		C[i]=0
-
 	for j = 1 to n do
 		C[A[j]] = C[A[j]]+1
-
 	for i = 2 to k do 
 		C[i] = C[i] + C[i-1]
-
 	for j = n 1 do 
 		B[C[Aj]] = A[j]
 		C[A[j]] = C[A[j]]-1
+
+	
