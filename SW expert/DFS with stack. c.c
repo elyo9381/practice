@@ -35,7 +35,7 @@ void dfs(int v){
         for(int i =1; i<=7;i++){
             // 방문여부와 arr[stack[top][i]]는 배열에 방문할 노드가 표시되어 있는데
             // top이 계속 바뀌면서 노드를 재탐색한다. 이러한 방법으로 하게 되면 매우 비효율적일거같다.
-            // 배열을 계속 재탐색한다. 
+            // 배열을 계속 재탐색한다.
             if(visited[i] == 0 && arr[stack[top]][i]==1)
             {
                 // printf("<if i >%d\n",i);
@@ -43,7 +43,7 @@ void dfs(int v){
                 push(i);
                 i =1;
             }
-            // printf("<top>%d <stack %d> %d \n",top,i,stack[i]);
+            printf("<top>%d <stack %d> %d \n",top,i,stack[i]);
         }
 
 
