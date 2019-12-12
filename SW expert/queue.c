@@ -11,6 +11,8 @@
 #define TRUE 1
 #define FALSE 0
 
+
+
 #define IS_VISITED 1
 #define NOT_VISITED 0
 
@@ -19,15 +21,33 @@ int front;
 int rear;
 
 int isEmpty()
+{
+    if(front == rear) return true;
+    else return false;
+}
 int isFull()
+{
+    if(rear = n-1) return true;
+    else return false;
+}
 void enQueue(int item)
+{
+    if(isFull()) return Qu
+}
 int deQueue()
-void createQueue()
-int Qpeek()
+{
+
+}
+void createQueue(){
+
+}
+int Qpeek(){
+    if(isEmpty()) 
+
+}
 
 
 int t;
-
 int n;
 int m;
 int i,j;
