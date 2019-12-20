@@ -1,6 +1,6 @@
 [Project]
-FileName=scheduler.dev
-Name=scheduler
+FileName=vector_ex.dev
+Name=vector_ex
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=6
+UnitCount=7
 
 [VersionInfo]
 Major=1
@@ -50,8 +50,18 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
+[Unit1]
+FileName=ehglobal.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit2]
-FileName=EHProcess.cpp
+FileName=ehglobal.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -61,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=Scheduler.h
+FileName=Genre.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -71,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=Scheduler.cpp
+FileName=Genre.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -81,17 +91,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=Program.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit1]
-FileName=EHProcess.h
+FileName=App.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -101,7 +101,18 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit6]
-FileName=Untitled2
+FileName=App.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=Program.cpp
+CompileCpp=1
 Folder=
 Compile=1
 Link=1

@@ -1,0 +1,37 @@
+# Project: vector_ex
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ehglobal.o Genre.o App.o Program.o
+LINKOBJ  = ehglobal.o Genre.o App.o Program.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = vector_ex.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ehglobal.o: ehglobal.cpp
+	$(CPP) -c ehglobal.cpp -o ehglobal.o $(CXXFLAGS)
+
+Genre.o: Genre.cpp
+	$(CPP) -c Genre.cpp -o Genre.o $(CXXFLAGS)
+
+App.o: App.cpp
+	$(CPP) -c App.cpp -o App.o $(CXXFLAGS)
+
+Program.o: Program.cpp
+	$(CPP) -c Program.cpp -o Program.o $(CXXFLAGS)
