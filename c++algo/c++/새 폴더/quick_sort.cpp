@@ -114,13 +114,14 @@
 //Program.cpp
 #include <iostream>
 using namespace std;
-
-int swap(int **a,int **b)
+//**가능하고 **은 어떤 함수에서 파라미터로 *을 받고 
+// 함수의 내용에서 *의 인덱스 값을 건드릴떄 **사용  
+int swap(int *a,int *b)
 {
 	int temp;
-	temp = **a;
-    **a = **b;
-    **b = temp;
+	temp = *a;
+    *a = *b;
+    *b = temp;
     
     return 0;
 }
