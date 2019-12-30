@@ -6,20 +6,24 @@ template <typename data, typename compare>
 
 void merge_sort(data *base, size_t n, compare algo)
 {
+	//분할과정에서 n이 1보다 작거나 같으면 종료합니다. 
 	if(n<=1)
 	{
 		return;
 	}
 	
+	//앞쪽요소와 뒤쪽요소로 분할합니다. 
 	size_t h = n/2;
 	size_t lh= n-h;
 	merge_sort(base,h,algo);
 	merge_sort(base+h,lh,algo);
 	
+	//이제 정복 과정입니다. 
 	size_t ai = 0;
 	size_t bi = h;
 	size_t ci = 0;
 	
+	//임시버퍼할당 
 	data *tbase = new data[n];
 	
 	while((ai<h)&&(bi<n))
