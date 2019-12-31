@@ -4,6 +4,12 @@
 Heuristic::Heuristic(Bucket bucket)
 {
     original = bucket;
+    
+    for(int i = 0; i<3;i++)
+    {
+        cout<<original[i]<<" ";
+	}
+
 }
 Heues Heuristic::EnumNext()
 {

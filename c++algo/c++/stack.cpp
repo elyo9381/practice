@@ -1,6 +1,7 @@
 //스택
 #include <iostream>
 #include <stack>
+#include <vector>
 using namespace std;
 
 class Stack
@@ -80,14 +81,22 @@ int main()
 //	cout<<endl;
 
  	//템플릿 클래스이므로 템플릿 형식 인자로 보관할 형식을 나타내야겠죠.
-    stack<int> st;//int 형식을 보관하는 스택
- 
+ 	vector<int> v;
+    stack<int,vector<int> > st;//int 형식을 보관하는 스택
+      
+ 	
+ 	v.push_back(3);
+ 	v.push_back(4);
+ 	v.push_back(5);
+ 	v.push_back(6);
+ 	
+ 	
     //보관하는 메서드는 push입니다.
-    st.push(4); //4
-    st.push(7); //4 7
-    st.push(8); //4 7 8
-    st.push(2); //4 7 8 2
- 
+//    st.push(4); //4
+//    st.push(7); //4 7
+//    st.push(8); //4 7 8
+//    st.push(2); //4 7 8 2
+ 	st.push(1);
     //비었는지 확인하는 메서드는 empty입니다.
     while(st.empty() == false)
     {
