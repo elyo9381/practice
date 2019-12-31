@@ -44,8 +44,7 @@ int main()
         HIter last = nheues.end();
         for(  ;seek != last; ++seek)//반복(다음 경험 목록을 순차적으로 반복)
         {
-        	
-        	cout<<"클래스 백터"<<*seek<<endl;
+    
             if((*seek)->IsGoal())//목적지에 도달하면
             {
                 cout<<"솔루션 ";

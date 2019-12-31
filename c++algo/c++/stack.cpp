@@ -44,7 +44,7 @@ public:
 	 	{
 	 		//여기에는 0을 반환할게요.
 			 //목적ㅇ 따라 예외를 던지는 형태로 구현할 수도 있겠지요
-			 return 0; 
+			 return -1; 
 		 }
 		 //buffer 의 top 인덱스 위치에 보관한 값을 반환 할 변수에 대입하세요
 		 int re = buffer[top];
