@@ -1,0 +1,37 @@
+# Project: graph_edge
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Edge.o Graph.o Heuristic.o program.o
+LINKOBJ  = Edge.o Graph.o Heuristic.o program.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = graph_edge.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Edge.o: Edge.cpp
+	$(CPP) -c Edge.cpp -o Edge.o $(CXXFLAGS)
+
+Graph.o: Graph.cpp
+	$(CPP) -c Graph.cpp -o Graph.o $(CXXFLAGS)
+
+Heuristic.o: Heuristic.cpp
+	$(CPP) -c Heuristic.cpp -o Heuristic.o $(CXXFLAGS)
+
+program.o: program.cpp
+	$(CPP) -c program.cpp -o program.o $(CXXFLAGS)
