@@ -9,59 +9,60 @@
 
 using namespace std;
 
+bool Check(string str){
+    int len= (int)str.length();
+    stack<char> st;
+
+    for(int i =0; i<len; i++)
+    {
+        char c = str[i];
+        if(c=='(')
+        {
+            st.push(str[i]);
+
+        }else
+        {
+            if(!st.empty())
+            {
+                st.pop();
+
+            }else{
+                return false;
+            }
+        }
+    }
+    return st.empty();
+}
+
 int main() {
     ios_base :: sync_with_stdio(false);
     cin.tie(NULL);
     int t;
     cin >> t;
     cin.ignore();
-    while(t--) {
+    for(; t!=0;t--)  {
         string str;
+        //getline 공백도 같이 받아올수있는 함수
         getline(cin, str);
-        str += '\n';
-        stack<char> s;
-        for(char ch: str) {
-            if(ch == '\n' || ch == ' ') {
-                while(!s.empty()) {
-                    cout << s.top();
-                    s.pop();
-                }
-                cout << ch;
-            } else {
-                s.push(ch);
-            }
+        // str += '\n';
+
+
+        if(Check(str))
+        {
+            cout<<"YES"<<"\n";
+        }else{
+            cout<<"NO"<<"\n";
         }
+
     }
-    return 0;
- }
+       
+}
 
-// #include <iostream>
-// #include <string>
-// using namespace std;
 
-// int main(void)
-// {
-//     int t, len, st, size;
-//     cin >>t;
-//     cin.ignore();
-//     for(;t!=0;t--)
-//     {
-//         string arr;
-//         getline(cin,arr);
-//         cout<<arr<<"\n";
-//         st =0, size = arr.size();
-//         for(int i =0; i<size; i++)
-//         {
-//             if ( arr[i] ==' ')
-//             {
-//                 for( int j = i-1; j>= st; j--)
-//                     cout<<arr[j];
-//                 cout<<" ";
-//                 st = i+1;
-//             }
-//         }
-//         for( int i = size -1; i>=st; i--)
-//             cout<< arr[i];
-//         cout<<"\n";
-//     }
-// }
+// 6
+// (())())
+// (((()())()
+// (()())((()))
+// ((()()(()))(((())))()
+// ()()()()(()()())()
+// (()((())()(
