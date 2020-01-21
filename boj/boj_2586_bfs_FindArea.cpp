@@ -7,6 +7,20 @@
 #define endl "\n"
 #define MAX 100
 using namespace std;
+
+
+
+/* CheckInMap 에서는 문제 모양 그대로를 입력 받았다
+scanf("%d %d %d %d",&p,&q,&r,&s);
+        for (int j=p; j<r; j++) {
+            for (int k=q; k<s; k++) {
+                a[j][k] = 1;
+            }
+        }
+구사과 코드이고 꼭 같은 모양이 아니더라도 
+모습만 같으면 된다 코드를 참고하자.
+
+*/
  
 int M, N, K, Area_Num;
 int MAP[MAX][MAX];
