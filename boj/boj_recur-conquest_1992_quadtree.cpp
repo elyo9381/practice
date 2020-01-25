@@ -5,6 +5,12 @@
 using namespace std;
 
  /*
+    본 코드 26-34
+    디폴트 true일떄 
+    예를들어서 전체가 1이면 zero는 false가 되게 설정하여서
+    one 일때는 1을 출력시킨다 0일때도 마찬가지이다.
+    하지만 둘다 false가 되버리면
+    이제 분할 정복을 들어간다 
 
  */
 
@@ -31,8 +37,8 @@ void compress(int n, int y, int x)
                          else
                                  one = false;
  
-        if (zero)  cout << 0; else if(one) cout << 1;
-
+        if (zero)  cout << 0; 
+        else if(one) cout << 1;
         else
         {
                  cout << "(";
@@ -66,7 +72,15 @@ int main(void)
         return 0;
 }
 
+/*
+        0에서 n-1까지 입력을 받고 
+        파라미터를 0,n-1로 넘겨준다
+        같을 때라는 표시를 
+          if(a[p][q]!=a[i][j])
+          로 매번 확인하여서 다르면 
+        분할재귀 방법으로 풀었다 
 
+*/
 
 // 구사가 코드 분석 하자
 // #include <stdio.h>
