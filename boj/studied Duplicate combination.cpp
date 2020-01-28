@@ -29,11 +29,8 @@ void DFS(int Idx, int Cnt)
  
 int main(void)
 {
-    for (int i = 0; i < MAX; i++) Arr[i] = i + 1;
+    for (int i = 0; i < MAX; i++) 
+        Arr[i] = i + 1;
+    
     DFS(0, 0);
 }
-
-
-출처: https://yabmoons.tistory.com/122?category=838490 [얍문's Coding World..]
-
-출처: https://yabmoons.tistory.com/122?category=838490 [얍문's Coding World..]
