@@ -21,6 +21,9 @@ using namespace std;
    cnt와 N혹은 sum을 비교한다. 
 
 */
+
+
+
 int N;
 int findCreator(void)
 {
@@ -44,7 +47,6 @@ int findCreator(void)
         return creator;
 }
 
- 
 int main(void)
 {
         cin >> N;
@@ -78,3 +80,40 @@ int main(void)
 //     }
 //     puts("0");
 // }
+
+
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int n;
+
+int brute(int x)
+{
+
+        int ret = x;
+        while(x)
+        {
+                ret += x%10;
+                x /=10;
+        }
+        return ret;
+}
+
+int main()
+{
+        cin >> n;
+
+        for(int i =1; i<=n;i++)
+        {
+                if(brute(i)==n)
+                {
+                        cout<<i<<endl;
+                        return 0;
+                }
+        }
+
+        cout<<0<<endl;
+}
