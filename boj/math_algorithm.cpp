@@ -71,24 +71,23 @@ void soinsu(int n){
         }
     }
 }
-
-vector<int> division(int n)
+int r = 0;
+int division(int n)
 {
-    vector<int> ret;
     for(int i =1; i*i <= n; i++){
-        if(n%i == 0) ret.push_back(i);
+        if(n%i == 0) v.push_back(i);
 
     }
 
-    for(int i = ret.size()-1; i>=0; i--){
-        if(ret[i]*ret[i] == n )continue;
-        ret.push_back(n/ret[i]);
-
+    for(int i = v.size()-1; i>=0; i--){
+        if(v[i]*v[i] == n )continue;
+        v.push_back(n/v[i]);
+        K--;
+        if(K==0) return v[K-1];
     }
 
 
 
-    return ret;
 }
 
 
@@ -99,8 +98,7 @@ void Input()
 void Solution()
 {   
 
-    v = division(N);
-     cout<< v[K-1];
+    cout<< division(N);
 }
 
 void Solve()
