@@ -71,24 +71,98 @@ void soinsu(int n){
         }
     }
 }
-int r = 0;
-int division(int n)
+
+vector<int> division(int n)
 {
+    vector<int> ret;
     for(int i =1; i*i <= n; i++){
-        if(n%i == 0) v.push_back(i);
+        if(n%i == 0) ret.push_back(i);
 
     }
 
-    for(int i = v.size()-1; i>=0; i--){
-        if(v[i]*v[i] == n )continue;
-        v.push_back(n/v[i]);
-        K--;
-        if(K==0) return v[K-1];
+    for(int i = ret.size()-1; i>=0; i--){
+        if(ret[i]*ret[i] == n )continue;
+        ret.push_back(n/ret[i]);
     }
-
-
-
+    return ret;
 }
+
+// 최대 공약수
+int gcd(int a, int b){
+    if(a==0) return b;
+    return gcd(b%a, a);
+}
+
+int lcm(int a, int b){
+    return a*b / GCD(a,b);
+}
+
+/*
+    약수와 최대 공약수성질
+    1. 두수 A, B의 공약수들은 GCD(A,B)의 모든 약수들이다.
+    2. 두수 A, B의 공배수들은 LCM(A,B)의 모든 배수들이다.
+    3. AXB =  GCD(A,B) X LCM(A,B)
+    4. GCD(n,n+1) = 1
+
+    성질 3을 이용해 LCM(A, B)를 A X B / GCD(A,B)로 구할수 있습니다. 
+    성질 4는 보고 바로 까먹어도 아무 상관 없습니다.
+*/ 
+
+
+/*
+    합동식
+
+    A≡B(modm) 이라는 기호의 의미는 A와 B가 M으로 나눈 나머지가 같다는 의미입니다.
+
+    A≡B(modm) 일때
+
+    1. A + C  ≡ B+C(modm)
+    2. A-C ≡ B-C(modm)
+    3. AC≡BC(modm)
+    4 그러나  A/C ≡ B/C(modm)은 성립하지 않는다. . ( A=6, B=2, C=2, M=4A=6,B=2,C=2,M=4 )
+
+    cin >> a >> b;
+    int anc = (a-b)%mod;
+    if(ans < 0) ans+=mod; // 음수일땐 이렇게 해줘야한다. 
+    cout<< "result : " << ans;
+*/
+
+
+/*
+LCM을 이용해서 풀이 시간복잡도는 O(MN)이다
+
+
+int solve(int m,int n , int x, int y)
+{
+  if(x == m) x=0;
+  if(y == n) y=0;
+  for(int i = 1; i<=m*n; i++)
+  {
+    if(i%m == x and i%n == y)return i;
+  }
+  return -1;
+}
+
+  O(mn)에서는 시간초과가 뜬다 
+  왜나면 M,N의 까지이므로 최대 16억까지이다.
+  메모리는 256MB이므로 2.6억까지 할당이된다. 
+  그렇기 떄문에 O(MN)은 안되고 
+  O(M+N)으로 가야한다. 
+  합동식으로 구할때 (A 합동식 X) 이므로 m이 계속적으로 증가할것이다.
+  X, X+m, X+2m ... 그렇기에 i의 범위를 x부터 i+=m으로 해주게 되면
+  X에 대한 m을 mn으로 확인하는게 아니라  O(N)번으로 확인하게 된다.   
+
+*/
+
+int solve(int m, int n, int x, int y){
+  if(x == m) x = 0;
+  if(y == n) y = 0;
+  for(int i = x; i <= m*n; i+=m){
+    if(i % n == y) return i;
+  }
+  return -1;
+}`
+
 
 
 void Input()
@@ -98,9 +172,10 @@ void Input()
 void Solution()
 {   
 
-    cout<< division(N);
+    v = division(N);
+    if( v.size() < K ) cout<< 0;
+    else cout<< v[K-1]; 
 }
-
 void Solve()
 {
     Input();
