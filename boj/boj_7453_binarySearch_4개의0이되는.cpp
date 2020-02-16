@@ -19,6 +19,8 @@ using namespace std;
              그렇기 때문에 upper- lower 하면 -86이 벡터에 하나 존재하므로 값은 0이되고 인덱스는 1을 반환하는것이다.)
     */
 
+
+
 int N;
 int arr[MAXN][4];
 
