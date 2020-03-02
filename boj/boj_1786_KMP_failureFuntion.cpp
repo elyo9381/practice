@@ -8,17 +8,15 @@ vector<int> makeTable(string pattern){
     vector<int> table(patternSize,0);
 
     int j = 0;
-    for(int i =1; i< patternSize; i++){
+    for(int i =1; i < patternSize; i++){
         while(j> 0 && pattern[i] != pattern[j]){
             j = table[j-1];
-
         }
 
         if(pattern[i] == pattern[j]){
             table[i] = ++j;
         }
     }
-
     return table;
 }
 
@@ -34,8 +32,6 @@ void KMP(string parent, string pattern){
         }
 
         if(parent[i] == pattern[j]) {
-            // cout << j << " ";
-            // cout <<  patternSize - 1<<endl;
             if(j == patternSize-1) {
                     occur.push_back(i - patternSize +2);
                     j = table[j];
@@ -43,7 +39,6 @@ void KMP(string parent, string pattern){
             else
             {
                 j++;
-
             }    
            
         }
