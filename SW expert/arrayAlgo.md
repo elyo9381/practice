@@ -218,4 +218,234 @@ int main(void){
 실패함수를 알아야한다. 
 
 ## 라빈카프
+* T과 P이 존재한다. P가 있을때 (p[0]x5^3 + p[1]x5^2 + p[2]x5^1 + p[3]x5^0)mod 509를 통해서 해쉬값을 구하고 
+P의 길이 만큼 T에 길이를 P의 해쉬값가 같이 T에 해쉬값을 구한다. 
+이를 통해서 해쉬값이 같을때 같은 패턴을 찾았다고 할수있다. 
+	
+	- 해쉬값이 같지만 실제 문자열이 다른경우는 두문자열이 동일한지를 비교하는 루틴이 추가되어야한다. 그러나 이 문제에서 실제로 두 문자열이 동일 한지 비교하는 루틴을 추가하면 시간 복잡도가 최악의 경우 O(500000^2)가 된다. 시간절약을 위해 틀릴 가능성을 감수하더라도 실제로 두 문자열이 동일 한지 비교하지 않습니다. 
 
+## 그래프 
+
+* 그래프에서 간선을 egde라고 부르고 정점을 vertex라고 부른다. 최단경로, 검색엔진,랭킹산정 등 관계를 설정해야하는 상황에서 유용하게 활용 될수 잇는 자료구조이다. 
+
+* vertex와 egde가 서로 연결되어 루프가 발생하는 조건을 cycle이라고 한다. 
+
+* 단순그래프는 루프가 존재하지 않는 그래프 이다.
+
+* 그래프는 undirected graph와 directed graph로 구성되어 있다.
+
+* 인접행렬를 통한 그래프의 시간복잡도는 O(V), 공간 복잡도는 O(V^2)가 필요하다.
+ 
+ - 방향성 그래프
+`int adj_matrix[10][10] = {};
+int v,e;
+cin >> v >> e;
+for(int i =0; i<e; i++){
+	int u,v;
+	cin >> u >> v;
+	adj_matrix[u][x] = 1;
+}
+`
+* 인접리스트를 통한 그래프의 시간복잡도는 O(V), 공간 복잡도는 O(V+E)가 필요하다. 
+
+ -방향성 그래프 
+* BFS
+`vector<int> adj[10];
+int v,e;
+cin >> v >> e;
+for(int i =0; i<e; i++){
+	int u,v;
+	cin >> u >> v;
+	adj.push_back(v);
+}`
+
+`int edge[10][10];
+int deg[10];
+int *adj[10]
+int idx[10];
+int main(){
+	int v,e;
+	cin >> v >> e;
+	for(int i = 0; i< e; i++){
+		cin >> edge[i][0] >> edge[i][1];
+		deg[edge[i][0]]++;
+	}
+	for(int i = 1; i<=v; i++)
+		adj[i]= new int [deg[i] + 1];
+	for(int i = 0 ; i < e; i++){
+		int u  = edge[i][0], v =  edge[i][1];
+		adj[u][idx[u]] = v;
+		idx[u]++;
+	}
+}
+`
+
+순회만 하는 코드
+
+
+`
+	//방문여부를 보여주는 bfs 연결 그래프 코드
+	vector<int> adj[10];
+	bool vis[10];
+	void bfs(){
+		queue<int> q;
+		q.push(1);
+		vis[1] = true;
+		while(!q.empty()){
+			int cur = q.front();
+			q.pop();
+			cout << cur << ' ';
+			for(int i=0; i< adj[cur].size(); i++){
+				int nxt = adj[cur][i];
+				if(vis[nxt]) continue;
+				q.push(nxt);
+				vis[nxt] = true;
+			} 
+		}
+	}
+	//STL을 지원하지 않는다면 별도로 큐를 구현하고 i를 adj[cur].size대신 deg[cur]까지 증가 시키면 될것입니다. 
+`
+
+
+`
+	정점과의 거리를 나타내는 연결그래프
+	vector<int> adj[10];
+	int dist[10];
+	void bfs(){
+		for(int i =1; i<10; i++) dist[i] = -1;
+		queue<int> q;
+		q.push(1);
+		dist[1] = 0;
+		while(!q.empty()){
+			int cur = q.front();
+			q.pop();
+			for(int i=0; i < adj[cur].size(); i++){
+				int nxt = adj[cur][i];
+				if(dist[nxt] != -1) continue;
+				q.push(nxt);
+				dist[nxt] = dist[cur] + 1;
+			} 
+		}
+	}
+	//STL을 지원하지 않는다면 별도로 큐를 구현하고 i를 adj[cur].size대신 deg[cur]까지 증가 시키면 될것입니다. 
+`
+
+
+` 연결그래프가 아닐 떄 순회 
+vector<int> adj[10];
+bool vis[10];
+int v = 9; // 정점의 갯수 
+void bfs(){
+	queue<int> q;
+	for(int i =1; i<=v; i++){
+		if(vis[i]) continue;
+		q.push(i);
+		vis[i] = true;
+		while(!q.empty()){
+			int cur = q.front();
+			q.pop();
+			cout << cur << ' ';
+			for(int i = 0; i< adj[cur].size(); i++){
+				int nxt = adj[cur][i];
+				if(vis[nxt]) continue;
+				q.push(nxt);
+				vis[nxt] = true;
+			}
+		}
+	}
+}
+`
+
+* DFS
+ - 깊이를 우선으로 방문하는 알고리즘
+
+
+
+ ` // 스택을 이용한 DFS
+ 연결 그래프에서의 순회, 비재귀
+vector<int> adj[10];
+bool vis[10];
+void dfs(){
+	stack<int> s;
+	s.push(1);
+	vis[1] = true;
+	while(!s.emtpy()){
+		int cur = s.top();
+		s.pop();
+		for(int i = 0; i < adj[cur].size(); i++){
+			int nxt = adj[cur][i];
+			if(vis[nxt]) continue;
+			s.putsh(nxt);
+			vis[nxt] = true;
+		}
+	}
+}
+ `
+
+
+` // recursion을 이용한 DFS
+vector<int> adj[10];
+bool vis[10];
+void dfs(int cur){
+	cout << cur << ' ';
+	for(int i = 0; i< ajd[cur].size(); i++){
+		int nxt = adj[cur][i];
+		if(vis[nxt]) continue;
+		vis[nxt] = true;
+		dfs(nxt);
+	}
+}
+`
+
+- 재귀적으로 들어갈때마다 메모리 중 스택영역에 계속 데이터가 쌓이게 된다는점 이것은 SW expert등에서 스택 메모리가 1MB로 제한될 경우 깊이 10만의 재귀함수는 반드시 스택 메모리 크기 제한을 넘기게 되고, 이로 인해 런타임에러가 발생합니다. 
+
+- 재귀방법과 비재귀방법은 방문해다는 기록을 언제 남기냐에 대한 차이가 있다.
+
+- 우리가 관념적으로 재귀 DFS이고 비재귀 DFS가 동작하는 방식과는 차이가 있다. 
+
+- 비재귀 DFS는 순회를 잘 수행하지만 우리가 관념적으로 생각하는 DFS와 세부 동작이 다릅니다. 그래서 단순히 flood fill내지는 순회를 하는것이 아니라 DFS의 고유한 성질을 사용해 문제를 해결해야 하는 상황일 경우 앞에서 소개한 비재귀 를 이용하면 안됩니다. 
+
+`
+vector<int> adj[10];
+bool vis[10];
+void dfs(){
+	stack<int> s;
+	s.push(1);
+	while(!s.empty()){
+		int cur  = s.top();
+		s.pop();
+		if(vis[cur]) continue;
+		vis[cur] = true;
+		for( int i = 0 ; i< adj[cur].size(); i++){
+			int nxt= adj[cur][i]; 
+			if(vis[nxt]) continue;
+			s.push(nxt);
+		}
+	}
+}`
+
+하지만 비재귀 또한 우리가 관념적으로 생각하는 DFS와 동일하게 동작하도록 바꿀수있습니다. 
+
+`
+vector<int> adj[10];
+bool vis[10];
+int v = 9;
+void dfs(){
+	stack<int> s;
+	for(int  i =1; i<=v; i++){
+		if(vis[i]) continue;
+		s.push(i);
+		vis[i] = true;
+		whlie(!s.empty()){
+			int cur = s.top();
+			s.pop();
+			cout <<cur << ' ';
+			for(int i =0; i< adj[cur].size(); i++){
+				int nxt = adj[cur][i];
+				if(vis[nxt]) continue;
+				s.push(nxt);
+				vis[nxt] = true;
+			}
+		}
+	}
+}`
