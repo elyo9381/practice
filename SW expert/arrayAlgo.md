@@ -218,7 +218,7 @@ int main(void){
 실패함수를 알아야한다. 
 
 ## 라빈카프
-* T과 P이 존재한다. P가 있을때 (p[0]x5^3 + p[1]x5^2 + p[2]x5^1 + p[3]x5^0)mod 509를 통해서 해쉬값을 구하고 
+* T과 P이 존재한다. P가 있을때 (p[0]x5^3 + p[1]x5^2 + p[2]x5^1 + p[3]x5^0)mod 509를 통해서 해쉬값을 구하고 (소수와 원시근을 이용해서)
 P의 길이 만큼 T에 길이를 P의 해쉬값가 같이 T에 해쉬값을 구한다. 
 이를 통해서 해쉬값이 같을때 같은 패턴을 찾았다고 할수있다. 
 	
@@ -249,14 +249,14 @@ for(int i =0; i<e; i++){
 * 인접리스트를 통한 그래프의 시간복잡도는 O(V), 공간 복잡도는 O(V+E)가 필요하다. 
 
  -방향성 그래프 
-* BFS
+
 `vector<int> adj[10];
 int v,e;
 cin >> v >> e;
 for(int i =0; i<e; i++){
 	int u,v;
 	cin >> u >> v;
-	adj.push_back(v);
+	adj[u].push_back(v);
 }`
 
 `int edge[10][10];
@@ -282,7 +282,7 @@ int main(){
 
 순회만 하는 코드
 
-
+* BFS
 `
 	//방문여부를 보여주는 bfs 연결 그래프 코드
 	vector<int> adj[10];
@@ -361,7 +361,7 @@ void bfs(){
 
 
 
- ` // 스택을 이용한 DFS
+ ` // 스택을 이용한 DFS 방문여부를 통해서 부모노드를 알수있다. 
  연결 그래프에서의 순회, 비재귀
 vector<int> adj[10];
 bool vis[10];
@@ -432,7 +432,7 @@ bool vis[10];
 int v = 9;
 void dfs(){
 	stack<int> s;
-	for(int  i =1; i<=v; i++){
+	for(int  i = 1; i<=v; i++){
 		if(vis[i]) continue;
 		s.push(i);
 		vis[i] = true;
@@ -449,3 +449,164 @@ void dfs(){
 		}
 	}
 }`
+
+
+
+## 트리 
+
+* 정점은 루트이다. 간선으로 직접 연결된 상하 정점을 부모와 자식이라고 부른다. 자식이 없는 정점은 리프라고 한다. 루트와의 거리가 1이면 깊이 depth가 1이라고 부르고 부모와 자식관의 거리는 1이다 
+
+* undirected acyclic connected greph(무방향이며 사이클이 없는 그래프)
+* 연결 그래프이면서 임의의 간선을 제거 하면 연결 그래프가 아니게 되는 그래프
+* 임의의 두점을 연결하는 simple path(정점이 중복해서 나오지 않는 경로)가 유일한 그래프
+* v개의 정점을 가지고 v-1개의 간선을 가지는 연결 그래프
+* 사이클이 없는 연결 그래프이면서 임의의 간선을 추가하면 연결 그래프가 되는 그래프
+* v개의 정점을 가지고 v-1개의 간선을 가지는 acyclic그래프
+
+
+`
+BFS 예시코드 1
+p배열을 사용하므로써 root번호의 정점을 루트로 두었을때 각 정점의 부모 정보를 bfs 한번으로 알아낼수 있게 됩니다. 
+vector<int> adj[10];
+int p[10];
+void bfs(int root){
+	queue<int> q;
+	q.push(root);
+	while(!q.empty()){
+		int cur = q.front();
+		q.pop();
+		cout << cur << ' ';
+		for(int i = 0 ; i<adj[cur].size(); i++){
+			int nxt = adj[cur][i];
+			if(p[cur] == nxt]) continue;
+			q.push(nxt);
+			p[nxt] = cur;
+			}
+			}
+}`
+
+
+`
+depth 및 부모를 구하는 코드 
+vector<int> adj[10];
+int p[10];
+int depth[10]
+void bfs(int root){
+	queue<int> q;
+	q.push(root);
+	while(!q.empty()){
+		int cur = q.front();
+		q.pop(); 
+		cout<< cur << ' ';
+		for(int i =0; i< adj[cur].size(); i++){
+			int nxt = adj[cur][i];
+			if(p[cur] == nxt) continue;
+			q.push(nxt);
+			p[nxt] = cur;
+			depth[nxt] = depth[cur] +1;
+			}
+		}
+	}`
+
+`스택을 사용한 트리구조 DFS
+vector<int> adj[10];
+int p[10];
+int depth[10];
+void dfs(int root){
+	stack<int> s;
+	s.push(root);
+	while(!s.empty()){
+		int cur = s.top();
+		s.pop();
+		cout << cur << ' ';
+		for(int i = 0; i<adj[cur].size(); i++){
+			int nxt = adj[cur][i];
+			if(p[cur] == nxt) continue;
+			s.push(nxt);
+			p[nxt] = cur;
+			depth[nxt] = depth[cur]+1;
+			}
+			}
+			}`
+
+`재귀를 사용한 트리구조 DFS
+vector<int> adj[10];
+int p[10];
+int depth[10];
+void dfs(int cur){
+	cout <<cur << ' ';
+	for(int i = 0; i< adj[cur].size(); i++){
+		int nxt = adj[cur][i];
+		if(p[cur] == nxt) continue;
+		p[nxt] = cur;
+		depth[nxt] = depth[cur]+1;
+		dfs(nxt);
+	}
+}
+`
+
+`이진트리에서 레벨순회
+int lc[9] = {}
+int rc[9] = {}
+void bfs(){
+	queue<int> q;
+	q.push(1);
+	while(!q.empty()){
+		int cur = q.front();
+		q.pop();
+		cout << cur << ' ';
+		if(lc[cur] != 0) q.push(lc[cur]);
+		if(rc[cur] != 0) q.push(rc[cur]);
+		}
+	}`
+
+
+* 전위순회(preorder traversal)
+	- 1. 현재 정점을 방문한다. 
+	- 2. 왼쪽 서브 트리를 전위 순회한다.
+	- 3. 오른쪽 서브트리를 전위 순회한다.
+
+	- 전위순회는 DFS와 방문순서가 동일하다. DFS가 일단 자기 자신을 반문한 후 첫번째 자식부터 들어가 거기에서 DFS를 다시 시작하는 구조이기 때문이다. 
+
+	전위 순회는  나 > 왼쪽 서브트리 > 오른쪽 서브트리  순으로 
+
+`int lc[9];
+ int rc[9];
+ void preorder(int cur){
+ 	cout<< cur<< ' ';
+ 	if(lc[cur]) preorder(lc[cur]);
+ 	if(rc[cur] != 0) preorder(rc[cur]);
+ 	}
+	// preorder(1);`
+
+
+* 중위순회(inorder traversal)
+	- 1 왼쪽 서브트리를 중위순회한다.
+	- 2 현재 정점을 방문한다.
+	- 3 오른쪽 서브트리를 중위순회한다.
+	중위 순회는 왼쪽 서브트리 > 나 > 오른쪽 서브트리  순으로 
+
+	`int lc[9] = {}
+	 int rc[9] = {}
+	 void inorder(int cur){
+	 	if(lc[cur] != 0) inorder(lc[cur]);
+	 	cout<< cur << ' ';
+	 	if(rc[cur]) inorder(rc[cur]);
+	 	}// inorder(1)`
+
+
+* 후위순회(postorder traversal)
+	- 1 왼쪽 서브트리를 후위 순회한다.
+	- 2 오른쪽 서브트리를 후위 순회한다.
+	- 3 현재 정점을 방문한다. 
+	후위 순회는 왼쪽 서브트리 > 오른쪽 서브트리 >나 순으로 
+
+	`
+	int lc[9];
+ 	int rc[9];
+ 	void postorder(int cur){
+ 	if(lc[cur]) postorder(lc[cur]);
+ 	if(rc[cur] != 0) postorder(rc[cur]);
+ 	cout<< cur<< ' ';
+ 	}
+	`
