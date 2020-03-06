@@ -1,14 +1,17 @@
+
 #include <bits/stdc++.h>
 #define endl '\n'
-#define MAXN 10002
+#define MAXN 100003
 typedef long long ll;
 using namespace std;
 
 /*
-    결혼식 문제는 깊이를 이용해서 풀수 있다. 
-    길이배열을 만들어서 루트와의 길이를 측정하고 
-    루트의 친구의 친구까지만이므로 
-    길이가 1, 2인 녀석들을 배열에서 체크하여주면 된다. 
+    연결리스트를 이용한 그래프의 부모 구하는 방법은 
+    parent배열을 놓은뒤에 DFS를 돌리는것이다.
+    vis 배열을 통해서 방문여부를 체크하고 방문하였으면 
+    연결되어있는 노드에 1-6 1-4가 연결되어있을때
+    adj[1][0], adj[1][1]를 방문하고 배열안에 들어있는값을 p[nxt]에 cur이 부모가 된다. 
+
 */
 
 
@@ -17,7 +20,6 @@ int v,e;
 bool vis[MAXN];
 int p[MAXN];
 int cnt= 0;
-int depth[MAXN];
 vector<int> adj[MAXN];
 
 
@@ -34,7 +36,7 @@ void dfs(int root){
             if(vis[nxt]) continue;
                 p[nxt] = cur;
                 s.push(nxt);
-                vis[nxt] = true;
+                vis[nxt] = true;            
         }
     }
 }
@@ -51,8 +53,8 @@ void bfs(int root){
             int nxt = adj[cur][i];
             if(vis[nxt]) continue;
             q.push(nxt);
+            cnt++;
             vis[nxt] = true;
-            depth[nxt] = depth[cur]+1;      
         }
     }
 }
@@ -69,16 +71,8 @@ void Input()
     }
 
     bfs(1);
-
-    for(int i = 2; i <= v;i++){
-       cout << depth[i] << ' ';
-       if(depth[i] == 2 || depth[i] == 1){
-        cnt++;
-       }
-
-    }
-
-    cout<< '\n'<<cnt << endl;
+    
+    cout<< cnt << '\n';
 }
 
 void Solution()

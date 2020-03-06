@@ -610,3 +610,52 @@ void bfs(){
  	cout<< cur<< ' ';
  	}
 	`
+
+
+
+##위상정렬 
+
+* 방향 그래프에서 간선으로 주어진 정점 간 선후관계를 위배하지 않도록 나열하는 정렬 
+
+* 위상정렬은 사이클이 존재할 경우 정렬이 존재할수없습니다. 
+
+* 사이클이 존재하지 않는 방향 그래프를 DAG라고 줄여서 부른다. 
+
+	- 1. 제일 앞에 오기 위해서는 자신보다 앞에 위치해야 하는 정점이 하나도 없어야한다.(자신에게 들어오는 간선이 없어야함) indegree 가 0 인 상황
+	- 2. 정점을 위상정렬을 한후에 정점에서 뻗어나가는 간선을 모두 지우고 위상 정렬 을 이어나가면 됩니다. 
+	- 3. 자신에게 들어오지 않는 간선을 택한다. 
+
+* 위상정렬 알고리즘
+	1. 맨 처음 모든 간선을 읽으며 indegree테이블을 채운다.
+	2. indegree가 0인 정점들을 모두 큐에 넣는다. 
+	3. 큐의 front에 있는 정점을 가져와 위상 정렬 결과에 추가한다.
+	4. 해당 정점으로부터 연결된 모든 정점의 indegree값을 1 감소시킨다. 이때 indegree가 0이되었다면 그정점을 큐에 추가한다. 
+	5. 큐가 빌때 까지 3,4번 과정을 반복한다. 
+
+
+`
+	vector<int> adj[10];
+	int indeg[10];
+	int n; // N개의 정점이 있고 
+	void topo_sort(){
+		queue<int> q;
+		vector<int> result;
+		for( int i = 1; i<=n; i++)
+			if(indeg[i] == 0) q.push(i);
+ 	 	whlie(!q.empty()){
+ 	 		int cur = q.front();
+ 	 		result.push_back(cur);
+ 	 		for(int i  = 0; i<adj[cur].size(); i++){
+ 	 			int nxt = adj[cur][i];
+ 	 			indeg[nxt]--;
+ 	 			if(indeg[nxt] == 0) q.push(nxt);
+ 	 		}
+ 	 	}
+ 	 	if(result.size() != n){
+ 	 		cout<< "cycle exists";
+ 	 		return;
+ 	 	}
+ 	 	for(int i = 0; i<n; i++)
+ 	 		cout<< result[i]<< ' ';
+	}
+`

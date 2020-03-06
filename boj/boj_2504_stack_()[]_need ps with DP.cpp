@@ -42,7 +42,7 @@ int main(){
         tmp /=2;
     }
     else{
-        if(arr[i-1] =='[')
+        if(arr[i-1] ==']')
             sum+=tmp;
         if(st.empty())
         {
