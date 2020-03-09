@@ -186,7 +186,7 @@
 	- 실패함수 F[x] : S[0:k] = S[x+1-k:x+1]을 만족하는 최대 K
 	- 문자열 S[0:x+1]에서 접두사와 접미사가 일치하는 최대 길이
 	- 매칭이 실패했을때 얼마나 점프할수있는지를 구현한 실패함수
-
+~~~
 
 vector<int> makeTable(string pattern){
 	int patternSize = pattern.size();
@@ -213,6 +213,8 @@ int main(void){
 	}
 	return 0;
 }
+~~~
+
 
 * KMP알고리즘은 접두사와 접미사를 이용하여 실패함수를 구하고 parent와 pattern이 i번째 증가하다가 다르다면 실패함수를 이용하여서 접두사가 같은 위치에 j를위치시킨다. 이를 하기위해서는
 실패함수를 알아야한다. 
@@ -237,7 +239,8 @@ P의 길이 만큼 T에 길이를 P의 해쉬값가 같이 T에 해쉬값을 구
 * 인접행렬를 통한 그래프의 시간복잡도는 O(V), 공간 복잡도는 O(V^2)가 필요하다.
  
  - 방향성 그래프
-`int adj_matrix[10][10] = {};
+~~~
+int adj_matrix[10][10] = {};
 int v,e;
 cin >> v >> e;
 for(int i =0; i<e; i++){
@@ -245,21 +248,25 @@ for(int i =0; i<e; i++){
 	cin >> u >> v;
 	adj_matrix[u][x] = 1;
 }
-`
+~~~
+
 * 인접리스트를 통한 그래프의 시간복잡도는 O(V), 공간 복잡도는 O(V+E)가 필요하다. 
 
  -방향성 그래프 
 
-`vector<int> adj[10];
+~~~
+vector<int> adj[10];
 int v,e;
 cin >> v >> e;
 for(int i =0; i<e; i++){
 	int u,v;
 	cin >> u >> v;
 	adj[u].push_back(v);
-}`
+}
+~~~
 
-`int edge[10][10];
+~~~
+int edge[10][10];
 int deg[10];
 int *adj[10]
 int idx[10];
@@ -278,12 +285,12 @@ int main(){
 		idx[u]++;
 	}
 }
-`
+~~~
 
 순회만 하는 코드
 
 * BFS
-`
+~~~
 	//방문여부를 보여주는 bfs 연결 그래프 코드
 	vector<int> adj[10];
 	bool vis[10];
@@ -304,10 +311,10 @@ int main(){
 		}
 	}
 	//STL을 지원하지 않는다면 별도로 큐를 구현하고 i를 adj[cur].size대신 deg[cur]까지 증가 시키면 될것입니다. 
-`
+~~~
 
 
-`
+~~~
 	정점과의 거리를 나타내는 연결그래프
 	vector<int> adj[10];
 	int dist[10];
@@ -328,10 +335,10 @@ int main(){
 		}
 	}
 	//STL을 지원하지 않는다면 별도로 큐를 구현하고 i를 adj[cur].size대신 deg[cur]까지 증가 시키면 될것입니다. 
-`
+~~~
 
-
-` 연결그래프가 아닐 떄 순회 
+~~~
+연결그래프가 아닐 떄 순회 
 vector<int> adj[10];
 bool vis[10];
 int v = 9; // 정점의 갯수 
@@ -354,14 +361,14 @@ void bfs(){
 		}
 	}
 }
-`
+~~~
 
 * DFS
  - 깊이를 우선으로 방문하는 알고리즘
 
 
-
- ` // 스택을 이용한 DFS 방문여부를 통해서 부모노드를 알수있다. 
+~~~
+  // 스택을 이용한 DFS 방문여부를 통해서 부모노드를 알수있다. 
  연결 그래프에서의 순회, 비재귀
 vector<int> adj[10];
 bool vis[10];
@@ -380,10 +387,11 @@ void dfs(){
 		}
 	}
 }
- `
+~~~
 
 
-` // recursion을 이용한 DFS
+~~~
+ // recursion을 이용한 DFS
 vector<int> adj[10];
 bool vis[10];
 void dfs(int cur){
@@ -395,7 +403,7 @@ void dfs(int cur){
 		dfs(nxt);
 	}
 }
-`
+~~~
 
 - 재귀적으로 들어갈때마다 메모리 중 스택영역에 계속 데이터가 쌓이게 된다는점 이것은 SW expert등에서 스택 메모리가 1MB로 제한될 경우 깊이 10만의 재귀함수는 반드시 스택 메모리 크기 제한을 넘기게 되고, 이로 인해 런타임에러가 발생합니다. 
 
@@ -405,7 +413,7 @@ void dfs(int cur){
 
 - 비재귀 DFS는 순회를 잘 수행하지만 우리가 관념적으로 생각하는 DFS와 세부 동작이 다릅니다. 그래서 단순히 flood fill내지는 순회를 하는것이 아니라 DFS의 고유한 성질을 사용해 문제를 해결해야 하는 상황일 경우 앞에서 소개한 비재귀 를 이용하면 안됩니다. 
 
-`
+~~~
 vector<int> adj[10];
 bool vis[10];
 void dfs(){
@@ -422,11 +430,12 @@ void dfs(){
 			s.push(nxt);
 		}
 	}
-}`
+}
+~~~
 
 하지만 비재귀 또한 우리가 관념적으로 생각하는 DFS와 동일하게 동작하도록 바꿀수있습니다. 
 
-`
+~~~
 vector<int> adj[10];
 bool vis[10];
 int v = 9;
@@ -448,7 +457,8 @@ void dfs(){
 			}
 		}
 	}
-}`
+}
+~~~
 
 
 
@@ -464,7 +474,7 @@ void dfs(){
 * v개의 정점을 가지고 v-1개의 간선을 가지는 acyclic그래프
 
 
-`
+~~~
 BFS 예시코드 1
 p배열을 사용하므로써 root번호의 정점을 루트로 두었을때 각 정점의 부모 정보를 bfs 한번으로 알아낼수 있게 됩니다. 
 vector<int> adj[10];
@@ -483,10 +493,11 @@ void bfs(int root){
 			p[nxt] = cur;
 			}
 			}
-}`
+}
+~~~
 
 
-`
+~~~
 depth 및 부모를 구하는 코드 
 vector<int> adj[10];
 int p[10];
@@ -506,9 +517,11 @@ void bfs(int root){
 			depth[nxt] = depth[cur] +1;
 			}
 		}
-	}`
+	}
+~~~
 
-`스택을 사용한 트리구조 DFS
+스택을 사용한 트리구조 DFS
+~~~
 vector<int> adj[10];
 int p[10];
 int depth[10];
@@ -527,9 +540,11 @@ void dfs(int root){
 			depth[nxt] = depth[cur]+1;
 			}
 			}
-			}`
+			}
+~~~
 
-`재귀를 사용한 트리구조 DFS
+재귀를 사용한 트리구조 DFS
+~~~
 vector<int> adj[10];
 int p[10];
 int depth[10];
@@ -543,9 +558,10 @@ void dfs(int cur){
 		dfs(nxt);
 	}
 }
-`
+~~~
 
-`이진트리에서 레벨순회
+이진트리에서 레벨순회
+~~~
 int lc[9] = {}
 int rc[9] = {}
 void bfs(){
@@ -558,7 +574,8 @@ void bfs(){
 		if(lc[cur] != 0) q.push(lc[cur]);
 		if(rc[cur] != 0) q.push(rc[cur]);
 		}
-	}`
+	}
+~~~
 
 
 * 전위순회(preorder traversal)
@@ -570,15 +587,16 @@ void bfs(){
 
 	전위 순회는  나 > 왼쪽 서브트리 > 오른쪽 서브트리  순으로 
 
-`int lc[9];
+~~~
+int lc[9];
  int rc[9];
  void preorder(int cur){
  	cout<< cur<< ' ';
  	if(lc[cur]) preorder(lc[cur]);
  	if(rc[cur] != 0) preorder(rc[cur]);
  	}
-	// preorder(1);`
-
+	// preorder(1);
+~~~
 
 * 중위순회(inorder traversal)
 	- 1 왼쪽 서브트리를 중위순회한다.
@@ -586,13 +604,15 @@ void bfs(){
 	- 3 오른쪽 서브트리를 중위순회한다.
 	중위 순회는 왼쪽 서브트리 > 나 > 오른쪽 서브트리  순으로 
 
-	`int lc[9] = {}
+~~~
+	int lc[9] = {}
 	 int rc[9] = {}
 	 void inorder(int cur){
 	 	if(lc[cur] != 0) inorder(lc[cur]);
 	 	cout<< cur << ' ';
 	 	if(rc[cur]) inorder(rc[cur]);
-	 	}// inorder(1)`
+	 	}// inorder(1)
+~~~
 
 
 * 후위순회(postorder traversal)
@@ -601,7 +621,7 @@ void bfs(){
 	- 3 현재 정점을 방문한다. 
 	후위 순회는 왼쪽 서브트리 > 오른쪽 서브트리 >나 순으로 
 
-	`
+~~~
 	int lc[9];
  	int rc[9];
  	void postorder(int cur){
@@ -609,7 +629,7 @@ void bfs(){
  	if(rc[cur] != 0) postorder(rc[cur]);
  	cout<< cur<< ' ';
  	}
-	`
+~~~
 
 
 
@@ -633,7 +653,7 @@ void bfs(){
 	5. 큐가 빌때 까지 3,4번 과정을 반복한다. 
 
 
-`
+~~~
 	vector<int> adj[10];
 	int indeg[10];
 	int n; // N개의 정점이 있고 
@@ -658,7 +678,7 @@ void bfs(){
  	 	for(int i = 0; i<n; i++)
  	 		cout<< result[i]<< ' ';
 	}
-`
+~~~
 
 
 ## 최소신장 트리 
@@ -683,6 +703,42 @@ void bfs(){
 
   - 대신 Union-find를 사용할 경우 "특정 두 정점이 같은 그룹인지 다른 그룹인지를" 사실상 상수시간에 확일할수 있습니다. 정확히 아커만 함수의 값이 계수로 붙ㄴ긴 하지만 이 함수의 값은 N이 26/65536일때 비로소 5가 될 정도로 아주 작은 값을 가지는 함수이기 때문에 상수시간이라고 생각하셔도 무방합니다. 
 
+  ~~~
+  //c++11지원
+  int v,e;
+  // {cost, vertex1, vertex2}
+  tuple<int, int, int> edge[100005];
+  void kruskal() {
+  	sort(edge,edge+e);
+  	int cnt = 0;
+  	for(int i = 0; i<e; i++){
+  		int cost, v1, v2;
+  		tie(cost, v1,v2) edge[i];
+  		if(!is_diff_group(v1,v2)) continue;
+  		cout << cost << ' ' << v1 <<' ' <<v2;
+  		cnt++;
+  		if(cnt == v-1) break;
+  	}
+  }
+  //c++11 미지원
+  int v,e;
+  //{cost, {vertex1, vertex2}}
+  pair<int, pair<int, int> > edge[100005];
+  void kruskal() {
+  	sort(edge, edge+e);
+  	int cnt = 0;
+  	for(int i= 0; i < e; i++){
+  		int cost = edge[i].first;
+  		int v1 = edge[i].second.first;
+  		int v2 = edge[i].second.second;
+  		if(!is_diff_group(v1,v2)) continue;
+  		cout << cost << ' ' << v1 << ' '<< v2;
+  		cnt++;
+  		if(cnt == v-1) break;
+  	}
+  }
+  ~~~
+
 
  * 프림 알고리즘
 
@@ -704,3 +760,126 @@ void bfs(){
  - 3. 만약 해당 간선이 최소 신장 트리에 포함된 두 정점을 연결한다면 아무 것도 하지 않고 넘어간다.
  - 4. 해당 간선이 최소 신장 트리에 포함된 정점 u와 포함되지않는 정점 v를 연결한다면 우선 해당 간선과 정점 v를 최소 신장 트리에 추가한다. 그리고 정점 v과 최소신장 트리에 포함되지 않는 정점을 연결하는 모든 간선을 힙에 추가한다.
  - 5. 최소신장 트리에 v-1개의 간선이 추가될 때 까지 2,3,4 반복
+
+ ~~~
+ 	using ti3 = tuple<int, int , int>;
+ 	int v,e;
+ 	// {cost,index}
+ 	vector<pair<int,int> > adj[100005];
+ 	bool chk[100005];
+ 	void pirm(){
+ 		int cnt = 0;
+ 		priority_queue<ti3, vector<ti3>, greater<ti3> > PQ;
+ 		for(auto nxt : adj[1])
+ 			PQ.push({nxt.first, 1, nex.second});
+ 		chk[1] = 1; // true
+ 		while(1){
+ 			int cost, v1,v2;
+ 			tie(const, v1, v2) = PQ.top(); PQ.pop();
+ 			if(chk[v2]) continue;
+ 			cout << cost << ' ' << v1 <<' '<< v2<< '\n';
+ 			chk[v2] = 1;
+ 			cnt++;
+ 			if(cnt == v-1) break;
+ 			for(auto nxt : adj[v2]){
+ 				if(!chk[nxt.second])
+ 				PQ.push({nxt.first, v2, nxt.second});
+ 			}
+ 		}
+ 	}
+ ~~~
+
+##이분매칭
+
+~~~
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+#define MAX_N 201
+#define MAX_M 201
+
+ // A와 B의 정점의 개수 
+int n, m;
+
+// adj[i][j] = Ai와 Bj가 연결되어 있는가?
+bool adj[MAX_N][MAX_M];
+
+// 각 정점에 매친된 상대 정점의 번호를 지정한다.
+vector<int> aMatch, bMatch;
+
+// dfs()의 방문여부
+vector<bool> visited;
+
+// A의 정점인 a에서 B의 매칭되지 않는 정점으로 가는 경로를 찾는다.
+bool dfs(int a){
+
+    if(visited[a])
+        return false;
+
+    visited[a] = true;
+
+    for(int b = 0; b< m; b++){
+        if(adj[a][b]){
+
+            // b가 매칭되어 있지 않다면 bMatch[b]에서부터 시작해 증가 경로를 찾는다.
+            // 매칭되어 있다면 dfs에서 매칭되어 있는 A정점이 다른 곳을 매칭 할수 있는지 본다.
+            
+            if(bMatch[b] == -1 || dfs(bMatch[b])){
+
+                // 증가경로를 발견할때 a와b를 매칭시킨다.
+                aMatch[a] = b;
+                bMatch[b] = a;
+
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+int bipartiteMatch()
+{
+    aMatch = vector<int>(n, -1);
+    bMatch = vector<int>(m, -1);
+
+    int size = 0;
+
+    for( int start = 0; start< n; start++){
+        visited = vector<bool>(n, false);
+
+        if(dfs(start))
+            size++;
+    }
+    return size;
+}
+
+int main(){
+
+    n = 4;
+    m = 4;
+
+     // A의 정점i와 B의 정점 j가 연결되어 있으면 1로 표시
+    // 1 == true (adj 타입이 bool)
+    adj[0][1] = 1;
+    adj[0][3] = 1;
+ 
+    adj[1][0] = 1;
+    adj[1][1] = 1;
+ 
+    adj[2][0] = 1;
+    adj[2][2] = 1;
+ 
+    adj[3][2] = 1;
+    adj[3][3] = 1;
+ 
+    cout << bipartiteMatch() << endl;
+ 
+    return 0;
+
+}
+~~~
+
