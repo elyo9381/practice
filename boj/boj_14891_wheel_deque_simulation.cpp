@@ -32,7 +32,7 @@ typedef pair<int, int> pii;
 
     deque를 이용해서 시계방향과 반시계반향의 
     입력과 삭제를 실행하고 바퀴의 순서는 q를 이용하여서 입력을 받았다. 
-    
+
 */
 
 deque<int> dp[5];
@@ -40,12 +40,12 @@ int k;
 
 void Input()
 {
-    for(int i =1; i<5; i++)
+    for(int i =1; i<4; i++)
     {
         string s;
         cin >> s;
 
-        for(int j=0; j<s.length(); j++)
+        for(int j=0; j < s.length(); j++)
             dq[i].push_back(s[j] - '0');
     }
 
