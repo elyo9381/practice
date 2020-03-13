@@ -45,7 +45,7 @@ void Input()
         string s;
         cin >> s;
 
-        for(int j=0; j < s.length(); j++)
+        for(int j = 0 ; j < s.length(); j++)
             dq[i].push_back(s[j] - '0');
     }
 

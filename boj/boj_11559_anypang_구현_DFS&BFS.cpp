@@ -85,7 +85,7 @@ void Solution()
 
                     if(temp_cnt >= 4)
                     {
-                        Flag =  true;
+                        Flag =  true; // 연쇄를 체크하는 Flag이다.
 
                         for(int i =0; i<Boom_tmp.size(); i++)
                         {
@@ -118,17 +118,17 @@ void Solution()
                 if(MAP[i][j] =='.') continue;
                 int tmp = i;
 
-            while(1)
-            {
-                if(tmp == 11 || MAP[tmp+1][j] != '.') break;
-                MAP[tmp+1][j] = MAP[tmp][j];
-                MAP[tmp][j] = '.';
-                tmp++;
+                while(1)
+                {
+                    if(tmp == 11 || MAP[tmp+1][j] != '.') break;
+                    MAP[tmp+1][j] = MAP[tmp][j];
+                    MAP[tmp][j] = '.';
+                    tmp++;
+                }
             }
         }
-   }
 
-   if(Flag == true) Answer++;
+   if(Flag == true) Answer++; // Flag가 true이면 true가 된다. 
    else break;
 }
 
@@ -154,127 +154,127 @@ int main(void)
 }
 
 
-char MAP[12][6];
-bool visit[12][6];
+// char MAP[12][6];
+// bool visit[12][6];
 
 
-int dx[] = {0,0,1,-1};
-int dy[] = {1,-1,0,0};
+// int dx[] = {0,0,1,-1};
+// int dy[] = {1,-1,0,0};
 
 
-void Input()
-{
-    for(int i = 0; i<12; i++)
-        scanf("%s",MAP[i]);
-}
+// void Input()
+// {
+//     for(int i = 0; i<12; i++)
+//         scanf("%s",MAP[i]);
+// }
 
-vector<pii> getColor(char color)
-{
-    vector<pii> vc;
-    for(int i = 0; i <12; i++)
-        for(int j = 0; j<6; j++)
-            if( MAP[i][j] == color)
-                vc.push_back({i,j});
+// vector<pii> getColor(char color)
+// {
+//     vector<pii> vc;
+//     for(int i = 0; i <12; i++)
+//         for(int j = 0; j<6; j++)
+//             if( MAP[i][j] == color)
+//                 vc.push_back({i,j});
 
-    return vc;
-}
+//     return vc;
+// }
 
-bool bfs(char color, vector<pii> vc)
-{
-    queue<pii> q;
-    bool chk =  false;
+// bool bfs(char color, vector<pii> vc)
+// {
+//     queue<pii> q;
+//     bool chk =  false;
 
-    for( int i =0; i< vc.size(); i++)
-    {
-        int x = vc[i].first;
-        int y = vc[i].second;
+//     for( int i =0; i< vc.size(); i++)
+//     {
+//         int x = vc[i].first;
+//         int y = vc[i].second;
 
-        q.push({x,y});
-        int cnt = 0;
-        memset(visit, 0, sizeof(visit));
+//         q.push({x,y});
+//         int cnt = 0;
+//         memset(visit, 0, sizeof(visit));
 
-        while(!q.empty())
-        {
-            int hx = q.front().first;
-            int hy = q.front().second;
+//         while(!q.empty())
+//         {
+//             int hx = q.front().first;
+//             int hy = q.front().second;
 
-            q.pop();
+//             q.pop();
 
-            if(visit[hx][hy])
-                continue;
+//             if(visit[hx][hy])
+//                 continue;
 
-            visit[hx][hy] = true;
-            cnt++;
-            for( int j = 0; j < 4; j++)
-            {
-                int ny = hy + dy[j];
-                int nx = hx + dx[j];
+//             visit[hx][hy] = true;
+//             cnt++;
+//             for( int j = 0; j < 4; j++)
+//             {
+//                 int ny = hy + dy[j];
+//                 int nx = hx + dx[j];
 
-           if ((0 <= ny && ny < 12 && (0 <= nx && nx < 12)) && MAP[nx][ny] == color)
-                    q.push({ nx,ny });
+//            if ((0 <= ny && ny < 12 && (0 <= nx && nx < 12)) && MAP[nx][ny] == color)
+//                     q.push({ nx,ny });
 
-            }
-        }
+//             }
+//         }
 
-        if( cnt >= 4)
-        {
-            for(int i = 0; i< 12; i++)
-                for(int j =0; j< 6 ; j++)
-                    if(visit[i][j])
-                    {
-                        MAP[i][j] = '.';
-                        chk= true;
-                    }
-        }
-    }
+//         if( cnt >= 4)
+//         {
+//             for(int i = 0; i< 12; i++)
+//                 for(int j =0; j< 6 ; j++)
+//                     if(visit[i][j])
+//                     {
+//                         MAP[i][j] = '.';
+//                         chk= true;
+//                     }
+//         }
+//     }
 
-    if(chk)
-        return true;
-    else
-        return false;
-}
+//     if(chk)
+//         return true;
+//     else
+//         return false;
+// }
 
-void Solution()
-{  
-  int combo = 0;
+// void Solution()
+// {  
+//   int combo = 0;
 
-  while(1)
-  {
-    bool isEvent = false;
+//   while(1)
+//   {
+//     bool isEvent = false;
 
-    vector<pii> vcR = getColor('R');
-    vector<pii> vcG = getColor('G');
-    vector<pii> vcB = getColor('B');
-    vector<pii> vcP = getColor('P');
-    vector<pii> vcY = getColor('Y');
+//     vector<pii> vcR = getColor('R');
+//     vector<pii> vcG = getColor('G');
+//     vector<pii> vcB = getColor('B');
+//     vector<pii> vcP = getColor('P');
+//     vector<pii> vcY = getColor('Y');
 
-    bool r = bfs('R', vcR);
-    bool g = bfs('G', vcG);
-    bool b = bfs('B', vcB);
-    bool p = bfs('P', vcP);
-    bool y = bfs('Y', vcY);
+//     bool r = bfs('R', vcR);
+//     bool g = bfs('G', vcG);
+//     bool b = bfs('B', vcB);
+//     bool p = bfs('P', vcP);
+//     bool y = bfs('Y', vcY);
 
-    if(r || g || b || p || y)
-        isEvent = true;
+//     if(r || g || b || p || y)
+//         isEvent = true;
 
-    if(isEvent)
-        combo++;
-    else
-        break;
+//     if(isEvent)
+//         combo++;
+//     else
+//         break;
 
-    //재정렬
-    for(int t = 0; t < 12; t++)
-        for(int i =0; i<12; i++)
-        {
-            for( int j = 0; j<6; j++)
-            {
-                if( MAP[i][j] != '.' && MAP[i+1][j] =='.')
-                {
-                    MAP[i+1][j] = MAP[i][j];
-                    MAP[i][j] = '.';
-                }
-            }
-        }
-  }
-  cout << combo <<endl;
-}
+//     //재정렬
+//     for(int t = 0; t < 12; t++)
+//         for(int i =0; i<12; i++)
+//         {
+//             for( int j = 0; j<6; j++)
+//             {
+//                 if( MAP[i][j] != '.' && MAP[i+1][j] =='.')
+//                 {
+//                     MAP[i+1][j] = MAP[i][j];
+//                     MAP[i][j] = '.';
+//                 }
+//             }
+//         }
+//   }
+//   cout << combo <<endl;
+// }
