@@ -99,7 +99,7 @@
 //     return 0;
 // }
 
-
+ 
 #include <iostream>
 #include <algorithm>
 #include <cstring>
@@ -116,6 +116,7 @@ int area[MAX][MAX];
 int temp[MAX][MAX];
 
 bool visit[MAX][MAX];
+
 void copy(int depth)
 {        for (int i = 0; i < N; i++)
                  for (int j = 0; j < N; j++)
@@ -134,7 +135,7 @@ void DFS(int x, int y)
         int ny = y + dy[i];
 
         if(nx >=0 &&  ny >= 0 && nx < N && ny < N)
-            if(!vis[nx][ny] && temp[nx][ny] != 0)
+            if(!visit[nx][ny] && temp[nx][ny] != 0)
                 DFS(nx,ny);
     }
 }
@@ -147,13 +148,13 @@ int main()
     {
         for(int  j = 0; j<N; j++)
         {
-            cin > area[i][j];
+            cin >> area[i][j];
         }
     }
     
-    inretsult = 1;
+    int result = 1;
 
-    for(int depth =1; i<= MAX; depth++)
+    for(int depth =1; depth <= MAX; depth++)
     {
         memset(visit,false, sizeof(visit));
         memset(temp, 0, sizeof(temp));
