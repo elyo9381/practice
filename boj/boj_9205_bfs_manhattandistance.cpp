@@ -38,7 +38,7 @@ void bfs()
         }
 
         int ny,nx;
-
+        
         for(int i = 1; i< n+2; i++)
         {
             nx = abs(x - arr[i][0]);
