@@ -38,22 +38,6 @@ void pr(int n){
 	}
 }
 
-void solv(char str[]){
-
-	int pre,now, koi=0, ioi=0 , sum = 0;
-
-	int len =  strlen(str);
-	pre = 0;
-	for( now = 1; str[now]!='\0'; now++){
-		if(str[now] == 'O'){
-			if(str[pre] == 'K' && str[now+1] == 'I') koi++;
-			else if( str[pre] == 'I' && str[now+1] == 'I') ioi++;
-
-		}
-		pre=now;
-	}
-	cout << koi << '\n' << ioi <<endl;
-}
 
 
 void in(int n){
