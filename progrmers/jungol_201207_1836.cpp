@@ -36,7 +36,7 @@ void maxadd(){
 			c =1;
 		}
 		for(j = i+1; j<n; j++){
-			a = a-arr[j];
+			a = a+arr[j];
 			if(a > max){
 				max = a;
 				c = j-i+1;
@@ -46,12 +46,6 @@ void maxadd(){
 			}
 		}
 	}
-	for(i = 0 ; i<c; i++){
-
-		cout << num[i] << " " ;
-		// cout << arr[num[i]] << " ";
-	}
-	cout <<endl;
 	cout << max << '\n';
 }
 int main(void){
