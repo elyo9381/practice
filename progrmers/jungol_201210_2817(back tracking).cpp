@@ -31,13 +31,9 @@ void re(int start, int L){
 		cout <<"\n";
 		return;
 	} else {
-		// 재귀에서 loop를 돌리기 때문에 첫인덱스에 1-7까지 나올수있다. 
-		// 이를 방지하기 위한 if문이 존재한다. 
 		for(int i = start; i<n; i++){
-			if(ch[L-1] <= i){ // 역순으로 나오는것을 방지한다.
 			ch[L] = si[i];
-			re(start+1,L+1); 
-		 	}
+			re(i+1,L+1);
 		}
 	}
 	return ;
