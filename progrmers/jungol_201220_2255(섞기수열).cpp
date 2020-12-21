@@ -54,6 +54,7 @@ int checkCycle(int start){
 		next = arr[next];
 		cycleCnt++;
 	}
+    return 0;
 }
 
 int main(){
