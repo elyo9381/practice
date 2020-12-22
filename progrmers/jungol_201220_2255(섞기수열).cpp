@@ -52,7 +52,7 @@ int checkCycle(int start){
 		
 		same[next] = true;
 		next = arr[next];
-		cycleCnt++;
+		cycleCnt++;  
 	}
     return 0;
 }
