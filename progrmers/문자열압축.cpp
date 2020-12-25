@@ -5,6 +5,12 @@
 #include <queue>
 using namespace std;
 
+/*
+    c++문자열에서 문자를 자를는 substr을 이용하여 
+    문자열을 자르고 
+    루프를 이용하여서 자른 문자열과 비교하는방법이다.
+*/
+
 int main(){
 	
 	string s;
