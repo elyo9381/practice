@@ -21,7 +21,7 @@ int main(){
         arr[num]=true;
     }
 
-    int lv = 0, rv = 100000;
+    int lv = 0, rv = 1000000;
     int res = 100000;
 
     while(lv<=rv){
@@ -30,7 +30,7 @@ int main(){
         deque<int> window;
 
         //덱을 사용한 슬라이딩 윈도우로 연속한 k개의 신호등이 연속돼 있는지 확인한다.
-        for(int i = 0; i<n; i++){
+        for(int i = 1; i<=n; i++){
             if(i > k &&  !window.empty() && window.front() <= i-k)
                 window.pop_front();
             if(!arr[i])

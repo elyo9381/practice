@@ -6,7 +6,7 @@ typedef long long ll;
 using namespace std;
 const int MAX = 100001;
 
-#define hash 1000000007LL
+#define hash 1e9 + 7LL
 
 
 int main() {
