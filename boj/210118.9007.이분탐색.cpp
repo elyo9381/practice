@@ -27,12 +27,12 @@ int main(){
 
         vector<ll> tmp1(n), tmp2(n);
         vector<ll> a,b;
-        for(int i = 0; i<n; i++) cin >>  tmp1[i];
+        for(int i = 0; i<n; i++) cin >> tmp1[i];
         for(int i = 0; i<n; i++) cin >> tmp2[i];
         for(int i =0; i<n; i++)
             for(int j = 0; j<n; j++)
                 a.push_back(tmp1[i]+tmp2[j]);
-        for(int i = 0; i<n; i++) cin >>  tmp1[i];
+        for(int i = 0; i<n; i++) cin >> tmp1[i];
         for(int i = 0; i<n; i++) cin >> tmp2[i];
         for(int i =0; i<n; i++)
             for(int j = 0; j<n; j++)
