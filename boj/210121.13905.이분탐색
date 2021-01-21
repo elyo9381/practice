@@ -1,0 +1,76 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <string>
+#include <algorithm>
+#include <map>
+#include <queue>
+#include <math.h>
+
+using namespace std;
+#define hash 1000000007LL;
+typedef long long ll;
+typedef pair<int,int> pii;
+const int MAX = 300001;
+
+int n,m,s,e;
+vector<pair<int,int> > graph[MAX];
+bool visited[MAX];
+
+
+bool bfs(int cost){
+    queue<int> q;
+	q.push(s);
+	visited[s] = true;
+
+	while(!q.empty()){
+		int cur = q.front();
+		q.pop();
+
+		if(cur == e){
+			return true;
+		}
+
+		for(int i = 0; i<graph[cur].size(); i++){
+			int next = graph[cur][i].first;
+			int nextCost = graph[cur][i].second;
+
+			if(!visited[next] && cost <= nextCost){
+				visited[next] = true;
+				q.push(next);
+			}
+		}
+	}
+	return false;
+
+}
+
+
+int main(){
+  
+  cin >> n >> m >> s>> e;
+  int lo = 0, hi = 0, mid;
+  for(int i = 0; i<m ;i++)
+  {
+
+      int a,b,c;
+      cin >> a >> b >> c;
+      hi = max(hi,c);
+      graph[a].push_back(make_pair(b,c));
+  } 
+
+  while(lo<=hi){
+
+
+      mid = (lo+hi)/2;
+	  memset(visited,false,sizeof(visited));
+      if(bfs(mid)){
+     	 lo = mid+1;
+      }else {
+     	 hi = mid -1;
+      }
+  }
+
+  cout << lo <<endl;
+
+}
