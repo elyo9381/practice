@@ -59,8 +59,6 @@ int floyd(vector<pii> &beer){
         }
 
     return dp[0][n+1];
-
-
 }
 
 int main(){
