@@ -44,7 +44,7 @@ void dfs(int x,int y, int sum, int L){
 		int nx = x + dx[i];
 		int ny = y + dy[i];
 
-		if( nx <0 || ny < 0 || nx >=n || ny >= n) continue;
+		if( nx <0 || ny < 0 || nx >=n || ny >= m) continue;
 		if(!v[nx][ny]){
 			v[nx][ny] = true;
 			dfs(nx,ny,sum+board[nx][ny], L+1);
@@ -54,7 +54,6 @@ void dfs(int x,int y, int sum, int L){
 }
 
 void check_exshape(int x, int y){
-    
 	for(int i = 0; i<4; i++){
 		bool isOut = false;
 		int sum_val = 0;
@@ -63,7 +62,7 @@ void check_exshape(int x, int y){
 			int nx = x + ex[i][j];
 			int ny = y + ey[i][j];
 
-			if( nx <0 || ny < 0 || nx >=n || ny >= n){
+			if( nx <0 || ny < 0 || nx >=n || ny >= m){
 				isOut = true;
 				break;
 			} else {
