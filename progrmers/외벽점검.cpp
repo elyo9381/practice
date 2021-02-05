@@ -15,11 +15,12 @@ int ch[8];
 // 그리고 stl이 아닌 직접 pmu를 재귀를 통해서 구하여서 반환 값이 계속 바뀌는것을 캐치 하지 못하여 많은 시간을 잡아먹었다. 
 // else 부분에서 answer값... pmu에 맞는 최소인원을 구하고 이를 res에 저장하므로 기억할수있도록 하였다. 
 
+
 int dfs(vector<int> weak, vector<int> dist, int s, int L, int length){
 	int answer, res = 1e9; 
 	if(L== dist.size()){
 		answer = 1e9;
-		for(int start = 0; i< length; i++){ // 기존 length만큼 loop
+		for(int start = 0; start< length; start++){ // 기존 length만큼 loop
 			int cnt = 1; // cnt가 1인이유는 원형 배열에서 pmu를 인덱스별 계속 체크하기 때문에
 			int position = weak[start] + pmu[cnt -1]; // pmu는 dist순열임 
 			for(int idx = start; idx < start + length; idx++){
@@ -28,7 +29,7 @@ int dfs(vector<int> weak, vector<int> dist, int s, int L, int length){
 					if(cnt > dist.size()){ // 인원수가 기존 dist를 넘어버리면 실행취소
 						break;
 					}
-					position = weak[index] + pmu[cnt -1];// cnt++ 되었으므로 새로운 인원이 갈수있는 지점을 설정
+					position = weak[idx] + pmu[cnt -1];// cnt++ 되었으므로 새로운 인원이 갈수있는 지점을 설정
 				}
 			}
 			answer = min(answer,cnt);
@@ -46,7 +47,6 @@ int dfs(vector<int> weak, vector<int> dist, int s, int L, int length){
 	}
 	return res;
 }
-
 
 int solution(int n, int vector<int> weak, vector<int> dist){
 	// weak의 2배로 늘려서 원형을 표현할것이다. 

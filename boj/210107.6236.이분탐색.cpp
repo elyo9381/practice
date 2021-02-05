@@ -33,7 +33,7 @@ bool check(int mid){
 
     for(int i = 0; i<day.size(); i++){
         if( mid < day[i]) return false;
-        if( (sum < day[i]) || ((c + cnt) <= m) ){
+        if( (sum < day[i] ){
             sum = mid;
             cnt++;
         }
