@@ -1,3 +1,90 @@
+// #include <cstdio>
+// #include <cstdlib>
+// #include <iostream>
+// #include <sstream>
+// #include <algorithm>
+// #include <string>
+// #include <vector>
+// #include <queue>
+
+// using namespace std;
+// #define INF 987654321
+// #define hash 1000000007LL
+// typedef long long ll;
+// typedef pair<int,int> pii;
+// const int MAX = 1001;
+
+// int arr[MAX];
+// int ch[MAX];
+// int n,k,cnt =0,zcnt=0;
+
+
+// void ratate(){
+
+//     int tmp = arr[2*n];
+//     for(int i = 2*n; i>=2; i--){
+//         arr[i] = arr[i-1];
+//     }
+//     arr[1] = tmp;
+
+    
+//     for(int i = n-1; i>=1; i--){
+//         ch[i+1] = ch[i];
+//     }
+
+//     ch[1] = 0;
+
+// }
+
+// int main(){
+
+//     cin >> n >> k;
+
+//     for(int i = 1; i <=2*n ; i++){
+//         cin >> arr[i];
+//     }
+
+
+//     while(true){
+
+//         if(zcnt >=k )break;
+//         // 회전
+//         ratate();
+//         if(ch[n] == 1){
+//             ch[n] = 0;
+//         }
+
+//         // 로봇이 이동가능한가
+//             for(int i = n-1; i>=1; i--){
+//                 // if(i == 2*n) 
+//                 if(ch[i] == 1){
+//                     if(arr[i+1] !=0 && ch[i+1] == 0) {
+//                         arr[i+1]--;
+//                         ch[i+1]=1;
+//                         ch[i]=0;
+//                         if(arr[i+1]== 0) zcnt++;
+//                     }
+//                 }
+//             }
+        
+//         // 올라가는 위치
+//         if(arr[1] != 0 && ch[1] == 0){
+//             ch[1] = 1;
+//             arr[1]--;
+//             if(arr[1] == 0) zcnt++;
+//         }
+        
+
+//         cnt++;
+        
+
+//     }
+//     cout <<cnt <<'\n';
+
+// }
+
+
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -103,5 +190,42 @@ int main(){
 	}
 
 
-	cout << dfs(z,0,0);
+
+    vector<bool> Binary(z.size());
+
+    fill(Binary.end() - 3, Binary.end(), true);
+    
+    do{
+
+        for(int i = 0;i <n; i++){
+			for(int j = 0; j<m; j++){
+				tmp[i][j] = map[i][j];
+			}
+		}
+
+        for(int i= 0 ; i<Binary.size(); i++){
+            if(Binary[i]){
+                int px = z[i].first;
+                int py = z[i].second;
+                tmp[px][py] = 1;
+            }
+        }
+
+        for(int i = 0; i<n; i++){
+			for(int j = 0; j<m; j++){
+				if(tmp[i][j] == 2){
+					bfs(i,j);
+				}
+			}
+		}
+		result = max(result,getScore());
+        
+        
+    } while(next_permutation(Binary.begin(),Binary.end()));
+
+    cout << result;
+    
+
+
+	// cout << dfs(z,0,0);
 }

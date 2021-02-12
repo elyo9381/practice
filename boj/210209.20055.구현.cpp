@@ -1,56 +1,87 @@
-#include<iostream>
-#include<vector>
-#include<algorithm>
-#include<string>
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+#include <sstream>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <queue>
+
 using namespace std;
+#define INF 987654321
+#define hash 1000000007LL
+typedef long long ll;
+typedef pair<int,int> pii;
+const int MAX = 1001;
 
-int N, K;
-int zerocount;
-int p = 0;
-int barr[201];
-bool robo[101];
+int arr[MAX];
+int ch[MAX];
+int n,k,cnt =0,zcnt=0;
 
-void ratate() { //barr[0]는 그냥 tmp용으로 사용
-	barr[0] = barr[2 * N];
-	for (int i = 2 * N; i >= 2; i--) { //벨트이동
-		barr[i] = barr[i - 1];
-	}
-	for (int i = N - 1; i >= 1; i--) { //로봇이동
-		robo[i + 1] = robo[i];
-	}
-	robo[1] = false;
-	barr[1] = barr[0];
+
+void ratate(){
+
+    int tmp = arr[2*n];
+    for(int i = 2*n; i>=2; i--){
+        arr[i] = arr[i-1];
+    }
+    arr[1] = tmp;
+
+    
+    for(int i = n-1; i>=1; i--){
+        ch[i+1] = ch[i];
+    }
+
+    ch[1] = 0;
+
 }
 
-int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0); cout.tie(0);
-	cin >> N >> K;
-	for (int i = 1; i <= 2*N; i++) {
-		cin >> barr[i];
-		if (barr[i] == 0) zerocount++;
-	}
-	while (1) {
-		if (zerocount >= K) break;
-		p++;
-		ratate();
-		if (robo[N] == true) { //내려오는 칸
-			robo[N]= false;
-		}
-		for (int i = N - 1;  i >= 1; i--) { //이동관련
-			if (robo[i] == true) {
-				if (robo[i + 1] == false && barr[i + 1] >= 1) {
-					robo[i] = false; robo[i + 1] = true;
-					barr[i + 1]--;
-					if (barr[i + 1] == 0) zerocount++;
-				}
-			}
-		}
-		if (robo[1] == false && barr[1] >= 1) { //올라가는 칸
-			robo[1] = true; barr[1]--;
-			if (barr[1] == 0) zerocount++;
-		}
-	}
-	cout << p << "\n";
-	return 0;
+int main(){
+
+    cin >> n >> k;
+
+    for(int i = 1; i <=2*n ; i++){
+        cin >> arr[i];
+    }
+
+
+    while(true){
+
+        if(zcnt >=k )break;
+        // 회전
+        ratate();
+
+        // 내릴수있으면 내림
+        if(ch[n] == 1){
+            ch[n] = 0;
+        }
+
+        // 로봇이 이동가능한가
+            for(int i = n-1; i>=1; i--){
+                // if(i == 2*n) 
+                if(ch[i] == 1){
+                    if(arr[i+1] !=0 && ch[i+1] == 0) {
+                        arr[i+1]--;
+                        ch[i+1]=1;
+                        ch[i]=0;
+                        if(arr[i+1]== 0) zcnt++;
+                    }
+                }
+            }
+        
+        // 올라갈 수 있다면 올림
+        if(arr[1] != 0 && ch[1] == 0){
+            ch[1] = 1;
+            arr[1]--;
+            if(arr[1] == 0) zcnt++;
+        }
+        
+
+        cnt++;
+        
+
+    }
+    cout <<cnt <<'\n';
+
 }
+
