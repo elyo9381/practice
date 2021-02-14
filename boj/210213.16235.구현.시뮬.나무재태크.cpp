@@ -20,8 +20,9 @@ int addboard[MAX][MAX];
 
 vector<int> wboard[MAX][MAX];
 
-int dx[] = {-1,-1,-1,0,0,1,1,1};
-int dy[] = {-1,0,1,-1,1,-1,0,1};
+int dx[] = { -1, -1, -1, 0, 0, 1, 1, 1 };
+int dy[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
+
 
 int main(){
 
@@ -37,7 +38,7 @@ int main(){
 
     // board 한칸에 여러개의 나무가 올수있어서 
     // 2차원 인접리스트를 설정하였다. >> vector<int> wboard[MAX][MAX];
-    for(int i= 1 ; i<=m; i++){
+    for(int i= 0 ; i<m; i++){
         int a,b,c;
         cin >> a>>b>>c;
         wboard[a][b].push_back(c);
@@ -87,7 +88,7 @@ int main(){
         // 가을
         for(int i = 1; i<=n; i++){
             for(int j = 1; j<=n; j++){
-                if(wboard[i][j].size() == 0) continue;
+                // if(wboard[i][j].size() == 0) continue;
                 for(int k = 0; k < wboard[i][j].size(); k++){
                     int Age = wboard[i][j][k];
 
@@ -96,7 +97,7 @@ int main(){
                             int nx = i +dx[a];
                             int ny = j +dy[a];
 
-                            if(nx <0 || ny <0 || nx >=n || ny >=n ) continue;
+                            if(nx <1 || ny <1 || nx > n || ny >n ) continue;
                             wboard[nx][ny].push_back(1);
                         }
                     }

@@ -53,6 +53,8 @@ int main(){
         // i번째마다 새로운 드래곤커브를 입력받으므로 초기화
         dragon.clear();
 
+        board[x][y] = true;
+
         // 최초 받은 d 방향을 기준으로 x,y 초기 끝점 설정
         end_x = x + dx[d];
         end_y = y + dy[d];

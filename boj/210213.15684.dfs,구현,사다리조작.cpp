@@ -127,7 +127,7 @@ struct Lifting_Info{
         }
 
         for(int i = 1; i<=h ;i++){
-            for(int j = 1; j<n ; j++){
+            for(int j = 1; j<=n ; j++){
                 if(lift[i][j])
                     swap(num[j],num[j+1]);
             }
