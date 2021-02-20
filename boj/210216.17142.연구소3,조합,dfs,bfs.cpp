@@ -61,7 +61,6 @@ int bfs(queue<pii> q) {
             }
         }
     }
-    // cout << max_Time << "\n";
     if(isClear) result = min(result,max_Time);
     return result;
 }
@@ -83,12 +82,6 @@ int main(){
         }
     }
 
-    // for(int i = 0; i<n; i++){
-    //     for(int j = 0; j<n; j++){
-    //        cout << board[i][j];
-    //     }
-    //     cout << "\n";
-    // }    
     vector<bool> binary;
 
     binary.resize(virus.size());
@@ -114,12 +107,6 @@ int main(){
     
     if(ans == 1e9) cout << -1 <<endl;
     else  cout << ans << "\n";
-    // for(int i = 0; i<n; i++){
-    //     for(int j = 0; j<n; j++){
-    //        cout << ch[i][j] << "   " ;
-    //     }
-    //     cout << "\n";
-    // }    
 
 
 
