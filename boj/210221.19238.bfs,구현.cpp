@@ -203,6 +203,7 @@ int main(void)
 
 			return 0;
 		}
+
 		pair<int, int> temp = start;
 		start = start2Destination[{start.first, start.second}];
 		start2Destination[{temp.first, temp.second}] = { -1, -1 };
