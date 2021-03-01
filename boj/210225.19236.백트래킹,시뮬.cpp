@@ -10,7 +10,9 @@
 using namespace std;
 
 int ret;
-
+/*
+ 인덱스 배열과 인포메이션 배열을 이용한 정보 표현방법을 사용함 !!
+*/
 struct FISH {
     int y , x;
     int dir;
