@@ -62,7 +62,7 @@ void solve(int board[4][4], FISH fish[], int shark_y, int  shark_x, int sum){
         int nd = cd;
 
         // 범위 벗어났을때 왼쪽 45도 rotation
-        while( ny < 0 || ny >= 4 || nx < 0 | nx >=4 || (ny == shark_y && nx == shark_x)) {
+        while( ny < 0 || ny >= 4 || nx < 0 || nx >=4 || (ny == shark_y && nx == shark_x)) {
             nd = (nd + 1) % 8;
             ny = cy + dy[nd];
             nx = cx + dx[nd];
