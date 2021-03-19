@@ -36,8 +36,6 @@ using namespace std;
 */
 
 
-
-
 int N, K ,ret,sum = 0;
 
 int main(){
