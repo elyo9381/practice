@@ -4,8 +4,6 @@
 #include <algorithm>
 #include <vector>
 #include <map>
-#include <limits.h>
-#include <numeric>
 
 using namespace std;
 
@@ -24,10 +22,10 @@ using namespace std;
   디버그 
   탐색 || dp를 사용해서 풀어야할거 같은데
   dp를 이용해서 풀었다. 
-  우선 dp배열을 만들어야하다. 하지만 10억이고 어느정도 배열을 사이즈를 잡아야할지 모르겠다면 
+  우선 dp배열을 만들어야 한다. 하지만 10억이고 어느정도 배열을 사이즈를 잡아야할지 모르겠다면 
   map을 사용하자 
 
-  dp를 통해서 
+  dp를 통해서 탐색을 진행한다. 
 
 
 */
@@ -35,7 +33,7 @@ using namespace std;
 const int dy[] = {-1,0,1,0};
 const int dx[] = {0,1,0,-1};
 
-const int INF = int(1e9);
+const int INF = 987654321;
 typedef long long ll;
 
 ll A, B;
@@ -43,8 +41,9 @@ ll A, B;
 map<ll,ll> dp;
 
 ll solve(ll n, ll c){
-    if( n > B) return INT_MAX / 2;
+    if( n > B) return INF;
     if(n == B) return c;
+    ll &ret = dp[n];
     dp[n] = c;
     if(ret != 0) return ret;
     return ret = min(solve(n*2, c+1), solve(n*10 + 1, c+1));
@@ -57,7 +56,7 @@ int main(){
 
 
     ll result = solve(A,1);
-    if(result == INT_MAX / 2) cout << "-1";
+    if(result == INF ) cout << "-1";
     else cout << result;
 
 }
