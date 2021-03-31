@@ -6,14 +6,21 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/***
+ * 문자열로 받고 문자사용한다.
+ * int가 필요하면 integer.parseInt를 통해서 타입변환한다.
+ * BufferedReader(new InputStreamReader(System.in)); 입력 버퍼 동적할당
+ * StringTokenizer(br.readLine());을 통해서 실질적인 입력을 받는다.
+ *
+ */
+
 public class Main {
 
+
     public static void main(String[] args) throws IOException {
+
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-
-        String line = bf.readLine();
-        System.out.println("line = " + line);
 
         int N = Integer.parseInt(st.nextToken());	// 물이 새는 곳의 개수
         int L = Integer.parseInt(st.nextToken());	// 테이프 길이
