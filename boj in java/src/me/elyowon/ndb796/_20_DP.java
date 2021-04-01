@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class _20_DP {
 
+
     static long[] d = new long[100];
 
     public static void main(String[] args) {
