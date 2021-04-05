@@ -6,65 +6,69 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 import static java.lang.System.exit;
+import static java.lang.System.in;
 
 public class _1_ {
 
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
-    public static int ch[] = new int[10000];
-    public static int dis[] = new int[10000];
-    static int[] dx = new int[3];
+    public static boolean ch[] = new boolean[30];
+    public static int arr[] = new int[30];
+    public static int comBi[] = new int[30];
 
-    static int s;
-    static int e;
+
+    static int n;
+    static int r;
+    static int count = 0;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-         s = Integer.parseInt(st.nextToken());
-        e = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+        r = Integer.parseInt(st.nextToken());
 
-        for (int i = 0; i < 30; i++) {
-            graph.add(new ArrayList<Integer>());
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i <n; i++) {
+            int a;
+            a = Integer.parseInt((st.nextToken()));
+            arr[i] = a;
         }
 
 
-//        for (int i = 0; i <M; i++) {
-//            st = new StringTokenizer(br.readLine());
-//            int n = Integer.parseInt(st.nextToken());
-//            int m = Integer.parseInt(st.nextToken());
-//            graph.get(n).add(m);
-//        }
-
-        bfs(s);
-
-
+        dfs(0,0);
+        System.out.println(count);
 
     }
 
-    private static void bfs(int start) {
-        Queue<Integer> q = new LinkedList<Integer>();
+    private static void dfs(int idx,int cnt) {
 
-        q.offer(start);
-        ch[start] = 1;
-        int cnt = 0;
-
-        while(!q.isEmpty()){
-            int x = q.poll();
-
-            for(int i = 0; i<3; i++){
-                int y = x + dx[i];
-
-                if(y == e){
-                    System.out.println(cnt);
-                    exit(0);
-                }
-
-                if(ch[y] == 0){
-                    ch[y] = ch[x]+1;
-                    q.offer(y);
+        if(cnt == r){
+            for (int i = 0; i < n; i++) {
+                if(ch[i] == true){
+                    System.out.print(arr[i]+" ");
                 }
             }
+//            count++;
+            System.out.println();
         }
+
+//        순열
+//        for (int i = 0; i < n; i++) {
+//            if (ch[i] == true) continue;
+//            ch[i] = true;
+//            comBi[idx] = arr[i];
+//            dfs(idx + 1,cnt);
+//            ch[i] = false;
+//        }
+
+//        조합
+//        for (int i = idx; i < n; i++) {
+//            if(ch[i] == true) continue;
+//            ch[i] = true;
+//            dfs(i,cnt+1);
+//            ch[i] = false;
+//        }
+
+
     }
 }

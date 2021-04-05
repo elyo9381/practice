@@ -27,6 +27,7 @@ public class _16_BFS {
                 System.out.println("x = " + cnt);
             }
             for(int i = 0; i<graph.get(x).size(); i++){
+
                 int y = graph.get(x).get(i);
                 if(!visited[y]){
                     q.offer(y);
