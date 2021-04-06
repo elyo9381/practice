@@ -12,63 +12,54 @@ public class _1_ {
 
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
     public static boolean ch[] = new boolean[30];
-    public static int arr[] = new int[30];
-    public static int comBi[] = new int[30];
+    public static int t[] = new int[30];
+    public static int p[] = new int[101];
 
 
     static int n;
-    static int r;
-    static int count = 0;
+    static int res = 0;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
-        r = Integer.parseInt(st.nextToken());
 
-        st = new StringTokenizer(br.readLine());
         for (int i = 0; i <n; i++) {
+        st = new StringTokenizer(br.readLine());
             int a;
+            int b;
+
             a = Integer.parseInt((st.nextToken()));
-            arr[i] = a;
+            b = Integer.parseInt((st.nextToken()));
+            t[i] = a;
+            p[i] = b;
+
         }
 
 
         dfs(0,0);
-        System.out.println(count);
+        System.out.println(res);
 
     }
 
-    private static void dfs(int idx,int cnt) {
+    private static void dfs(int idx,int sum) {
 
-        if(cnt == r){
-            for (int i = 0; i < n; i++) {
-                if(ch[i] == true){
-                    System.out.print(arr[i]+" ");
-                }
-            }
-//            count++;
-            System.out.println();
+        if (idx == n) {
+            if (sum > res) res = sum;
+        } else {
+            if (idx + t[idx] <= n + 1) dfs(idx + t[idx],sum + p[idx]);
+            dfs(idx + 1,sum);
         }
-
-//        순열
-//        for (int i = 0; i < n; i++) {
-//            if (ch[i] == true) continue;
-//            ch[i] = true;
-//            comBi[idx] = arr[i];
-//            dfs(idx + 1,cnt);
-//            ch[i] = false;
-//        }
-
-//        조합
-//        for (int i = idx; i < n; i++) {
-//            if(ch[i] == true) continue;
-//            ch[i] = true;
-//            dfs(i,cnt+1);
-//            ch[i] = false;
-//        }
-
-
     }
 }
+
+
+//7
+//4 20
+//2 10
+//3 15
+//3 20
+//2 30
+//2 20
+//1 10

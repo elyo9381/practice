@@ -1,13 +1,11 @@
 package me.elyowon.ndb796;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.StringTokenizer;
 
-public class _조합_순열_ {
+public class _01 {
 
     public static boolean ch[] = new boolean[30];
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
@@ -21,7 +19,7 @@ public class _조합_순열_ {
     static int count = 0;
 
     public static void main(String[] args)  {
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 
         n = 4;
