@@ -148,7 +148,7 @@ public class _조합_순열_ {
 ////        }
 //
 ////        조합
-////        for (int i = idx; i < n; i++) {
+////        for (int i ㄴ= idx; i < n; i++) {
 ////            if(ch[i] == true) continue;
 ////            ch[i] = true;
 ////            dfs(i,cnt+1);
