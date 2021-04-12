@@ -25,7 +25,7 @@ public class _조합_순열_ {
 
 
         n = 4;
-        r = 2;
+        r = 4;
 
         //순열(순서있게 배열)
         LinkedList<Integer> perArr = new LinkedList<Integer>();
@@ -59,8 +59,8 @@ public class _조합_순열_ {
     private static void permutaion(int n,int r,LinkedList<Integer> perArr, int[] perCheck){
         if(perArr.size() == r){
             for(var i : perArr){
-                System.out.print(targetArr[i] + " ");
-//                System.out.print(i + " ");
+//                System.out.print(targetArr[i] + " ");
+                System.out.print(i + " ");
             }
             System.out.println();
             return;
@@ -69,7 +69,7 @@ public class _조합_순열_ {
         for(int i = 0; i<n; i++){
             if(perCheck[i] == 0){
                 perArr.add(i);
-                perCheck[i] = 1;
+                perCheck[i] = 1; 
                 permutaion(n,r,perArr,perCheck);
                 perCheck[i] = 0;
                 perArr.removeLast();
@@ -107,7 +107,7 @@ public class _조합_순열_ {
 
         comArr[index] = target;
         combination(comArr, n, r-1,index+1,target+1); // 뽑는 경우
-        combination(comArr, n, r,index,target+1); // 안뽑는 경우
+        combination(comArr, n, r,index ,target+1); // 안뽑는 경우
     }
 
     private static void reCombination(int[] reComArr,int n,int r,int index,int target) {
@@ -148,7 +148,7 @@ public class _조합_순열_ {
 ////        }
 //
 ////        조합
-////        for (int i ㄴ= idx; i < n; i++) {
+////        for (int i = idx; i < n; i++) {
 ////            if(ch[i] == true) continue;
 ////            ch[i] = true;
 ////            dfs(i,cnt+1);

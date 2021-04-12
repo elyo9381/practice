@@ -18,6 +18,7 @@ public class _22_효율적인화폐구성 {
      * 그렇다면 인덱스가 존재하므로 i-k은 k의 배수이고 이를 체크하기 위해서 1을 더한다.
      * 또한 min(a[i],a[i-k[j]]+1)을 통해 비교하며 최소갯수를 찾는다
      *
+     *
      */
 
     private static int solution(int[] k,int m) {
