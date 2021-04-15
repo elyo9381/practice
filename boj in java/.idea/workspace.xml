@@ -20,22 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Combination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Piece.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Position.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Snake.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_25_곱하기혹은더하기.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_26_럭키스트레이트.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_27_문자열압축.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_28_자물쇠와열쇠.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_29_뱀.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_30_기둥보.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_31_치킨배달.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Permutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_32_외벽점검.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_33_연구소.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_26_럭키스트레이트.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_27_문자열압축.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_28_자물쇠와열쇠.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_29_뱀.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_30_기둥보.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_31_치킨배달.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_32_외벽점검.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_33_연구소.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_23_특정도시찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_23_특정도시찾기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/me/elyowon/ndb796" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -90,7 +89,7 @@
       <recent name="me.elyowon.ndb796" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._23_특정도시찾기">
+  <component name="RunManager" selected="Application._33_연구소">
     <configuration name="_23_특정도시찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._23_특정도시찾기" />
       <module name="boj in java" />
@@ -117,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_30_기둥보" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._30_기둥보" />
+    <configuration name="_32_외벽점검" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._32_외벽점검" />
       <module name="boj in java" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_31_치킨배달" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._31_치킨배달" />
+    <configuration name="_33_연구소" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._33_연구소" />
       <module name="boj in java" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._33_연구소" />
+        <item itemvalue="Application._32_외벽점검" />
         <item itemvalue="Application._23_특정도시찾기" />
         <item itemvalue="Application._29_뱀" />
         <item itemvalue="Application._조합_순열_" />
-        <item itemvalue="Application._31_치킨배달" />
-        <item itemvalue="Application._30_기둥보" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +183,7 @@
       <workItem from="1617780166591" duration="598000" />
       <workItem from="1617861994330" duration="7334000" />
       <workItem from="1618109789599" duration="30062000" />
-      <workItem from="1618196852572" duration="7355000" />
+      <workItem from="1618196852572" duration="12562000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618238192489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="study java">
+      <created>1618411988408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618411988408</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
