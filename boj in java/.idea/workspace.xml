@@ -20,20 +20,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Permutation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_32_외벽점검.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_33_연구소.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_26_럭키스트레이트.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_27_문자열압축.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_28_자물쇠와열쇠.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_29_뱀.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_30_기둥보.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_31_치킨배달.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_32_외벽점검.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_33_연구소.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj in java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/boj/그리디/boj2613.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/boj/그리디/뒤집기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Combination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_10_큐.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_12_factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_13_인접행렬.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_14_인접리스트.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_15_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_16_BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_17_sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_18_BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_19_떡볶이떡.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_1_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_20_DP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_21_1로만들기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_22_효율적인화폐구성.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_24_모험가길드.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_25_곱하기혹은더하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_26_럭키스트레이트.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_27_문자열압축.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_28_자물쇠와열쇠.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_29_뱀.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_30_기둥보.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_31_치킨배달.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_32_외벽점검.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_33_연구소.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_4_일이될때까지.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_5_상하좌우.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_6_시각.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_7_왕실나이트.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_8_게임개발.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_9_스택.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_조합_순열_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/그리디/boj2613.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/그리디/뒤집기.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_10_큐.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_12_factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_13_인접행렬.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_14_인접리스트.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_15_DFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_16_BFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_17_sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_18_BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_19_떡볶이떡.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_1_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_20_DP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_21_1로만들기.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_22_효율적인화폐구성.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_23_특정도시찾기.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_24_모험가길드.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_25_곱하기혹은더하기.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_26_럭키스트레이트.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_27_문자열압축.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_28_자물쇠와열쇠.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_29_뱀.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_30_기둥보.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_31_치킨배달.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_32_외벽점검.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_33_연구소.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_4_일이될때까지.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_5_상하좌우.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_6_시각.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_7_왕실나이트.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_8_게임개발.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_9_스택.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_조합_순열_.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +164,7 @@
   <component name="RunManager" selected="Application._33_연구소">
     <configuration name="_23_특정도시찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._23_특정도시찾기" />
-      <module name="boj in java" />
+      <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.ndb796.*" />
@@ -105,7 +177,7 @@
     </configuration>
     <configuration name="_29_뱀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._29_뱀" />
-      <module name="boj in java" />
+      <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.ndb796.*" />
@@ -118,7 +190,7 @@
     </configuration>
     <configuration name="_32_외벽점검" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._32_외벽점검" />
-      <module name="boj in java" />
+      <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.ndb796.*" />
@@ -131,7 +203,7 @@
     </configuration>
     <configuration name="_33_연구소" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._33_연구소" />
-      <module name="boj in java" />
+      <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.ndb796.*" />
@@ -144,13 +216,60 @@
     </configuration>
     <configuration name="_조합_순열_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._조합_순열_" />
-      <module name="boj in java" />
+      <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.ndb796.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ps in java" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ps in java" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,7 +302,7 @@
       <workItem from="1617780166591" duration="598000" />
       <workItem from="1617861994330" duration="7334000" />
       <workItem from="1618109789599" duration="30062000" />
-      <workItem from="1618196852572" duration="12562000" />
+      <workItem from="1618196852572" duration="13864000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -234,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618411988408</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="study java">
+      <created>1618496742373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618496742373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
