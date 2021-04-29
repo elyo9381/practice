@@ -44,7 +44,7 @@ class Virus implements Comparable<Virus>{
             return -1;
         }
         return 1; // > 오름차순
-//        return Integer.compare(this.index, o.index);
+//        return Integer.compare(this.index, o.index); // 오름차순
     }
 }
 public class _34_경쟁적전염 {
