@@ -25,3 +25,14 @@ public class _4_일이될때까지 {
         System.out.println(result);
     }
 }
+
+//
+//    private static void dfs(int idx,int sum) {
+//
+//        if (idx == n) {
+//            if (sum > res) res = sum;
+//        } else {
+//            if (idx + t[idx] <= n + 1) dfs(idx + t[idx],sum + p[idx]);
+//            dfs(idx + 1,sum);
+//        }
+//    }

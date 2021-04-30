@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Virus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_34_경쟁적전염.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/모의고사_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/완주하지못한선수_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_209.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_34_경쟁적전염.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_34_경쟁적전염.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_17_sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_17_sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_17_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_17_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_4_일이될때까지.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/ndb796/_4_일이될때까지.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -80,7 +88,7 @@
       <recent name="me.elyowon.programers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._34_경쟁적전염">
+  <component name="RunManager" selected="Application.leetcode_209">
     <configuration name="모두0으로만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.모두0으로만들기" />
       <module name="ps in java" />
@@ -94,21 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_32_외벽점검" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._32_외벽점검" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.ndb796.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_33_연구소" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._33_연구소" />
+    <configuration name="_17_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.ndb796._17_sort" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.leetcode_209" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode_209" />
+        <item itemvalue="Application._17_sort" />
         <item itemvalue="Application._34_경쟁적전염" />
         <item itemvalue="Application.모두0으로만들기" />
         <item itemvalue="Application._조합_순열_" />
-        <item itemvalue="Application._33_연구소" />
-        <item itemvalue="Application._32_외벽점검" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +190,8 @@
       <workItem from="1618743989569" duration="1691000" />
       <workItem from="1618895776892" duration="34000" />
       <workItem from="1618895843188" duration="52000" />
-      <workItem from="1619600418507" duration="3516000" />
+      <workItem from="1619600418507" duration="4916000" />
+      <workItem from="1619728971450" duration="18455000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -261,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618671086401</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add ps">
+      <created>1619705130734</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619705130734</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +305,8 @@
     <MESSAGE value="study ps in programers" />
     <MESSAGE value="study ps" />
     <MESSAGE value="add ps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ps" />
+    <MESSAGE value="study ps in JAVA (quickSort, middleQuickSort)" />
+    <option name="LAST_COMMIT_MESSAGE" value="study ps in JAVA (quickSort, middleQuickSort)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +325,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/ndb796/_23_특정도시찾기.java</url>
           <line>16</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/ndb796/_13_인접행렬.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
