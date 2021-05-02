@@ -21,7 +21,6 @@ public class _01 {
     public static void main(String[] args)  {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
         n = 4;
         r = 2;
 
