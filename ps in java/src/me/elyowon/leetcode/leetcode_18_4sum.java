@@ -4,6 +4,7 @@ package me.elyowon.leetcode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 import static java.util.Arrays.sort;
 
@@ -22,11 +23,14 @@ public class leetcode_18_4sum {
 
     public static void main(String[] args) {
 
-        int[] nums = {-2,0,1,3};
 
-        List<List<Integer>> result = fourSum(nums,2);
+        int[] nums = {1,0,-1,0,-2,2,0,0,0,0,0,0,0,0};
 
-        System.out.println(result.size());
+        List<List<Integer>> result = fourSum(nums,3);
+
+        for (List<Integer> integers : result) {
+            System.out.println(integers);
+        }
 
     }
 
