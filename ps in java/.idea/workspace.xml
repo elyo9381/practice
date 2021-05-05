@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_18_4sum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_259.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_dp_decodeWays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_91_dp_decodeWays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_18_4sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_18_4sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +198,7 @@
       <workItem from="1618895776892" duration="34000" />
       <workItem from="1618895843188" duration="52000" />
       <workItem from="1619600418507" duration="4916000" />
-      <workItem from="1619728971450" duration="50253000" />
+      <workItem from="1619728971450" duration="51646000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -306,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619967445479</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="study ps in JAVA dp">
+      <created>1620047445995</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620047445995</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
