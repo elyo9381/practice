@@ -1,9 +1,12 @@
 package me.elyowon.leetcode;
 
 
-class Pos {
+public class Pos {
     private int y ;
     private int x ;
+
+    public Pos() {
+    }
 
     public Pos(int y,int x) {
         this.y = y;
