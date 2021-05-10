@@ -20,43 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_139_wordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_152_MaxiumProductSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_46_permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_78_Subset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_1143_LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_518_coinChange2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Pos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Pos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_162.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_18_4sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_209.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_240.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_259.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_48.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_56.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_581.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_75.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_88.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/leetcode_dp_decodeWays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Pos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/Pos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_162.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_18_4sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_209.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_240.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_259.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_259.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_581.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_581.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_75.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/leetcode_91_dp_decodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,20 +84,20 @@
       <recent name="$PROJECT_DIR$/src/me/elyowon/ndb796" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.elyowon.leetcode.backtracking" />
       <recent name="me.elyowon.leetcode.dp" />
       <recent name="me.elyowon.leetcode" />
       <recent name="me.elyowon.leetcode.stack" />
       <recent name="me.elyowon.ndb796" />
-      <recent name="me.elyowon.programers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode_416_PartitionEqualSubsetSum">
-    <configuration name="leetcode_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.leetcode_1" />
+  <component name="RunManager" selected="Application.leetcode_46_permutation">
+    <configuration name="leetcode_17_phoneKeypad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_17_phoneKeypad" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_139_wordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_139_wordBreak" />
+    <configuration name="leetcode_39_combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_39_combination" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode_152_MaxiumProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_152_MaxiumProductSubarray" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.dp.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_5_LogestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_5_LogestPalindromicSubstring" />
+    <configuration name="leetcode_46_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_46_permutation" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.dp.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_knapsack" />
+    <configuration name="leetcode_518_coinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_518_coinChange2" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode_46_permutation" />
+        <item itemvalue="Application.leetcode_39_combination" />
+        <item itemvalue="Application.leetcode_17_phoneKeypad" />
+        <item itemvalue="Application.leetcode_518_coinChange2" />
         <item itemvalue="Application.leetcode_416_PartitionEqualSubsetSum" />
-        <item itemvalue="Application.leetcode_knapsack" />
-        <item itemvalue="Application.leetcode_139_wordBreak" />
-        <item itemvalue="Application.leetcode_5_LogestPalindromicSubstring" />
-        <item itemvalue="Application.leetcode_152_MaxiumProductSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +194,8 @@
       <workItem from="1618895776892" duration="34000" />
       <workItem from="1618895843188" duration="52000" />
       <workItem from="1619600418507" duration="4916000" />
-      <workItem from="1619728971450" duration="85128000" />
+      <workItem from="1619728971450" duration="99082000" />
+      <workItem from="1620645043046" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -349,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620226799547</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="study ps in JAVA dp">
+      <created>1620566582083</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620566582083</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +347,8 @@
     <MESSAGE value="study ps in JAVA (quickSort, middleQuickSort)" />
     <MESSAGE value="study ps in JAVA rotationMatrix &amp; two,three,fore Sum" />
     <MESSAGE value="study ps in JAVA dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="study ps in JAVA dp" />
+    <MESSAGE value="study dp &amp; backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="study dp &amp; backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

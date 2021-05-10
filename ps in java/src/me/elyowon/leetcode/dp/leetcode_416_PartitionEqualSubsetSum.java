@@ -11,6 +11,10 @@ public class leetcode_416_PartitionEqualSubsetSum {
      *
      * pb, sb 나누기
      *
+     * 양의정수에 두집합을 같은 합으로나누는 문제이다.
+     * 어레이때문에 배열문제라고 생각 할 수 있겠으나
+     * 두 집합으로 나누려면 2,1,3 / 2,4 하나가 올수있는지 없는지 냅색으로 풀어야한다.
+     *
      *
      * @param args
      */
