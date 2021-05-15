@@ -20,12 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_37_sudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_79_WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_141_LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_143_reOderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_19_nNodeDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_203_RemoveLinkedListElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_21_MergeTwoSortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_86_partitionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_879_MiddleOfTheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_22_gernerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_46_permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_46_permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_78_Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_78_Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_18_4sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_18_4sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_209.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_209.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_56.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_39_combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_39_combination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_209.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_78_Subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_78_Subset.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +100,20 @@
       <recent name="$PROJECT_DIR$/src/me/elyowon/ndb796" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.elyowon.leetcode.LinkedList" />
+      <recent name="me.elyowon.leetcode" />
       <recent name="me.elyowon.leetcode.backtracking" />
       <recent name="me.elyowon.leetcode.dp" />
-      <recent name="me.elyowon.leetcode" />
       <recent name="me.elyowon.leetcode.stack" />
-      <recent name="me.elyowon.ndb796" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode_79_WordSearch">
-    <configuration name="leetcode_39_combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_39_combination" />
+  <component name="RunManager" selected="Application.leetcode_19_nNodeDelete">
+    <configuration name="leetcode_141_LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_141_LinkedListCycle" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_46_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_46_permutation" />
+    <configuration name="leetcode_160_IntersectionOfTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_160_IntersectionOfTwoList" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_78_Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_78_Subset" />
+    <configuration name="leetcode_19_nNodeDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_19_nNodeDelete" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_79_WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_79_WordSearch" />
+    <configuration name="leetcode_206_ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_206_ReverseList" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_93_IPAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_93_IPAddresses" />
+    <configuration name="leetcode_2_ReverseTwoAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_2_ReverseTwoAdd" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode_79_WordSearch" />
-        <item itemvalue="Application.leetcode_93_IPAddresses" />
-        <item itemvalue="Application.leetcode_78_Subset" />
-        <item itemvalue="Application.leetcode_46_permutation" />
-        <item itemvalue="Application.leetcode_39_combination" />
+        <item itemvalue="Application.leetcode_19_nNodeDelete" />
+        <item itemvalue="Application.leetcode_2_ReverseTwoAdd" />
+        <item itemvalue="Application.leetcode_206_ReverseList" />
+        <item itemvalue="Application.leetcode_160_IntersectionOfTwoList" />
+        <item itemvalue="Application.leetcode_141_LinkedListCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +211,8 @@
       <workItem from="1618895843188" duration="52000" />
       <workItem from="1619600418507" duration="4916000" />
       <workItem from="1619728971450" duration="99082000" />
-      <workItem from="1620645043046" duration="15711000" />
+      <workItem from="1620645043046" duration="40797000" />
+      <workItem from="1620999272952" duration="22223000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -321,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620656893043</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="study backtracking (sudoku,wordSearch)">
+      <created>1620743270122</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620743270122</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +379,9 @@
     <MESSAGE value="study ps in JAVA rotationMatrix &amp; two,three,fore Sum" />
     <MESSAGE value="study ps in JAVA dp" />
     <MESSAGE value="study dp &amp; backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="study dp &amp; backtracking" />
+    <MESSAGE value="study backtracking (sudoku,wordSearch)" />
+    <MESSAGE value="study LinkedList with java" />
+    <option name="LAST_COMMIT_MESSAGE" value="study LinkedList with java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +415,16 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_37_sudoku.java</url>
           <line>55</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

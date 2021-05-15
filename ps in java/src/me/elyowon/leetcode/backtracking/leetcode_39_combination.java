@@ -23,7 +23,7 @@ public class leetcode_39_combination {
 //        int[] nums = {2,3,6,7};
 //        int target = 7;
         int[] nums = {10,1,2,7,6,1,5};
-        int target = 8;
+        int target = 3;
 
         List<List<Integer>> results = combinationSum(nums,target);
 
@@ -42,6 +42,7 @@ public class leetcode_39_combination {
         return result;
     }
 
+//  서브어레이의 sum값을 값는 콤비네이션
     public static void combinationSum(int[] candidates,int target,int j,ArrayList<Integer> curr,List<List<Integer>> result) {
         if (target == 0) {
             ArrayList<Integer> temp = new ArrayList<Integer>(curr);
@@ -62,6 +63,21 @@ public class leetcode_39_combination {
             }
         }//for i
     }//combinationSum
+
+//    // 일반적인 combination
+//    public static void combinationSum(int[] candidates,int target,int j,ArrayList<Integer> curr,List<List<Integer>> result) {
+//        if (target == 0) {
+//            ArrayList<Integer> temp = new ArrayList<Integer>(curr);
+//            result.add(temp);
+//            return;
+//        }
+//        for (int i = j; i < candidates.length; i++) {
+//                curr.add(candidates[i]);
+//                combinationSum(candidates,target-1,i+1,curr,result);
+//                curr.remove(curr.size() - 1);
+//        }//for i
+//    }//combinationSum
+
 
 }
 

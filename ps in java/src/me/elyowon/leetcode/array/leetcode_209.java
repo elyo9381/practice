@@ -2,10 +2,20 @@ package me.elyowon.leetcode.array;
 
 public class leetcode_209 {
 
+    /**
+     *
+     * if find max ? >> 29 line change -> min <= (end - start +1);
+     * ans local value 'min' change -1e9;
+     *
+     * @param target
+     * @param nums
+     * @return
+     */
+
     private static int minSubArray(int target,int[] nums) {
         int len = nums.length;
         if (len == 0) return 0;
-        int start = 0, end = 0, sum = nums[0], min = 0;
+        int start = 0, end = 0, sum = nums[0], min = (int) 1e9;
         boolean findRetValue = false;
 
         while (start <= end && end < len) {
@@ -17,7 +27,7 @@ public class leetcode_209 {
             } else if (sum >= target) {
 
                 if( sum == target){
-                    if (min < (end - start + 1)) {
+                    if (min >= (end - start + 1)) {
                         min = end - start + 1;
                         findRetValue = true;
                     }

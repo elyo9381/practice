@@ -11,7 +11,7 @@ public class leetcode_78_Subset {
 
     /**
      *
-     * leetcode 93 , 79 ,51 ,37, 22
+     * leetcod 37, 22
      *
      * 백트래킹을 통해서 subsets을 구할수있다
      * 이때 주의할점은 subset의 recursion파라미터의 i+1을 넘기는것이다.

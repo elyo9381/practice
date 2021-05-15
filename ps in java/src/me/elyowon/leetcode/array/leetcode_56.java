@@ -8,6 +8,12 @@ import java.util.List;
 public class leetcode_56 {
 
 
+    /**
+     * Given a collection of intervals, merge all overlapping intervals.
+     * if start index is small than that is new Interval second index, new Interval index change old interval second index
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         int[][] nums = {{2,6},{1,3},{8,10},{15,18}};

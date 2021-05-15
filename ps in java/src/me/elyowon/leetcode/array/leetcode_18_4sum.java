@@ -24,7 +24,7 @@ public class leetcode_18_4sum {
     public static void main(String[] args) {
 
 
-        int[] nums = {1,0,-1,0,-2,2,0,0,0,0,0,0,0,0};
+        int[] nums = {1,0,-1,0,-2,2};
 
         List<List<Integer>> result = fourSum(nums,3);
 
@@ -50,7 +50,7 @@ public class leetcode_18_4sum {
         }
 
         for (int i=start; i<nums.length; i++) {
-            if (i!=start && nums[i-1]==nums[i]) continue;
+            if ( i!=start && nums[i-1]==nums[i]) continue;
             for (var set : kSum(nums, i+1, k-1, target-nums[i])) {
                 res.add(new ArrayList<>(Arrays.asList(nums[i])));
                 res.get(res.size()-1).addAll(set);
