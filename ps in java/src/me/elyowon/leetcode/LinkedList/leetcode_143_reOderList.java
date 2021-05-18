@@ -27,6 +27,7 @@ public class leetcode_143_reOderList {
     private static ListNode partitionList(ListNode heap,int n) {
 
 
+        return null;
     }
 
 }
