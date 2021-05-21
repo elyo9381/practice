@@ -54,12 +54,6 @@ public class leetcode_138_copyListwithRandomPointer {
             node.next = copied;
             node = node.next.next;
         }
-        node = head;
-
-        while( node != null){
-            System.out.println(node.val);
-            node = node.next;
-        }
 
         Node res = head.next;
         node = head;

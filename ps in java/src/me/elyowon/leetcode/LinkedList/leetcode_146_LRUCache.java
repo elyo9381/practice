@@ -46,40 +46,42 @@ public class leetcode_146_LRUCache {
         head.next = tail;
     }
 
-    public int get(int key){
-        // 해쉬맵에서 key 검색
-        if( !hs.containsKey(key)){
+    public int get(int key) {
+        if( !hs.containsKey(key)) {
             return -1;
         }
         Node current = hs.get(key);
         current.prev.next = current.next;
+        current.next.prev = current.prev;
+        moveToTail(current);
 
         return hs.get(key).value;
     }
 
-    public void set(int key,int value){
-        if(get(key) != -1){
+    public void set(int key, int value) {
+        if( get(key) != -1) {
             hs.get(key).value = value;
-            return ;
+            return;
         }
 
-        if(hs.size() == capacity){
+        if (hs.size() == capacity) {
             hs.remove(head.next.key);
             head.next = head.next.next;
             head.next.prev = head;
         }
 
-        Node insert = new Node(key,value);
-        hs.put(key,insert);
+        Node insert = new Node(key, value);
+        hs.put(key, insert);
         moveToTail(insert);
     }
 
+    // 뒤로 붙여야 하니깐
     private void moveToTail(Node current) {
         current.prev = tail.prev;
         tail.prev = current;
         current.prev.next = current;
         current.next = tail;
     }
-
-
 }
+
+

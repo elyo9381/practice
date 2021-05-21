@@ -26,6 +26,17 @@ import java.util.Map;
 
 public class Trie {
 
+    class TrieNode {
+
+        Map<Character, TrieNode> children;
+        boolean isEnd = false;
+        String word = null;
+        //
+        public TrieNode() {
+            children = new HashMap();
+        }
+    }
+
     TrieNode head;
 
     public Trie() {
@@ -126,16 +137,6 @@ public class Trie {
     }
 
 
-    class TrieNode {
-
-        Map<Character, TrieNode> children;
-        boolean isEnd = false;
-        String word = null;
-//
-        public TrieNode() {
-            children = new HashMap();
-        }
-    }
 
 }
 

@@ -20,23 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_108_sortedArrayToBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_117_nextRightPointers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_236_LCA_LowestCommonAncetor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_543_DiameterTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_98_BinarySearchTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_tree_traval.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_108_sortedArrayToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_117_nextRightPointers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_212_wordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_98_BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_113_tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_113_tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_141_LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_146_LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_146_LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_212_wordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_212_wordSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +92,7 @@
       <recent name="me.elyowon.leetcode.backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode_108_sortedArrayToBST">
+  <component name="RunManager" selected="Application.leetcode_160_IntersectionOfTwoList">
     <configuration name="leetcode_105_ConstructTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.tree.leetcode_105_ConstructTreeTraversal" />
       <module name="ps in java" />
@@ -142,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_19_nNodeDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_19_nNodeDelete" />
+    <configuration name="leetcode_141_LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_141_LinkedListCycle" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
@@ -155,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_MaxQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.Queue.leetcode_MaxQueue" />
+    <configuration name="leetcode_160_IntersectionOfTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.LinkedList.leetcode_160_IntersectionOfTwoList" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.Queue.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode_160_IntersectionOfTwoList" />
+        <item itemvalue="Application.leetcode_141_LinkedListCycle" />
         <item itemvalue="Application.leetcode_108_sortedArrayToBST" />
         <item itemvalue="Application.leetcode_105_ConstructTreeTraversal" />
         <item itemvalue="Application.leetcode_113_tree" />
-        <item itemvalue="Application.leetcode_MaxQueue" />
-        <item itemvalue="Application.leetcode_19_nNodeDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +198,8 @@
       <workItem from="1619728971450" duration="99082000" />
       <workItem from="1620645043046" duration="40797000" />
       <workItem from="1620999272952" duration="23238000" />
-      <workItem from="1621089319165" duration="52164000" />
+      <workItem from="1621089319165" duration="57666000" />
+      <workItem from="1621498454243" duration="26244000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -357,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621348292153</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add tree &amp; BST (with bt)">
+      <created>1621425722598</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621425722598</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +435,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java</url>
           <line>62</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

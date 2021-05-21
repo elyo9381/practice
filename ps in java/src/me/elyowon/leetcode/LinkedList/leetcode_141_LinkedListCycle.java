@@ -22,6 +22,7 @@ public class leetcode_141_LinkedListCycle {
         boolean result = cycleList(ll);
 
         System.out.println("result = " + result);
+        ll.retrieve();
 
 
     }
@@ -35,11 +36,14 @@ public class leetcode_141_LinkedListCycle {
         ListNode slower = ll;
 
         while(faster !=null && slower !=null){
-            if(faster == faster) return true;
+            if(faster == slower) return true;
 
-            slower = slower.next;
-            if(faster.next == null) break;
-            faster = faster.next.next;
+            if(faster.next != null){
+                slower = slower.next;
+                faster = faster.next.next;
+            } else {
+                break;
+            }
         }
 
         return false;
