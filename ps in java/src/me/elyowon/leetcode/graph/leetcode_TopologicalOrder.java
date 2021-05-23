@@ -1,9 +1,16 @@
 package me.elyowon.leetcode.graph;
 
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toCollection;
 
 
 /**
@@ -30,49 +37,50 @@ import java.util.stream.Stream;
  */
 
 
+
+
 public class leetcode_TopologicalOrder {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int[][] vertex = {{1,3},{2,5},{},{2},{1},{}};
 
-        List<List<Integer>> graph =  new ArrayList<List<Integer>>();
-
-
-
-        for (int i = 0; i <vertex.length; i++) {
-            List<Integer> list = new ArrayList<Integer>();
-            for (int j = 0; j < vertex[i].length; j++) {
-                list.add(vertex[i][j]);
-            }
-            graph.add(list);
-        }
+        List<List<Integer>> graph = Arrays.stream(vertex)
+                .map(ints -> Arrays.stream(ints).boxed().collect(Collectors.toList()))
+                .collect(Collectors.toList());
 
         List result = topologicalOrder(graph);
 
-        for (Object sortedIndex : result) {
-            System.out.println("sortedIndex = " + sortedIndex);
-        }
+        result.stream().map(x -> x + " ").forEach(System.out::print);
+
+        Files.walk(Paths.get("."))
+                .filter(p -> !p.toString().contains(File.separator + "."))
+                .forEach(x1 -> System.out.println(x1));
+
+        List<Integer> list =
+                IntStream.range(0, 10)
+                        .boxed()
+                        .collect(toCollection(ArrayList::new));
+
+        list.stream()
+                // remove(Object), not remove(int)!
+                .sorted()
+                .parallel()
+                .peek(list::remove)
+                .forEach(System.out::println);
+
+
+
     }
 
-    private static List topologicalOrder(List<List<Integer>> graph) {
+    private static List<Integer> topologicalOrder(List<List<Integer>> graph) {
         int vertexNum = graph.size();
         int[] indegree = new int[vertexNum];
 
         Arrays.fill(indegree,0);
 
-        for (List<Integer> vertexs : graph) {
-            for (Integer vertex : vertexs) {
-                indegree[vertex] +=1;
-            }
-        }
+        graph.forEach(vertexs -> vertexs.forEach(vertex -> indegree[vertex] += 1));
 
-        Queue<Integer> q = new LinkedList<>();
-
-        for (int i = 0; i < indegree.length; i++) {
-            if(indegree[i] == 0){
-                q.add(i);
-            }
-        }
+        Queue<Integer> q = IntStream.range(0,indegree.length).filter(i -> indegree[i] == 0).boxed().collect(toCollection(LinkedList::new));
 
         List<Integer> result = new ArrayList<Integer>();
 
