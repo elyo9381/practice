@@ -1,14 +1,10 @@
 package me.elyowon.leetcode.graph;
 
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toCollection;
 
@@ -52,9 +48,9 @@ public class leetcode_TopologicalOrder {
 
         result.stream().map(x -> x + " ").forEach(System.out::print);
 
-        Files.walk(Paths.get("."))
-                .filter(p -> !p.toString().contains(File.separator + "."))
-                .forEach(x1 -> System.out.println(x1));
+//        Files.walk(Paths.get("."))
+//                .filter(p -> !p.toString().contains(File.separator + "."))
+//                .forEach(x1 -> System.out.println(x1));
 
         List<Integer> list =
                 IntStream.range(0, 10)
@@ -67,9 +63,6 @@ public class leetcode_TopologicalOrder {
                 .parallel()
                 .peek(list::remove)
                 .forEach(System.out::println);
-
-
-
     }
 
     private static List<Integer> topologicalOrder(List<List<Integer>> graph) {
@@ -80,23 +73,48 @@ public class leetcode_TopologicalOrder {
 
         graph.forEach(vertexs -> vertexs.forEach(vertex -> indegree[vertex] += 1));
 
-        Queue<Integer> q = IntStream.range(0,indegree.length).filter(i -> indegree[i] == 0).boxed().collect(toCollection(LinkedList::new));
+//        Queue<Integer> q = new LinkedList<>();
+//
+//        for (int i = 0; i < indegree.length; i++) {
+//            if (indegree[i] == 0) {
+//                Integer integer = i;
+//                q.add(integer);
+//            }
+//        }
+
+        Queue<Integer> q = IntStream
+                            .range(0,indegree.length)
+                            .filter(i -> indegree[i] == 0)
+                            .boxed()
+                            .collect(toCollection(LinkedList::new));
 
         List<Integer> result = new ArrayList<Integer>();
 
         while(!q.isEmpty()){
-            Integer indegreeZeroVertex = q.poll();
-            result.add(indegreeZeroVertex);
+            Integer indegreeZeroVertex = extractIndegreeAndResultInput(q,result);
 
             List<Integer> vertex = graph.get(indegreeZeroVertex);
-            for (Integer checkingVertex : vertex) {
-                indegree[checkingVertex] -=1;
-                if(indegree[checkingVertex] == 0){
-                    q.add(checkingVertex);
-                }
-            }
+
+            vertex.forEach(checkingVertex -> {
+                indegreeConfirmAndQueueInput(indegree,q,checkingVertex);
+            });
         }
 
+//      if(result.size () == numCourse) return true;
+
         return result;
+    }
+
+    private static Integer extractIndegreeAndResultInput(Queue<Integer> q,List<Integer> result) {
+        Integer indegreeZeroVertex = q.poll();
+        result.add(indegreeZeroVertex);
+        return indegreeZeroVertex;
+    }
+
+    private static void indegreeConfirmAndQueueInput(int[] indegree,Queue<Integer> q,Integer checkingVertex) {
+        indegree[checkingVertex] -= 1;
+        if (indegree[checkingVertex] == 0) {
+            q.add(checkingVertex);
+        }
     }
 }
