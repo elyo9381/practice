@@ -1,7 +1,9 @@
-package me.elyowon.leetcode.graph;
+package me.elyowon.leetcode.algorithm;
 
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 
 /**
@@ -26,7 +28,7 @@ import java.util.*;
  */
 
 
-public class leetcode__NetworkFlow {
+public class NetworkFlow {
 
 
     public class FordFulkerson {
