@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,44 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_23_Merge_k_sortedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_295_Median$MedianFinder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_295_Median.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_347_Top_k_Frequent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode__Heap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/BipartiteMatching.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra$Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall$Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal$Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/NetworkFlow$FordFulkerson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/NetworkFlow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/SCC_StronlyConnectedComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_1091_graphShortPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_133_CloneGraph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_200_Islands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_207_DetecingCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_733_FloodFill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_841_graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_TopologicalOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Solution$TrieNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Trie$TrieNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Trie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_212_wordSearch$TrieNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_212_wordSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/BipartiteMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/SCC_StronlyConnectedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1029_TwoCityScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1578_MinDeletionCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1710_MaximumUnitsOnTruck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_435_overlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode__GlobalMinimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode__MeetingRooms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode__NetworkFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/NetworkFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/BipartiteMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/BipartiteMatching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +79,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -116,20 +93,20 @@
       <recent name="me.elyowon.leetcode.tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.elyowon.leetcode.greedy" />
       <recent name="me.elyowon.leetcode.algorithm" />
       <recent name="me.elyowon.leetcode.graph" />
       <recent name="me.elyowon.leetcode.Heap" />
       <recent name="me.elyowon.leetcode.priorityQueue" />
-      <recent name="me.elyowon.leetcode.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BipartiteMatching">
-    <configuration name="BipartiteMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.BipartiteMatching" />
+  <component name="RunManager" selected="Application.leetcode_435_overlappingIntervals">
+    <configuration name="leetcode_1029_TwoCityScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.greedy.leetcode_1029_TwoCityScheduling" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.Dijkstra" />
+    <configuration name="leetcode_1578_MinDeletionCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.greedy.leetcode_1578_MinDeletionCost" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.FloydWarshall" />
+    <configuration name="leetcode_1710_MaximumUnitsOnTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.greedy.leetcode_1710_MaximumUnitsOnTruck" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.Kruskal" />
+    <configuration name="leetcode_435_overlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.greedy.leetcode_435_overlappingIntervals" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SCC_StronlyConnectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.SCC_StronlyConnectedComponent" />
+    <configuration name="leetcode__MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.greedy.leetcode__MeetingRooms" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BipartiteMatching" />
-        <item itemvalue="Application.SCC_StronlyConnectedComponent" />
-        <item itemvalue="Application.FloydWarshall" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.leetcode_435_overlappingIntervals" />
+        <item itemvalue="Application.leetcode__MeetingRooms" />
+        <item itemvalue="Application.leetcode_1029_TwoCityScheduling" />
+        <item itemvalue="Application.leetcode_1578_MinDeletionCost" />
+        <item itemvalue="Application.leetcode_1710_MaximumUnitsOnTruck" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +207,13 @@
       <workItem from="1620645043046" duration="40797000" />
       <workItem from="1620999272952" duration="23238000" />
       <workItem from="1621089319165" duration="57666000" />
-      <workItem from="1621498454243" duration="98820000" />
+      <workItem from="1621498454243" duration="99000000" />
+      <workItem from="1622092165161" duration="599000" />
+      <workItem from="1622095680208" duration="519000" />
+      <workItem from="1622100242198" duration="637000" />
+      <workItem from="1622211371552" duration="2217000" />
+      <workItem from="1622339850438" duration="1576000" />
+      <workItem from="1622527988070" duration="15813000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -414,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621952341675</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="study kruskal,floydwarshall,dijkstra,bipartiteMatching,SCC,networkFlow">
+      <created>1622038530293</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622038530293</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +445,8 @@
     <MESSAGE value="java stream study (use case)" />
     <MESSAGE value="study struct heap, ForFulkerson" />
     <MESSAGE value="study kruskal,floydwarshall,dijkstra,bipartiteMatching,SCC,networkFlow" />
-    <option name="LAST_COMMIT_MESSAGE" value="study kruskal,floydwarshall,dijkstra,bipartiteMatching,SCC,networkFlow" />
+    <MESSAGE value="study greedy algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="study greedy algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,6 +500,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_TopologicalOrder.java</url>
           <line>90</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode__MeetingRooms.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
