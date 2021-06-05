@@ -53,12 +53,35 @@ public class leetcode_5_LogestPalindromicSubstring {
             }
         }
 
-
-        for (int j = 2; j < l; j++) {
+        for(int j = 2; j < l; j++){
             for (int i = 0; i + j < l; i++) {
                 if (dp[i + 1][i + j - 1] != 0 && s.charAt(i) == s.charAt(i + j))
-                    dp[i][i + j] = (i + j) - (i) + 1;
+                    dp[i][i + j] = dp[i+1][i+j-1] +2;
             }
+        }
+
+//        for (int j = 2; j < l; j++) {
+//            int row = 0;
+//            int col = j ;
+//            while( col < s.length()){
+//                int start = s.charAt(row);
+//                int end = s.charAt(col);
+//                int prevCount = dp[row+1][col-1];
+//                if(start == end && prevCount !=0){
+//                    dp[row][col] = prevCount +2;
+//                }
+//                row +=1;
+//                col +=1;
+//            }
+//        }
+
+        System.out.println();
+
+        for (int[] ints : dp) {
+            for (int anInt : ints) {
+                System.out.print(" " + anInt);
+            }
+            System.out.println();
         }
 
         int maxLen = 0;

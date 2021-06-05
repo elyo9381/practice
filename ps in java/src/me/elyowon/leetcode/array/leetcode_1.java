@@ -24,8 +24,6 @@ public class leetcode_1 {
         for (int i : result) {
             System.out.println("i = " + i);
         }
-
-
     }
 
     private static int[] um(int[] nums,int i) {

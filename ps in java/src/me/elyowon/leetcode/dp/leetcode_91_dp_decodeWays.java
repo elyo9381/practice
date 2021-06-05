@@ -29,6 +29,7 @@ public class leetcode_91_dp_decodeWays {
         int[] dp = new int[len + 1];
         dp[len] = 1;
 
+        // String valueOf : null존재시 널을 문자열 널로 변환함
         int lastChar = Integer.parseInt(String.valueOf(s.charAt(len - 1)));
 
         System.out.println("lastChar = " + lastChar);
@@ -54,7 +55,6 @@ public class leetcode_91_dp_decodeWays {
                 doubleCount = dp[i + 2];
             }
             int count = singleCount + doubleCount;
-            System.out.println("singleCount = " + singleCount + " " + doubleCount);
             dp[i] = count;
         }
         return dp[0];

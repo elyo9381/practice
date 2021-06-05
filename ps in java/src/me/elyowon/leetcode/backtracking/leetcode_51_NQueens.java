@@ -34,8 +34,8 @@ public class leetcode_51_NQueens {
             }
             System.out.println();
         }
-
     }
+
 
     static List<List<String>> answer = new ArrayList<>();
     static ArrayList<String> buffer = new ArrayList<>();

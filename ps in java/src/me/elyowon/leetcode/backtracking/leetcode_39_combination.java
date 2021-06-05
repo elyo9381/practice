@@ -4,6 +4,7 @@ package me.elyowon.leetcode.backtracking;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class leetcode_39_combination {
 
@@ -43,28 +44,6 @@ public class leetcode_39_combination {
     }
 
 //  서브어레이의 sum값을 값는 콤비네이션
-    public static void combinationSum(int[] candidates,int target,int j,ArrayList<Integer> curr,List<List<Integer>> result) {
-        if (target == 0) {
-            ArrayList<Integer> temp = new ArrayList<Integer>(curr);
-            result.add(temp);
-            return;
-        }
-        for (int i = j; i < candidates.length; i++) {
-            // target 보다 큰거는 방문 하지 않으려고 미리 제거함
-            // 만약에 방문하면? 무한루프 빠진다. 위에서 리턴 조건을 설정해줘야함
-            if (target < candidates[i]) {
-                return;
-            }
-            // 조건같은 상황은 처음에 인덱스에서 벗어난다 i = -1이 되어 그렇기에 i==j를 지정해주는것
-            if (i == j || candidates[i] != candidates[i - 1]) {
-                curr.add(candidates[i]);
-                combinationSum(candidates,target - candidates[i],i + 1,curr,result);
-                curr.remove(curr.size() - 1);
-            }
-        }//for i
-    }//combinationSum
-
-//    // 일반적인 combination
 //    public static void combinationSum(int[] candidates,int target,int j,ArrayList<Integer> curr,List<List<Integer>> result) {
 //        if (target == 0) {
 //            ArrayList<Integer> temp = new ArrayList<Integer>(curr);
@@ -72,11 +51,34 @@ public class leetcode_39_combination {
 //            return;
 //        }
 //        for (int i = j; i < candidates.length; i++) {
+//            // target 보다 큰거는 방문 하지 않으려고 미리 제거함
+//            // 만약에 방문하면? 무한루프 빠진다. 위에서 리턴 조건을 설정해줘야함
+//            if (target < candidates[i]) {
+//                return;
+//            }
+//            // 조건같은 상황은 처음에 인덱스에서 벗어난다 i = -1이 되어 그렇기에 i==j를 지정해주는것
+//            if (i == j || candidates[i] != candidates[i - 1]) {
 //                curr.add(candidates[i]);
-//                combinationSum(candidates,target-1,i+1,curr,result);
+//                combinationSum(candidates,target - candidates[i],i + 1,curr,result);
 //                curr.remove(curr.size() - 1);
+//            }
 //        }//for i
 //    }//combinationSum
+
+    // 일반적인 combination
+    public static void combinationSum(int[] candidates,int target,int j,ArrayList<Integer> curr,List<List<Integer>> result) {
+        if (target == 0) {
+            ArrayList<Integer> temp = new ArrayList<Integer>(curr);
+            result.add(temp);
+            return;
+        }
+        //for i
+        IntStream.range(j,candidates.length).forEach(i -> {
+            curr.add(candidates[i]);
+            combinationSum(candidates,target - 1,i + 1,curr,result);
+            curr.remove(curr.size() - 1);
+        });
+    }//combinationSum
 
 
 }

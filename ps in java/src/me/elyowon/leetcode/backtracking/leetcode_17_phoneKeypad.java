@@ -4,6 +4,7 @@ package me.elyowon.leetcode.backtracking;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class leetcode_17_phoneKeypad {
 
@@ -49,9 +50,7 @@ public class leetcode_17_phoneKeypad {
         }
 
         String cand = keyboard.get(digits.charAt(start));
-        for (int i = 0; i < cand.length(); i++) {
-            backTracking(digits,prefix+cand.charAt(i), start+1,keyboard,result);
-        }
+        IntStream.range(0,cand.length()).forEach(i -> backTracking(digits,prefix + cand.charAt(i),start + 1,keyboard,result));
 
     }
 

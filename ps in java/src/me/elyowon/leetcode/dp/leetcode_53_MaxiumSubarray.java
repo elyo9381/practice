@@ -16,7 +16,8 @@ public class leetcode_53_MaxiumSubarray {
      * 매번 인덱스가 들어올때 MaxSubarray을 계산한다. 또한 전단계의 최적화를 알고있다.
      *
      * f(n) = max(input(n), input(n) + f(n-1));
-     * 또한 서브어레이를 찾아야 함으로 startIndex를 저장해야한다.
+     * sp는 더한값과 현재값의 계산하여 맥스값을 구하면 현재 최대 값을 알수있고 이를 통해서
+     * max서브어레이를 구할수있다.
      *
      * @param args
      */
