@@ -23,26 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Aho_Corasick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_581.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_581.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_39_combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_39_combination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_46_permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_46_permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_581.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_581.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_46_permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_46_permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +66,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/me/elyowon/leetcode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
@@ -108,7 +90,20 @@
       <recent name="me.elyowon.leetcode.priorityQueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KMP">
+  <component name="RunManager" selected="Application.Aho_Corasick">
+    <configuration name="Aho_Corasick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.Aho_Corasick" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.KMP" />
       <module name="ps in java" />
@@ -148,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_5_LogestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_5_LogestPalindromicSubstring" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode_91_dp_decodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.dp.leetcode_91_dp_decodeWays" />
       <module name="ps in java" />
@@ -176,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aho_Corasick" />
         <item itemvalue="Application.KMP" />
         <item itemvalue="Application.leetcode_139_wordBreak" />
         <item itemvalue="Application.leetcode_91_dp_decodeWays" />
         <item itemvalue="Application.leetcode_53_MaxiumSubarray" />
-        <item itemvalue="Application.leetcode_5_LogestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +207,8 @@
       <workItem from="1622776151858" duration="73000" />
       <workItem from="1622776245657" duration="1863000" />
       <workItem from="1622778143731" duration="893000" />
-      <workItem from="1622779197410" duration="33221000" />
+      <workItem from="1622779197410" duration="37635000" />
+      <workItem from="1622986847222" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -423,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622556318681</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="study algorithm">
+      <created>1622904692594</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622904692595</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,6 +535,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/KMP.java</url>
           <line>44</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Aho_Corasick.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
