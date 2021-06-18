@@ -26,7 +26,6 @@ public class leetcode_206_ReverseList {
 
 
 
-
     }
 
     private static ListNode reverseList_recur(ListNode head) {

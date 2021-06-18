@@ -108,65 +108,98 @@
 package me.elyowon.leetcode.algorithm;
 
 
-        import java.io.BufferedReader;
-        import java.io.IOException;
-        import java.io.InputStreamReader;
-        import java.util.LinkedList;
-        import java.util.Queue;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 
 public class Aho_Corasick {
 
     static int N, Q;
-    static Trie trie = new Trie();
+
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        TrieNode root = new TrieNode();
 
         N = Integer.parseInt(br.readLine());
-        while (N-- > 0) trie.insert(br.readLine());
+        while (N-- > 0) root.insert(br.readLine());
 
-        trie.makeFail();
+        root.makeFail();
 
         Q = Integer.parseInt(br.readLine());
         while (Q-- > 0) {
-            if (trie.search(br.readLine())) System.out.println("YES");
+            if (root.search(br.readLine())) System.out.println("YES");
             else System.out.println("NO");
         }
     }
 }
 
-class Trie {
-    Node root = new Node();
+class TrieNode {
+    static Node root = new Node();
 
-    void insert(String s) {
-        Node current = root;
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (!current.hasChild(c))
-                current.children[c - 'a'] = new Node();
-            current = current.getChild(c);
+    static class Node{
+
+        HashMap<Character, Node> children = new HashMap<>();
+        boolean isEnd = false;
+        Node fail = null;
+
+        char v;
+        String word = null;
+
+        public Node isChildren(Character c){
+
+            Node it = children.get(c);
+            if(it == null) return null;
+            return it;
         }
-        current.isEnd = true;
+
+        public Node create(Character c) {
+            Node it = children.get(c);
+            if (it == null) {
+                it = new Node();
+                it.v = c;
+                it.fail = this;
+                children.put(c,it);
+                return it;
+            }
+            return it;
+        }
+
+
+    }
+    public static void insert(String word) {
+        var node = root;
+        // 9 ms: for (int i = 0; i < word.length(); i++) {
+        // 1 ms: for (int i = word.length() - 1; i >= 0; i--) {
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            var next = node.create(c);
+            node = next;
+        }
+//        node.word = word; // the last node contains teh whole word
+        node.isEnd =true;
     }
 
-    void makeFail() {
+    static void makeFail() {
         Queue<Node> q = new LinkedList<>();
         root.fail = root;
         q.offer(root);
         while (!q.isEmpty()) {
             Node current = q.poll();
-            for (char c = 'a'; c <= 'z'; c++) {
-                if (!current.hasChild(c)) continue;
+            for (Character c  = 'a'; c <= 'z'; c++) {
+                if (current.isChildren(c) == null) continue;
 
-                Node next = current.getChild(c);
+                Node next = current.isChildren(c);
                 if (current == root) next.fail = root;
                 else {
                     Node dest = current.fail;
-                    while (dest != root && !dest.hasChild(c))
+                    while (dest != root && dest.isChildren(c) == null)
                         dest = dest.fail;
-                    if (dest.hasChild(c)) dest = dest.getChild(c);
+                    if (dest.isChildren(c)!= null) dest = dest.isChildren(c);
                     next.fail = dest;
                 }
 
@@ -175,30 +208,60 @@ class Trie {
         }
     }
 
-    boolean search(String s) {
+
+    static boolean search(String s) {
         Node current = root;
         for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            while (current != root && !current.hasChild(c))
+            Character c = s.charAt(i);
+            while (current != root && current.isChildren(c) == null)
                 current = current.fail;
-            if (current.hasChild(c)) current = current.getChild(c);
+            if (current.isChildren(c)!=null) current = current.isChildren(c);
             if (current.fail.isEnd) return true;
             if (current.isEnd) return true;
         }
         return false;
     }
 
-    static class Node {
-        Node[] children = new Node[26];
-        boolean isEnd = false;
-        Node fail = null;
-
-        boolean hasChild(char c) {
-            return children[c - 'a'] != null;
-        }
-
-        Node getChild(char c) {
-            return children[c - 'a'];
-        }
-    }
 }
+
+
+//    void insert(String s) {
+//        Node current = root;
+//        for (int i = 0; i < s.length(); i++) {
+//            char c = s.charAt(i);
+//            if (!current.hasChild(c))
+//                current.children[c - 'a'] = new Node();
+//            current = current.getChild(c);
+//        }
+//        current.isEnd = true;
+//    }
+//
+//    void makeFail() {
+//        Queue<Node> q = new LinkedList<>();
+//        root.fail = root;
+//        q.offer(root);
+//        while (!q.isEmpty()) {
+//            Node current = q.poll();
+//            for (char c = 'a'; c <= 'z'; c++) {
+//                if (!current.hasChild(c)) continue;
+//
+//                Node next = current.getChild(c);
+//                if (current == root) next.fail = root;
+//                else {
+//                    Node dest = current.fail;
+//                    while (dest != root && !dest.hasChild(c))
+//                        dest = dest.fail;
+//                    if (dest.hasChild(c)) dest = dest.getChild(c);
+//                    next.fail = dest;
+//                }
+//
+//                q.offer(next);
+//            }
+//        }
+//    }
+//
+
+//    static class Node {
+//
+//    }
+//}
