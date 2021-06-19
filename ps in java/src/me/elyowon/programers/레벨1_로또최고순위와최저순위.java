@@ -23,12 +23,10 @@ public class 레벨1_로또최고순위와최저순위 {
         }
     }
     public static int[] solution(int[] lottos,int[] win_nums) {
-        int[] answer = new int[2];
         int idxLottos = 0;
         int idxWinner = 0;
         int countZero = 0;
         int equalsNum = 0;
-        int[] check = new int[lottos.length];
 
         Arrays.sort(lottos);
         Arrays.sort(win_nums);

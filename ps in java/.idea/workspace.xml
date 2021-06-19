@@ -23,16 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/divAndCon/PrintTopViewofTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/divAndCon/skyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Aho_Corasick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Aho_Corasick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Aho_Corasick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Aho_Corasick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_로또최고순위와최저순위.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_로또최고순위와최저순위.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <recent name="me.elyowon.leetcode.Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.레벨1_로또최고순위와최저순위">
+  <component name="RunManager" selected="Application.레벨1_키패드누르기">
     <configuration name="레벨1_로또최고순위와최저순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_로또최고순위와최저순위" />
       <module name="ps in java" />
@@ -112,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aho_Corasick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.Aho_Corasick" />
+    <configuration name="레벨1_키패드누르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_키패드누르기" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
+          <option name="PATTERN" value="me.elyowon.programers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.레벨1_키패드누르기" />
         <item itemvalue="Application.레벨1_로또최고순위와최저순위" />
         <item itemvalue="Application.leetcode_105_ConstructTreeTraversal" />
         <item itemvalue="Application.skyline" />
         <item itemvalue="Application.PrintTopViewofTree" />
-        <item itemvalue="Application.Aho_Corasick" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +212,8 @@
       <workItem from="1622779197410" duration="37635000" />
       <workItem from="1622986847222" duration="45964000" />
       <workItem from="1623610619099" duration="11756000" />
-      <workItem from="1623898380358" duration="9744000" />
+      <workItem from="1623898380358" duration="10206000" />
+      <workItem from="1624021194102" duration="7193000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -430,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622990470235</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="typo code">
+      <created>1624020898722</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1624020898722</updated>
+    </task>
+    <task id="LOCAL-00032" summary="study programes-로또최고순위와최저순위">
+      <created>1624020936356</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1624020936356</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,8 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add java in dataStructure" />
-    <MESSAGE value="study java ArrayList with bfs" />
     <MESSAGE value="study combination" />
     <MESSAGE value="study java in boj" />
     <MESSAGE value="study java" />
@@ -474,7 +481,9 @@
     <MESSAGE value="study greedy algorithm" />
     <MESSAGE value="study algorithm" />
     <MESSAGE value="study algorithm aho-corasick ( use trie, kmp)" />
-    <option name="LAST_COMMIT_MESSAGE" value="study algorithm aho-corasick ( use trie, kmp)" />
+    <MESSAGE value="typo code" />
+    <MESSAGE value="study programes-로또최고순위와최저순위" />
+    <option name="LAST_COMMIT_MESSAGE" value="study programes-로또최고순위와최저순위" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,6 +578,11 @@
           <line>42</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="13" />
@@ -583,6 +597,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="number" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/boj_in_java$_27_.ic" NAME="_27_문자열압축 Coverage Results" MODIFIED="1618123203026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
