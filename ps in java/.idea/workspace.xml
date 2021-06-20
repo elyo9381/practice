@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_내적.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_체육복.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_폰켓몬.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_로또최고순위와최저순위.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_로또최고순위와최저순위.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +93,22 @@
       <recent name="me.elyowon.leetcode.Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.레벨1_키패드누르기">
+  <component name="RunManager" selected="Application.레벨1_체육복">
     <configuration name="레벨1_로또최고순위와최저순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_로또최고순위와최저순위" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.programers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="레벨1_체육복" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_체육복" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +174,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.레벨1_키패드누르기" />
+        <item itemvalue="Application.레벨1_체육복" />
         <item itemvalue="Application.레벨1_로또최고순위와최저순위" />
         <item itemvalue="Application.leetcode_105_ConstructTreeTraversal" />
         <item itemvalue="Application.skyline" />
@@ -213,7 +227,8 @@
       <workItem from="1622986847222" duration="45964000" />
       <workItem from="1623610619099" duration="11756000" />
       <workItem from="1623898380358" duration="10206000" />
-      <workItem from="1624021194102" duration="7193000" />
+      <workItem from="1624021194102" duration="8443000" />
+      <workItem from="1624188504145" duration="6773000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -439,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624020936356</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="study programes 키패드 누르기">
+      <created>1624112695517</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624112695517</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,8 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study combination" />
-    <MESSAGE value="study java in boj" />
     <MESSAGE value="study java" />
     <MESSAGE value="java ps in programes" />
     <MESSAGE value="study ps in programers" />
@@ -483,7 +503,9 @@
     <MESSAGE value="study algorithm aho-corasick ( use trie, kmp)" />
     <MESSAGE value="typo code" />
     <MESSAGE value="study programes-로또최고순위와최저순위" />
-    <option name="LAST_COMMIT_MESSAGE" value="study programes-로또최고순위와최저순위" />
+    <MESSAGE value="study programes 키패드 누르기" />
+    <MESSAGE value="study programmers 폰켓몬, 체육복" />
+    <option name="LAST_COMMIT_MESSAGE" value="study programmers 폰켓몬, 체육복" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,11 +599,6 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.java</url>
           <line>42</line>
           <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
