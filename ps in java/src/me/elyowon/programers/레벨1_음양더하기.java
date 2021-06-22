@@ -16,11 +16,9 @@ public class 레벨1_음양더하기 {
         int n = 5;
 
 
-        int solution = solution(n,lost,reverse);
-        System.out.println("solution = " + solution);
     }
 
-    public int solution(int[] absolutes, boolean[] signs) {
+    public static int solution(int[] absolutes,boolean[] signs) {
         int sum = 0;
         int i = 0;
         for (int absolute : absolutes) {
