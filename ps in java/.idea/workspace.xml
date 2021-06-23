@@ -23,13 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_3진법뒤집기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_두개뽑아서더하기.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_실패율.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_약수의갯수덧셈.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_예산.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_크레인인형.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_체육복.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/레벨1_체육복.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_음양더하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_음양더하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_소수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_소수만들기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +230,7 @@
       <workItem from="1623610619099" duration="11756000" />
       <workItem from="1623898380358" duration="10206000" />
       <workItem from="1624021194102" duration="8443000" />
-      <workItem from="1624188504145" duration="26064000" />
+      <workItem from="1624188504145" duration="36470000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -479,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624284389814</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="study programmers 배열">
+      <created>1624372799257</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1624372799257</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java ps in programes" />
     <MESSAGE value="study ps in programers" />
     <MESSAGE value="study ps" />
     <MESSAGE value="add ps" />
@@ -523,7 +527,8 @@
     <MESSAGE value="study programes 키패드 누르기" />
     <MESSAGE value="study programmers 폰켓몬, 체육복" />
     <MESSAGE value="study programmers 조합,정규표현식 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="study programmers 조합,정규표현식 문제" />
+    <MESSAGE value="study programmers 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="study programmers 배열" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

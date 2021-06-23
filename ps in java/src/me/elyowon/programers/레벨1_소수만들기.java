@@ -49,10 +49,10 @@ public class 레벨1_소수만들기 {
             return;
         }
 
-        IntStream.range(j,nums.length).forEach(i-> {
+        IntStream.range(j,nums.length).forEach(i -> {
             curr.add(nums[i]);
-            combination(nums, target -1, i+1, curr, result);
-            curr.remove(curr.size()-1);
+            combination(nums,target - 1,i + 1,curr,result);
+            curr.remove(curr.size() - 1);
         });
     }
 
