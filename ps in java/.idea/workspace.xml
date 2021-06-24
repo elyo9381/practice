@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_3진법뒤집기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_두개뽑아서더하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_실패율.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_가운데글자가져오기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_비밀지도.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_소수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_소수만들기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <recent name="me.elyowon.leetcode.Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.레벨1_크레인인형">
+  <component name="RunManager" selected="Application.leetcode_105_ConstructTreeTraversal">
     <configuration name="레벨1_로또최고순위와최저순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_로또최고순위와최저순위" />
       <module name="ps in java" />
@@ -176,8 +174,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.레벨1_크레인인형" />
-        <item itemvalue="Application.레벨1_체육복" />
         <item itemvalue="Application.레벨1_로또최고순위와최저순위" />
         <item itemvalue="Application.leetcode_105_ConstructTreeTraversal" />
         <item itemvalue="Application.skyline" />
@@ -230,7 +226,8 @@
       <workItem from="1623610619099" duration="11756000" />
       <workItem from="1623898380358" duration="10206000" />
       <workItem from="1624021194102" duration="8443000" />
-      <workItem from="1624188504145" duration="36470000" />
+      <workItem from="1624188504145" duration="45213000" />
+      <workItem from="1624541989607" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -484,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624372799257</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="study programmers 조합,실패율">
+      <created>1624457665553</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1624457665553</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study ps in programers" />
     <MESSAGE value="study ps" />
     <MESSAGE value="add ps" />
     <MESSAGE value="study ps in JAVA (quickSort, middleQuickSort)" />
@@ -528,7 +531,8 @@
     <MESSAGE value="study programmers 폰켓몬, 체육복" />
     <MESSAGE value="study programmers 조합,정규표현식 문제" />
     <MESSAGE value="study programmers 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="study programmers 배열" />
+    <MESSAGE value="study programmers 조합,실패율" />
+    <option name="LAST_COMMIT_MESSAGE" value="study programmers 조합,실패율" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
