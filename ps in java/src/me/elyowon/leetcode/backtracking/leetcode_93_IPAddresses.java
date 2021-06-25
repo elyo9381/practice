@@ -16,7 +16,7 @@ public class leetcode_93_IPAddresses {
 
     public static void main(String[] args) {
 
-       String s  = "2000935";
+        String s = "2000935";
 //       String s  = "25525511135";
         List<String> result = restoreIpAddresses(s);
         for (String s1 : result) {
@@ -24,33 +24,33 @@ public class leetcode_93_IPAddresses {
         }
 
     }
+
     private static List<String> restoreIpAddresses(String s) {
 
         List<String> res = new ArrayList<>();
-        backtracking(s, res, new StringBuilder(), 0, 0);
+        backtracking(s,res,new StringBuilder(),0,0);
         return res;
     }
 
 
-    private static void backtracking(String s,List<String> res,StringBuilder sb,int index,int level){
-        if(index > s.length() || level > 4) return;
-        else if(index == s.length() && level == 4){
+    private static void backtracking(String s,List<String> res,StringBuilder sb,int index,int level) {
+        if (index > s.length() || level > 4) return;
+        else if (index == s.length() && level == 4) {
             res.add(sb.toString());
             return;
         }
-        for(int i = 1; i <= 3; i++){
-            if(index + i > s.length()) break;
-            int num = Integer.valueOf(s.substring(index, index + i));
-            if(i == 1 || i==2 && num >=10 && num <=99 || i == 3 && num >= 100 && num <= 255){
+        for (int i = 1; i <= 3; i++) {
+            if (index + i > s.length()) break;
+            int num = Integer.valueOf(s.substring(index,index + i));
+            if (i == 1 || i == 2 && num >= 10 && num <= 99 || i == 3 && num >= 100 && num <= 255) {
                 sb.append(num);
-                if(level < 3) sb.append(".");
-                backtracking(s,res,sb,index+i,level+1);
-                if(level < 3) sb.deleteCharAt(sb.length()-1);
-                sb.delete(sb.length()-i,sb.length());
+                if (level < 3) sb.append(".");
+                backtracking(s,res,sb,index + i,level + 1);
+                if (level < 3) sb.deleteCharAt(sb.length() - 1);
+                sb.delete(sb.length() - i,sb.length());
             }
         }
     }
-
 
 
 //    private static void dfs(String s,List<String> result,String curr,int start,int max,int min) {

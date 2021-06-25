@@ -23,9 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_가운데글자가져오기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_비밀지도.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_같은숫자는싫어.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_나누어떨어지는숫자배열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_다트게임.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_두정수사이의합.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내p와y의개수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내림차순.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열다루기기본.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_서울에서김서방찾기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +102,7 @@
       <recent name="me.elyowon.leetcode.Heap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode_105_ConstructTreeTraversal">
+  <component name="RunManager" selected="Application.L1_210625_다트게임">
     <configuration name="레벨1_로또최고순위와최저순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_로또최고순위와최저순위" />
       <module name="ps in java" />
@@ -146,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_105_ConstructTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.tree.leetcode_105_ConstructTreeTraversal" />
+    <configuration name="L1_210625_다트게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L1_210625_다트게임" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.tree.*" />
+          <option name="PATTERN" value="me.elyowon.programers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +168,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="skyline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.divAndCon.skyline" />
+    <configuration name="leetcode_17_phoneKeypad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_17_phoneKeypad" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.divAndCon.*" />
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode_22_gernerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_22_gernerateParentheses" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode_78_Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_78_Subset" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,9 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L1_210625_다트게임" />
+        <item itemvalue="Application.leetcode_22_gernerateParentheses" />
+        <item itemvalue="Application.leetcode_17_phoneKeypad" />
+        <item itemvalue="Application.leetcode_78_Subset" />
         <item itemvalue="Application.레벨1_로또최고순위와최저순위" />
-        <item itemvalue="Application.leetcode_105_ConstructTreeTraversal" />
-        <item itemvalue="Application.skyline" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +264,8 @@
       <workItem from="1623898380358" duration="10206000" />
       <workItem from="1624021194102" duration="8443000" />
       <workItem from="1624188504145" duration="45213000" />
-      <workItem from="1624541989607" duration="224000" />
+      <workItem from="1624541989607" duration="3282000" />
+      <workItem from="1624549242366" duration="22599000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -488,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624457665553</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="solved programmers 가운데글자가져오기,비밀지도">
+      <created>1624542285165</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1624542285165</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study ps" />
     <MESSAGE value="add ps" />
     <MESSAGE value="study ps in JAVA (quickSort, middleQuickSort)" />
     <MESSAGE value="study ps in JAVA rotationMatrix &amp; two,three,fore Sum" />
@@ -532,7 +576,8 @@
     <MESSAGE value="study programmers 조합,정규표현식 문제" />
     <MESSAGE value="study programmers 배열" />
     <MESSAGE value="study programmers 조합,실패율" />
-    <option name="LAST_COMMIT_MESSAGE" value="study programmers 조합,실패율" />
+    <MESSAGE value="solved programmers 가운데글자가져오기,비밀지도" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved programmers 가운데글자가져오기,비밀지도" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,6 +676,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/programers/레벨1_크레인인형.java</url>
           <line>22</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_다트게임.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
