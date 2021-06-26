@@ -23,18 +23,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_같은숫자는싫어.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_나누어떨어지는숫자배열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_다트게임.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_두정수사이의합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내p와y의개수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내림차순.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열다루기기본.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_서울에서김서방찾기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_문자열을정수로바꾸기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_소수찾기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_수박.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_시저암호.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_약수의합.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_이상한문자만들기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_자릿수더하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_자연수뒤집어배열로만들기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_정수내림차순으로배치하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_정수제곱근판별.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_제일작은수제거하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_최대공약수최소공배수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_콜라츠추측.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_평균구하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_핸드폰번호가리기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_행렬의덧셈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210626_단체사진찍기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_가운데글자가져오기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210624_가운데글자가져오기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210624_비밀지도.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210624_비밀지도.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_같은숫자는싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_같은숫자는싫어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_나누어떨어지는숫자배열.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_나누어떨어지는숫자배열.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_다트게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_다트게임.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_두정수사이의합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_두정수사이의합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내p와y의개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내p와y의개수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내림차순.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내림차순.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열내마음대로정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_문자열다루기기본.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열다루기기본.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_서울에서김서방찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_서울에서김서방찾기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/괄호회전하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/괄호회전하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_3진법뒤집기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_3진법뒤집기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_내적.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_내적.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_두개뽑아서더하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_두개뽑아서더하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_로또최고순위와최저순위.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_로또최고순위와최저순위.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_소수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_소수만들기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_신규아이디추천.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_신규아이디추천.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_실패율.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_실패율.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_약수의갯수덧셈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_약수의갯수덧셈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_예산.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_예산.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_음양더하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_음양더하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_체육복.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_체육복.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_크레인인형.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_크레인인형.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_키패드누르기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/레벨1_폰켓몬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_폰켓몬.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/모두0으로만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/모두0으로만들기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/모의고사_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/모의고사_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/완주하지못한선수_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L1/완주하지못한선수_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,20 +130,20 @@
       <recent name="me.elyowon.leetcode.tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.elyowon.programers.L2" />
       <recent name="me.elyowon.programers" />
       <recent name="me.elyowon.leetcode.algorithm" />
       <recent name="me.elyowon.leetcode.greedy" />
       <recent name="me.elyowon.leetcode.graph" />
-      <recent name="me.elyowon.leetcode.Heap" />
     </key>
   </component>
   <component name="RunManager" selected="Application.L1_210625_다트게임">
     <configuration name="레벨1_로또최고순위와최저순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_로또최고순위와최저순위" />
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L1.레벨1_로또최고순위와최저순위" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.*" />
+          <option name="PATTERN" value="me.elyowon.programers.L1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +191,11 @@
       </method>
     </configuration>
     <configuration name="L1_210625_다트게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L1_210625_다트게임" />
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L1.L1_210625_다트게임" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.*" />
+          <option name="PATTERN" value="me.elyowon.programers.L1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,7 +300,8 @@
       <workItem from="1624021194102" duration="8443000" />
       <workItem from="1624188504145" duration="45213000" />
       <workItem from="1624541989607" duration="3282000" />
-      <workItem from="1624549242366" duration="22599000" />
+      <workItem from="1624549242366" duration="23437000" />
+      <workItem from="1624653057155" duration="20415000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -533,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624542285165</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="solved programmers 문자열">
+      <created>1624630939893</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1624630939894</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +595,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ps" />
     <MESSAGE value="study ps in JAVA (quickSort, middleQuickSort)" />
     <MESSAGE value="study ps in JAVA rotationMatrix &amp; two,three,fore Sum" />
     <MESSAGE value="study ps in JAVA dp" />
@@ -577,7 +619,8 @@
     <MESSAGE value="study programmers 배열" />
     <MESSAGE value="study programmers 조합,실패율" />
     <MESSAGE value="solved programmers 가운데글자가져오기,비밀지도" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved programmers 가운데글자가져오기,비밀지도" />
+    <MESSAGE value="solved programmers 문자열" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved programmers 문자열" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,14 +716,19 @@
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/레벨1_크레인인형.java</url>
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_크레인인형.java</url>
           <line>22</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L1_210625_다트게임.java</url>
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_다트게임.java</url>
           <line>16</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_수박.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
