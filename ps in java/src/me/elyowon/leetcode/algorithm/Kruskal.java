@@ -65,7 +65,7 @@ public class Kruskal {
             if (!isfind(set,v.get(i).node[0] - 1,v.get(i).node[1] - 1)) {
                 sum += v.get(i).distacne;
                 unionParent(set,v.get(i).node[0] - 1,v.get(i).node[1] - 1);
-            }
+          }
         }
 
         System.out.println("sum = " + sum);

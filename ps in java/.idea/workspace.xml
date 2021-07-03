@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_게임맵최단거리.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_뉴스클러스터링.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_전화번호목록.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_조이스틱.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_프린터.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_행렬테두리회전하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_괄호변환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_수식최대화.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_짝지어제거하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_짝지어제거하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,20 +95,7 @@
       <recent name="me.elyowon.leetcode.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L2_210702_행렬테두리회전하기">
-    <configuration name="레벨1_체육복" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_체육복" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.L2_210703_수식최대화">
     <configuration name="레벨1_크레인인형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_크레인인형" />
       <module name="ps in java" />
@@ -131,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.programers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.Kruskal" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_39_combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.backtracking.leetcode_39_combination" />
+    <configuration name="L2_210703_수식최대화" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210703_수식최대화" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.backtracking.*" />
+          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,10 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L2_210703_수식최대화" />
+        <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.L2_210702_행렬테두리회전하기" />
         <item itemvalue="Application.L2_210629_오픈채팅방" />
         <item itemvalue="Application.L2_210626_단체사진찍기" />
-        <item itemvalue="Application.leetcode_39_combination" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +262,8 @@
       <workItem from="1624653057155" duration="20415000" />
       <workItem from="1624718184010" duration="71453000" />
       <workItem from="1625224388043" duration="1434000" />
-      <workItem from="1625226869447" duration="3752000" />
+      <workItem from="1625226869447" duration="3832000" />
+      <workItem from="1625249377778" duration="24786000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -567,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625064526212</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="solved programmers l2 bfs, hash, greed">
+      <created>1625231088367</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1625231088367</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,8 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study LinkedList with java" />
-    <MESSAGE value="add tree &amp; queue" />
     <MESSAGE value="add tree &amp; BST (with bt)" />
     <MESSAGE value="study tree &amp; linkedlist" />
     <MESSAGE value="study dfs, bfs with java" />
@@ -611,7 +615,9 @@
     <MESSAGE value="solve programmers level 2 - permutation &amp; StringValid" />
     <MESSAGE value="solve programmers level 2 - stack, gcd 자료구조를 떠올리기 !!" />
     <MESSAGE value="solve programmers level 2 - bfs,dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve programmers level 2 - bfs,dfs" />
+    <MESSAGE value="solved programmers l2 bfs, hash, greed" />
+    <MESSAGE value="solve programmers L2 broteforce, recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve programmers L2 broteforce, recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,6 +756,11 @@
           <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_짝지어제거하기.java</url>
           <line>55</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_수식최대화.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
