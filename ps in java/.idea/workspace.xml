@@ -23,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_괄호변환.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_수식최대화.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210704_네이버웹툰.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210704_예상대진표.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_짝지어제거하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_짝지어제거하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_괄호변환.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_괄호변환.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <recent name="me.elyowon.leetcode.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L2_210703_수식최대화">
+  <component name="RunManager" selected="Application.L2_210703_메뉴리뉴얼">
     <configuration name="레벨1_크레인인형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_크레인인형" />
       <module name="ps in java" />
@@ -128,19 +129,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L2_210626_단체사진찍기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210626_단체사진찍기" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,13 +188,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L2_210703_메뉴리뉴얼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210703_메뉴리뉴얼" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L2_210703_메뉴리뉴얼" />
         <item itemvalue="Application.L2_210703_수식최대화" />
         <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.L2_210702_행렬테두리회전하기" />
         <item itemvalue="Application.L2_210629_오픈채팅방" />
-        <item itemvalue="Application.L2_210626_단체사진찍기" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,7 @@
       <workItem from="1624718184010" duration="71453000" />
       <workItem from="1625224388043" duration="1434000" />
       <workItem from="1625226869447" duration="3832000" />
-      <workItem from="1625249377778" duration="24786000" />
+      <workItem from="1625249377778" duration="46432000" />
     </task>
     <task id="LOCAL-00001" summary="add java in dataStructure">
       <created>1617192906876</created>
@@ -573,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625231088367</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="solve programmers L2 broteforce, recursion">
+      <created>1625324323783</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1625324323783</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add tree &amp; BST (with bt)" />
     <MESSAGE value="study tree &amp; linkedlist" />
     <MESSAGE value="study dfs, bfs with java" />
     <MESSAGE value="java stream study (use case)" />
@@ -617,7 +624,8 @@
     <MESSAGE value="solve programmers level 2 - bfs,dfs" />
     <MESSAGE value="solved programmers l2 bfs, hash, greed" />
     <MESSAGE value="solve programmers L2 broteforce, recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve programmers L2 broteforce, recursion" />
+    <MESSAGE value="solve programmers L2" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve programmers L2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
