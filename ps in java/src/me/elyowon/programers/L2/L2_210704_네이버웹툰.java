@@ -12,11 +12,38 @@ public class L2_210704_네이버웹툰 {
     public static void main(String[] args) {
         String s = "aabcbcd";
         String t = "abc";
-        int i = solution3(s,t);
+//        int i = solution3(s,t);
+        String[] strings = solution2("abcxyasdfasdfxyabc");
+        for (String string : strings) {
+            System.out.println("string = " + string);
+        }
     }
 
-    public String[] solution2(String s) {
+    public static String[] solution2(String s) {
+        List<String> list = new ArrayList<>();
         String[] answer = {};
+        int start = 0;
+        int size = s.length();
+        for(int i = 1; i < size; i++) {
+            if(s.substring(start, i).equals(s.substring(size-i))) {
+                list.add(s.substring(start, i));
+                s = s.substring(i, size-i);
+                i=0;
+                size = s.length();
+            }
+        }
+        if(s.length() != 0) {
+            answer = new String[list.size()*2+1];
+            answer[list.size()] = s;
+        }else {
+            answer = new String[list.size()*2];
+        }
+        for(int i = 0; i < list.size(); i++) {
+            answer[i] = list.get(i);
+        }
+        for(int i = 0; i < list.size(); i++) {
+            answer[i+(answer.length+1)/2] = list.get(list.size()-i-1);
+        }
         return answer;
     }
 

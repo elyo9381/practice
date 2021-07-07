@@ -25,8 +25,6 @@ public class FloydWarshall {
         }
     }
 
-    ;
-
     public static int number = 4;
     public static int INF = 100000;
 
@@ -35,7 +33,10 @@ public class FloydWarshall {
 
     public static void main(String[] args) {
 
-        IntStream.range(0,number).forEach(i -> graph[i] = new ArrayList<>());
+        int bound = number;
+        for (int i = 0; i < bound; i++) {
+            graph[i] = new ArrayList<>();
+        }
 
         graph[0].add(new Edge(1,0));
         graph[0].add(new Edge(2,5));
