@@ -36,6 +36,26 @@ public class Kruskal {
 
     ;
 
+
+    public int solution(int n, int[][] wires) {
+        int answer = -1;
+        boolean[] visited = new boolean[wires.length];
+
+//        for(int i =0 ;i < wires.length; i++){
+//            visited[i] = true;
+//
+//            int[] set = IntStream.rangeClosed(0,n).toArray();
+//
+//
+//
+//            visited[i] = false;
+//        }
+
+
+
+        return answer;
+    }
+
     public static void main(String[] args) {
 
         int n = 7;
@@ -53,6 +73,7 @@ public class Kruskal {
         v.add(new Edge(4,7,13));
         v.add(new Edge(5,6,45));
         v.add(new Edge(5,7,73));
+
 
 
         Collections.sort(v,(a,b) -> a.distacne - b.distacne);

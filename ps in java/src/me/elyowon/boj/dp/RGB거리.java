@@ -5,7 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
+/**
+ *
+ * 3
+ * 26 40 83
+ * 49 60 57
+ * 13 89 99
+ */
 public class RGB거리 {
 
     static int INF = 1000000000;
@@ -43,16 +49,15 @@ public class RGB거리 {
     }
 
     private static int RGB(int pos,int prev) {
-        int ret = dp[pos][prev];
 
-        if (ret != -1) return ret;
-        if (pos == N) return ret = 0;
+        if (dp[pos][prev] != -1) return dp[pos][prev];
+        if (pos == N) return dp[pos][prev] = 0;
 
-        ret = INF;
+        dp[pos][prev] = INF;
         for (int i = 0; i < 3; i++) {
-            if (prev != i) ret = Math.min(ret,RGB(pos + 1,i) + cost[pos][i]);
+            if (prev != i) dp[pos][prev] = Math.min(dp[pos][prev],RGB(pos + 1,i) + cost[pos][i]);
         }
-        return ret;
+        return dp[pos][prev];
     }
 
 }

@@ -14,7 +14,13 @@ public class L2_210709_다리를지나는트럭 {
         int solution = solution(2,10,new int[]{7,4,5,6});
 
         System.out.println("solution = " + solution);
+
+
+
     }
+
+
+
 
     public static int solution(int bridge_length,int weight,int[] truck_weights) {
         int time = 0;

@@ -23,9 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210708_거리두기확인하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210709_다리를지나는트럭.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/스티커_9465.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L3/L3_210713_다음큰숫자.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/사회망서비스_2533.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/사회망서비스_2533.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210709_다리를지나는트럭.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210709_다리를지나는트럭.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,66 +96,14 @@
       <recent name="me.elyowon.leetcode.tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.elyowon.programers.L3" />
+      <recent name="me.elyowon.boj.dp" />
       <recent name="me.elyowon.programers.L2" />
       <recent name="me.elyowon.programers" />
       <recent name="me.elyowon.leetcode.algorithm" />
-      <recent name="me.elyowon.leetcode.greedy" />
-      <recent name="me.elyowon.leetcode.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L2_210709_다리를지나는트럭">
-    <configuration name="레벨1_크레인인형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_크레인인형" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="레벨1_키패드누르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.레벨1_키패드누르기" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.algorithm.FloydWarshall" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L2_210703_수식최대화" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210703_수식최대화" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.이진수찾기_2248">
     <configuration name="L2_210703_메뉴리뉴얼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210703_메뉴리뉴얼" />
       <module name="ps in java" />
@@ -159,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L2_210704_예상대진표" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210704_예상대진표" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="L2_210704_네이버웹툰" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210704_네이버웹툰" />
       <module name="ps in java" />
@@ -198,12 +143,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L2_210709_다리를지나는트럭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210709_다리를지나는트럭" />
+    <configuration name="RGB거리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.RGB거리" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.L2.*" />
+          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="이진수찾기_2248" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.이진수찾기_2248" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="사회망서비스_2533" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.사회망서비스_2533" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스티커_9465" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.스티커_9465" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode_323_connectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.graph.leetcode_323_connectedComponent" />
+      <module name="ps in java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.elyowon.leetcode.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,10 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L2_210709_다리를지나는트럭" />
-        <item itemvalue="Application.FloydWarshall" />
-        <item itemvalue="Application.L2_210704_예상대진표" />
-        <item itemvalue="Application.L2_210703_수식최대화" />
+        <item itemvalue="Application.이진수찾기_2248" />
+        <item itemvalue="Application.스티커_9465" />
+        <item itemvalue="Application.사회망서비스_2533" />
+        <item itemvalue="Application.RGB거리" />
+        <item itemvalue="Application.leetcode_323_connectedComponent" />
       </list>
     </recent_temporary>
   </component>
@@ -275,21 +273,10 @@
       <workItem from="1625226869447" duration="3832000" />
       <workItem from="1625249377778" duration="88058000" />
       <workItem from="1625681924040" duration="8560000" />
-      <workItem from="1625745469331" duration="23450000" />
-    </task>
-    <task id="LOCAL-00001" summary="add java in dataStructure">
-      <created>1617192906876</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1617192906876</updated>
-    </task>
-    <task id="LOCAL-00002" summary="study java ArrayList with bfs">
-      <created>1617280024864</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617280024864</updated>
+      <workItem from="1625745469331" duration="48471000" />
+      <workItem from="1625993787856" duration="25313000" />
+      <workItem from="1626100270688" duration="1639000" />
+      <workItem from="1626179567973" duration="3404000" />
     </task>
     <task id="LOCAL-00003" summary="study combination">
       <created>1617627198904</created>
@@ -620,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625755142441</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="solve programmers L2 큐, dfs">
+      <created>1625841404030</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1625841404031</updated>
+    </task>
+    <task id="LOCAL-00051" summary="study dp">
+      <created>1626015385700</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1626015385701</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +640,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study kruskal,floydwarshall,dijkstra,bipartiteMatching,SCC,networkFlow" />
     <MESSAGE value="study greedy algorithm" />
     <MESSAGE value="study algorithm" />
     <MESSAGE value="study algorithm aho-corasick ( use trie, kmp)" />
@@ -664,7 +664,8 @@
     <MESSAGE value="solve programmers L2 문자열, 이진탐색, 해시" />
     <MESSAGE value="solve programmers L2 배달" />
     <MESSAGE value="solve programmers L2 큐, dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve programmers L2 큐, dfs" />
+    <MESSAGE value="study dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="study dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,8 +817,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210709_다리를지나는트럭.java</url>
-          <line>118</line>
+          <line>124</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -847,12 +853,27 @@
           </properties>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java</url>
+          <line>50</line>
+          <properties class="me.elyowon.boj.dp.RGB거리" method="RGB">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/me/elyowon/boj/dp/스티커_9465.java</url>
+          <line>15</line>
+          <properties field="MAX" class="me.elyowon.boj.dp.스티커_9465" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="number" />
         <watch expression="curr.get(6)" />
+        <watch expression="RGB거리.dp" />
       </configuration>
     </watches-manager>
   </component>
