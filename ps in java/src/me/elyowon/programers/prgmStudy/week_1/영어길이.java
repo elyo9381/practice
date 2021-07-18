@@ -14,21 +14,22 @@ public class 영어길이 {
 
             HashSet<String> hs = new HashSet<String>();
 
-            int wordIdx2 = 1;
-            for(int wordIdx1 = 0; wordIdx1 < words.length-1; wordIdx1++, wordIdx2++){
+            int failWordsIdx = 0;
+            hs.add(words[0]);
+            for(int i = 1; i < words.length; i++){
 
-                hs.add(words[wordIdx1]);
+                if(hs.contains(words[i])) break;
+                hs.add(words[i]);
 
-                char FirstStr_LastChar = words[wordIdx1].charAt(words[wordIdx1].length()-1);
-                char SecondStr_FirstChar = words[wordIdx2].charAt(0);
+                char lastChar = words[i-1].charAt(words[i-1].length()-1);
+                char firstChar = words[i].charAt(0);
+                if(lastChar != firstChar) break;
 
-                if(hs.contains(words[wordIdx2])) break;
-                if(SecondStr_FirstChar != FirstStr_LastChar) break;
 
             }
-            if(wordIdx2 == words.length) return new int[]{0,0};
+            if(failWordsIdx == words.length) return new int[]{0,0};
 
-            return new int[]{(wordIdx2)%n + 1,(wordIdx2)/n + 1};
+            return new int[]{(failWordsIdx)%n + 1,(failWordsIdx)/n + 1};
         }
     }
 }

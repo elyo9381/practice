@@ -4,8 +4,7 @@ import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -79,4 +78,5 @@ public class 이진수찾기_2248 {
             skip(n - 1,m - 1,k - pivot,p + 1);
         }
     }
+
 }

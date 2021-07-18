@@ -2,6 +2,8 @@ package me.elyowon.programers.prgmStudy.week_1;
 
 
 import java.util.*;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * 요구사항 학생을 추가할수있음 ( 찍기 배열도 마찬가지)
@@ -10,29 +12,48 @@ public class 모의고사 {
 
     class Student {
         int[] randomPick;
-        int randomPickPattenSize;
+        int correct;
+        int studentNumber;
 
-        Student(int[] randomPick,int randomPickPattenSize) {
-            this.randomPick = randomPick;
-            this.randomPickPattenSize = randomPickPattenSize;
+        public int getCorrect() {
+            return correct;
         }
 
-        public Integer checkPatten(int[] answers,int idx){
-            HashMap<Integer,Integer> hs = new HashMap<>();
-            for(int i =0 ; i<answers.length; i++){
-                if(answers[i] == randomPick[i%randomPickPattenSize]) hs.put(idx,hs.getOrDefault(idx,0)+1);
+        public int getStudentNumber() {
+            return studentNumber;
+        }
+
+        Student(int[] randomPick,int number) {
+            this.randomPick = randomPick;
+            this.studentNumber = number;
+        }
+
+        private void checkPatten(int[] answers) {
+
+            int count = 0;
+            for (int i = 0; i < answers.length; i++) {
+                if (answers[i] == randomPick[i % randomPick.length]){
+                    count++;
+                }
             }
-            Integer result = hs.get(idx);
-            return (result == null) ? 0 : result;
+            this.correct = count;
+            return;
         }
 
     }
 
-    private ArrayList<Student> init(){
+    private ArrayList<Student> init() {
+
+        int[][] initStudents = {
+                {1,2,3,4,5},
+                {2,1,2,3,2,4,2,5},
+                {3,3,1,1,2,2,4,4,5,5}
+        };
+
         ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student(new int[]{1,2,3,4,5},5));
-        students.add(new Student(new int[]{2,1,2,3,2,4,2,5},8));
-        students.add(new Student(new int[]{3,3,1,1,2,2,4,4,5,5},10));
+        for(int i =0; i<initStudents.length; i++){
+            students.add(new Student(initStudents[i],i+1));
+        }
         return students;
     }
 
@@ -40,22 +61,13 @@ public class 모의고사 {
     public int[] solution(int[] answers) {
 
         ArrayList<Student> students = init();
-        HashMap<Integer,Integer> hs = new HashMap<>();
 
+        IntStream.range(0,students.size()).forEach(idx -> students.get(idx).checkPatten(answers));
 
-        for (int idx = 0; idx <students.size(); idx++) {
+        int max = students.stream().mapToInt(student -> student.getCorrect()).max().getAsInt();
 
-            Integer value = students.get(idx).checkPatten(answers,idx + 1);
-            hs.put(idx+1,value);
-//            for(int i =0 ; i<answers.length; i++){
-//                int pattensize = students.get(idx).getRandomPickPattenSize();
-//                if(answers[i] == students.get(idx).randomPick[i%pattensize]) hs.put(idx+1,hs.getOrDefault(idx+1,0)+1);
-//            }
-        }
+        return students.stream().filter(student -> student.getCorrect() == max)
+                .mapToInt(student -> student.getStudentNumber()).toArray();
 
-        List<Map.Entry<Integer,Integer>> list = new LinkedList<>(hs.entrySet());
-        int max = list.stream().mapToInt(i->i.getValue()).max().getAsInt();
-
-        return list.stream().filter(v -> v.getValue() == max).mapToInt(v -> v.getKey()).toArray();
     }
 }

@@ -23,17 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210714_K번째.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L3_210713_다음큰숫자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L3_210714_방문길이.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내마음대로정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L3/L3_210713_다음큰숫자.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,14 +269,7 @@
       <workItem from="1625745469331" duration="48471000" />
       <workItem from="1625993787856" duration="25313000" />
       <workItem from="1626100270688" duration="1639000" />
-      <workItem from="1626179567973" duration="41750000" />
-    </task>
-    <task id="LOCAL-00004" summary="study ps">
-      <created>1617718654683</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1617718654683</updated>
+      <workItem from="1626179567973" duration="49784000" />
     </task>
     <task id="LOCAL-00005" summary="study java in boj">
       <created>1617976405421</created>
@@ -620,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626187785373</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="refactoring oop , value nameing">
+      <created>1626443603354</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1626443603354</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +633,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study algorithm" />
     <MESSAGE value="study algorithm aho-corasick ( use trie, kmp)" />
     <MESSAGE value="typo code" />
     <MESSAGE value="study programes-로또최고순위와최저순위" />
@@ -664,7 +657,8 @@
     <MESSAGE value="solve programmers L2 큐, dfs" />
     <MESSAGE value="study dp" />
     <MESSAGE value="dp &amp; bitOperation" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp &amp; bitOperation" />
+    <MESSAGE value="refactoring oop , value nameing" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring oop , value nameing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,6 +4,7 @@ package me.elyowon.programers.prgmStudy.week_1;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * 문자열의 문자 하나를 비교하고 같으면 문자열 자체를 비교하는 방법으로 풀었다.
@@ -43,20 +44,10 @@ public class L1_210625_문자열내마음대로정렬하기 {
     }
 
     public String[] solution1(String[] strings, int n) {
-
-
-        List<String> collect = Arrays.stream(strings).collect(Collectors.toList());
-
-        collect.sort((a,b)-> {
-                    if(a.charAt(n) != b.charAt(n)){
-                        return Character.compare(a.charAt(n), b.charAt(n));
-                    }
-                    return a.compareTo(b);
-                }
-        );
-
-        return IntStream.range(0,strings.length).mapToObj(i->collect.get(i)).toArray(String[]::new);
-
+        return Stream.of(strings).sorted((a,b) -> {
+            if (a.charAt(n) != b.charAt(n)) return Character.compare(a.charAt(n),b.charAt(n));
+            return a.compareTo(b);
+        }).toArray(String[]::new);
     }
 }
 
