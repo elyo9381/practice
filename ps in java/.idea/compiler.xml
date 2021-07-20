@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ps" target="11" />
+      <module name="ps-in-java.app" target="11" />
+      <module name="ps.main" target="11" />
+      <module name="ps.test" target="11" />
+      <module name="ps_with_java" target="11" />
+      <module name="tdd-sample.app" target="11" />
+      <module name="tdd-sample.app.main" target="11" />
+      <module name="tdd-sample.app.test" target="11" />
+      <module name="tdd-sample.buildSrc" target="11" />
+      <module name="tdd-sample.buildSrc.main" target="11" />
+      <module name="tdd-sample.buildSrc.test" target="11" />
+      <module name="tdd-sample.list" target="11" />
+      <module name="tdd-sample.list.main" target="11" />
+      <module name="tdd-sample.list.test" target="11" />
+      <module name="tdd-sample.utilities" target="11" />
+      <module name="tdd-sample.utilities.main" target="11" />
+      <module name="tdd-sample.utilities.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

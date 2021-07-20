@@ -23,21 +23,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/tdd-sample.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/list/tdd-sample.list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ps.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ps.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-sample.buildSrc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/utilities/tdd-sample.utilities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_2/올바른괄호.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ps in java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ps in java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$USER_HOME$/TIL/tdd/ps-in-java/ps">
+      <ProjectState />
+    </projectState>
+    <projectState path="$USER_HOME$/TIL/tdd/tdd-sample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../ps with java">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,26 +100,35 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/me/elyowon/programers/L1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="me.elyowon.ndb796" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java" />
       <recent name="$PROJECT_DIR$/src/me/elyowon/programers/L1" />
       <recent name="$PROJECT_DIR$/src/me/elyowon/leetcode" />
       <recent name="$PROJECT_DIR$/src/me/elyowon/ndb796" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="me.elyowon.leetcode.tree" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="elyowon.programers.prgmStudy.week_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="me.elyowon.programers.prgmStudy.week_1" />
@@ -96,52 +138,13 @@
       <recent name="me.elyowon.programers.L2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.이진수찾기_2248">
-    <configuration name="L2_210703_메뉴리뉴얼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210703_메뉴리뉴얼" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.prgmStudy.week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L2_210704_네이버웹툰" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210704_네이버웹툰" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.programers.prgmStudy.week_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.올바른괄호Test.test">
     <configuration name="L2_210704_네이버웹툰" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.elyowon.programers.L2.L2_210704_네이버웹툰" />
       <module name="ps in java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.elyowon.programers.L2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RGB거리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.RGB거리" />
-      <module name="ps in java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,26 +191,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_323_connectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.leetcode.graph.leetcode_323_connectedComponent" />
-      <module name="ps in java" />
+    <configuration name="올바른괄호Test.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$USER_HOME$/TIL/tdd/ps-in-java/ps" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;elyowon.programers.prgmStudy.week_2.올바른괄호Test.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ps:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="올바른괄호Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps-in-java.ps.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.leetcode.graph.*" />
+          <option name="PATTERN" value="elyowon.programers.prgmStudy.week_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="elyowon.programers.prgmStudy.week_2" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_2.올바른괄호Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.올바른괄호Test.test" />
+        <item itemvalue="Gradle.올바른괄호Test.test" />
         <item itemvalue="Application.이진수찾기_2248" />
         <item itemvalue="Application.스티커_9465" />
         <item itemvalue="Application.사회망서비스_2533" />
-        <item itemvalue="Application.RGB거리" />
-        <item itemvalue="Application.leetcode_323_connectedComponent" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +296,7 @@
       <workItem from="1625745469331" duration="48471000" />
       <workItem from="1625993787856" duration="25313000" />
       <workItem from="1626100270688" duration="1639000" />
-      <workItem from="1626179567973" duration="49784000" />
+      <workItem from="1626179567973" duration="53893000" />
     </task>
     <task id="LOCAL-00005" summary="study java in boj">
       <created>1617976405421</created>
