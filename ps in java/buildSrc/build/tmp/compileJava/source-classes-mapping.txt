@@ -1,0 +1,6 @@
+ComDdoeriJavaLibraryConventionsPlugin.java
+ ComDdoeriJavaLibraryConventionsPlugin
+ComDdoeriJavaCommonConventionsPlugin.java
+ ComDdoeriJavaCommonConventionsPlugin
+ComDdoeriJavaApplicationConventionsPlugin.java
+ ComDdoeriJavaApplicationConventionsPlugin
