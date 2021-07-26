@@ -23,6 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="modify project (basicJavaPrj to gradleJavaPrj)">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/tdd-sample.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/list/tdd-sample.list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ps.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ps.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/tdd-sample.buildSrc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/tdd-sample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/utilities/tdd-sample.utilities.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -390,6 +413,7 @@
       <workItem from="1626839658186" duration="4897000" />
       <workItem from="1627050789096" duration="10370000" />
       <workItem from="1627101963886" duration="66842000" />
+      <workItem from="1627305465706" duration="454000" />
     </task>
     <task id="LOCAL-00007" summary="study java">
       <created>1618411988408</created>
