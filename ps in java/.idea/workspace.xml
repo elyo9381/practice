@@ -22,492 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../boj in java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="modify project (basicJavaPrj to gradleJavaPrj)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvToDev-study.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/boj/그리디/boj2613.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/boj/그리디/뒤집기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Piece.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_10_큐.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_12_factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_13_인접행렬.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_14_인접리스트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_15_DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_16_BFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_17_sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_18_BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_19_떡볶이떡.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_1_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_20_DP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_21_1로만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_22_효율적인화폐구성.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_23_특정도시찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_24_모험가길드.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_25_곱하기혹은더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_26_럭키스트레이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_27_문자열압축.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_28_자물쇠와열쇠.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_29_뱀.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_30_기둥보.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_31_치킨배달.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_32_외벽점검.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_33_연구소.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_4_일이될때까지.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_5_상하좌우.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_6_시각.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_7_왕실나이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_8_게임개발.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_9_스택.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/boj in java/me/elyowon/ndb796/_조합_순열_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/boj/그리디/boj2613.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/boj/그리디/뒤집기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/PrintTopViewofTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/QItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/T_Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/divAndCon/skyline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_23_Merge_k_sortedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_295_Median$MedianFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_295_Median.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode_347_Top_k_Frequent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Heap/leetcode__Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_141_LinkedListCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_143_reOderList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_146_LRUCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_146_LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_19_nNodeDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_203_RemoveLinkedListElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_21_MergeTwoSortList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_2_ReverseTwoAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_86_partitionList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_879_MiddleOfTheLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedList/leetcode_LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedListNode$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/LinkedListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Pos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Queue/leetcode_328_Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Queue/leetcode_622_CircleQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/Queue/leetcode_MaxQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Aho_Corasick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/BipartiteMatching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/FloydWarshall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/Kruskal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/NetworkFlow$FordFulkerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/NetworkFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/SCC_StronlyConnectedComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/TrieNode$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/algorithm/TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_162.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_18_4sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_209.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_240.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_259.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_48.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_56.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_581.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_75.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/array/leetcode_88.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_22_gernerateParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_37_sudoku.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_39_combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_46_permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_78_Subset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_79_WordSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_1143_LongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_139_wordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_152_MaxiumProductSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_518_coinChange2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/dp/leetcode_knapsack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_1091_graphShortPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_133_CloneGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_200_Islands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_207_DetecingCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_733_FloodFill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_841_graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/graph/leetcode_TopologicalOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode_1029_TwoCityScheduling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode_1578_MinDeletionCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode_1710_MaximumUnitsOnTruck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode_435_overlappingIntervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode__GlobalMinimum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/greedy/leetcode__MeetingRooms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Solution$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_108_sortedArrayToBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_113_tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_117_nextRightPointers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_212_wordSearch$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_212_wordSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_236_LCA_LowestCommonAncetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_543_DiameterTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_98_BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/leetcode/tree/leetcode_tree_traval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Piece.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/Virus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_10_큐.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_12_factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_13_인접행렬.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_14_인접리스트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_15_DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_16_BFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_17_sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_18_BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_19_떡볶이떡.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_1_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_20_DP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_21_1로만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_22_효율적인화폐구성.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_23_특정도시찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_24_모험가길드.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_25_곱하기혹은더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_26_럭키스트레이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_27_문자열압축.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_28_자물쇠와열쇠.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_29_뱀.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_30_기둥보.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_31_치킨배달.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_32_외벽점검.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_33_연구소.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_34_경쟁적전염.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_4_일이될때까지.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_5_상하좌우.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_6_시각.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_7_왕실나이트.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_8_게임개발.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_9_스택.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/ndb796/_조합_순열_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210624_가운데글자가져오기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210624_비밀지도.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_같은숫자는싫어.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_나누어떨어지는숫자배열.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_다트게임.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_두정수사이의합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_문자열내p와y의개수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_문자열내림차순.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_문자열내마음대로정렬하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_문자열다루기기본.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210625_서울에서김서방찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_문자열을정수로바꾸기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_소수찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_수박.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_시저암호.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_약수의합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_이상한문자만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_자릿수더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_자연수뒤집어배열로만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_정수내림차순으로배치하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_정수제곱근판별.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_제일작은수제거하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_최대공약수최소공배수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_콜라츠추측.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_평균구하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_핸드폰번호가리기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/L1_210626_행렬의덧셈.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/괄호회전하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_3진법뒤집기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_내적.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_두개뽑아서더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_로또최고순위와최저순위.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_소수만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_신규아이디추천.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_실패율$Stage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_실패율.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_약수의갯수덧셈.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_예산.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_음양더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_체육복.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_크레인인형.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_키패드누르기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/레벨1_폰켓몬.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/모두0으로만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/모의고사_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L1/완주하지못한선수_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210626_단체사진찍기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_124나라의숫자.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_더맵게.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_멀쩡한사각형.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_오픈채팅방$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_오픈채팅방.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210629_짝지어제거하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210630_기능개발.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210630_문자열압축.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210630_카카오프렌즈컬러링북$pos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210630_카카오프렌즈컬러링북.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210630_타켓넘버_nextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_게임맵최단거리$Pos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_게임맵최단거리.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_뉴스클러스터링.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_전화번호목록.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_조이스틱.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_프린터$paper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_프린터.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210702_행렬테두리회전하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210703_괄호변환.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210703_수식최대화.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210704_네이버웹툰.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ps in java/me/elyowon/programers/L2/L2_210704_예상대진표.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ps in java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/사회망서비스_2533.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/스티커_9465.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/dp/이진수찾기_2248.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/그리디/boj2613.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/boj/그리디/뒤집기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/divAndCon/PrintTopViewofTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/divAndCon/skyline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Heap/leetcode_23_Merge_k_sortedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Heap/leetcode_295_Median.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Heap/leetcode_347_Top_k_Frequent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Heap/leetcode__Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_138_copyListwithRandomPointer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_141_LinkedListCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_143_reOderList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_146_LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_160_IntersectionOfTwoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_19_nNodeDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_203_RemoveLinkedListElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_206_ReverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_21_MergeTwoSortList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_2_ReverseTwoAdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_86_partitionList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_879_MiddleOfTheLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedList/leetcode_LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/LinkedListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Pos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Queue/leetcode_328_Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Queue/leetcode_622_CircleQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/Queue/leetcode_MaxQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Aho_Corasick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/BipartiteMatching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Dijkstra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/FloydWarshall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/KMP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/Kruskal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/NetworkFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/algorithm/SCC_StronlyConnectedComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_162.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_18_4sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_209.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_240.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_259.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_48.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_56.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_581.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_75.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/array/leetcode_88.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_17_phoneKeypad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_22_gernerateParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_37_sudoku.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_39_combination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_46_permutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_51_NQueens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_78_Subset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_79_WordSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_93_IPAddresses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_1143_LongestCommonSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_139_wordBreak.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_152_MaxiumProductSubarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_20.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_416_PartitionEqualSubsetSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_518_coinChange2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_53_MaxiumSubarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_5_LogestPalindromicSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_91_dp_decodeWays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/dp/leetcode_knapsack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_1091_graphShortPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_133_CloneGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_200_Islands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_207_DetecingCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_323_connectedComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_733_FloodFill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_841_graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/graph/leetcode_TopologicalOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1029_TwoCityScheduling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1578_MinDeletionCost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_1710_MaximumUnitsOnTruck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode_435_overlappingIntervals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode__GlobalMinimum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/greedy/leetcode__MeetingRooms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/Trie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_105_ConstructTreeTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_108_sortedArrayToBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_113_tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_117_nextRightPointers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_212_wordSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_236_LCA_LowestCommonAncetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_543_DiameterTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_98_BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/leetcode/tree/leetcode_tree_traval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_10_큐.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_12_factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_13_인접행렬.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_14_인접리스트.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_15_DFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_16_BFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_17_sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_18_BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_19_떡볶이떡.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_1_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_20_DP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_21_1로만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_22_효율적인화폐구성.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_23_특정도시찾기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_24_모험가길드.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_25_곱하기혹은더하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_26_럭키스트레이트.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_27_문자열압축.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_28_자물쇠와열쇠.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_29_뱀.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_30_기둥보.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_31_치킨배달.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_32_외벽점검.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_33_연구소.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_34_경쟁적전염.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_4_일이될때까지.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_5_상하좌우.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_6_시각.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_7_왕실나이트.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_8_게임개발.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_9_스택.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/ndb796/_조합_순열_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210624_가운데글자가져오기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210624_비밀지도.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_같은숫자는싫어.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_나누어떨어지는숫자배열.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_다트게임.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_두정수사이의합.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내p와y의개수.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열내림차순.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_문자열다루기기본.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210625_서울에서김서방찾기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_문자열을정수로바꾸기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_소수찾기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_수박.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_시저암호.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_약수의합.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_이상한문자만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_자릿수더하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_자연수뒤집어배열로만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_정수내림차순으로배치하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_정수제곱근판별.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_제일작은수제거하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_최대공약수최소공배수.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_콜라츠추측.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_평균구하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_핸드폰번호가리기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/L1_210626_행렬의덧셈.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/괄호회전하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_3진법뒤집기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_내적.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_두개뽑아서더하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_로또최고순위와최저순위.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_소수만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_신규아이디추천.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_실패율.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_약수의갯수덧셈.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_예산.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_음양더하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_체육복.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_크레인인형.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_키패드누르기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/레벨1_폰켓몬.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/모두0으로만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/모의고사_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L1/완주하지못한선수_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210626_단체사진찍기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_124나라의숫자.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_더맵게.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_멀쩡한사각형.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_오픈채팅방.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_짝지어제거하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210630_기능개발.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210630_문자열압축.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210630_카카오프렌즈컬러링북.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210630_타켓넘버_nextPermutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_게임맵최단거리.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_뉴스클러스터링.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_전화번호목록.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_조이스틱.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_프린터.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210702_행렬테두리회전하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_괄호변환.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_메뉴리뉴얼.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210703_수식최대화.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210704_네이버웹툰.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210704_예상대진표.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210706_소수찾기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210706_큰수만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210706_튜플.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210707_배달.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210707_순위검색.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210708_거리두기확인하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210709_다리를지나는트럭.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210625_문자열내마음대로정렬하기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210714_K번째.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L3_210713_다음큰숫자.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/L3_210714_방문길이.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/모의고사.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_1/영어길이.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/elyowon/programers/prgmStudy/week_2/올바른괄호.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -662,23 +178,26 @@
       <recent name="me.elyowon.leetcode.tree" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="elyowon.leetcode.graph" />
+      <recent name="elyowon.leetcode.algorithm" />
+      <recent name="elyowon.programers.prgmStudy.week_3" />
       <recent name="elyowon.programers.prgmStudy.week_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="elyowon.programers.prgmStudy.week_3" />
       <recent name="elyowon.programers.prgmStudy.week_2" />
       <recent name="me.elyowon.programers.prgmStudy.week_1" />
       <recent name="me.elyowon.programers.prgmStudy" />
       <recent name="me.elyowon.programers.L3" />
-      <recent name="me.elyowon.boj.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.올바른괄호Test">
-    <configuration name="이진수찾기_2248" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.elyowon.boj.dp.이진수찾기_2248" />
-      <module name="ps in java" />
+  <component name="RunManager" selected="JUnit.leetcode_785_BipartiteGraphTest.test">
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elyowon.leetcode.algorithm.KMP" />
+      <module name="ps-in-java.ps.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.elyowon.boj.dp.*" />
+          <option name="PATTERN" value="elyowon.leetcode.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -686,43 +205,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="올바른괄호Test.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$USER_HOME$/TIL/tdd/ps-in-java/ps" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;elyowon.programers.prgmStudy.week_2.올바른괄호Test.test&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":ps:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="올바른괄호Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KMPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ps-in-java.ps.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elyowon.programers.prgmStudy.week_2.*" />
+          <option name="PATTERN" value="elyowon.leetcode.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="elyowon.programers.prgmStudy.week_2" />
-      <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_2.올바른괄호Test" />
+      <option name="PACKAGE_NAME" value="elyowon.leetcode.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.leetcode.algorithm.KMPTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="올바른괄호Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KMPTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps-in-java.ps.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elyowon.leetcode.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elyowon.leetcode.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.leetcode.algorithm.KMPTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="위장Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ps-in-java.ps.test" />
       <extension name="coverage">
         <pattern>
@@ -731,7 +245,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elyowon.programers.prgmStudy.week_2" />
-      <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_2.올바른괄호Test" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_2.위장Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -786,12 +300,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode_785_BipartiteGraphTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ps-in-java.ps.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elyowon.leetcode.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elyowon.leetcode.graph" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.leetcode.graph.leetcode_785_BipartiteGraphTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.올바른괄호Test" />
-        <item itemvalue="JUnit.올바른괄호Test.test" />
-        <item itemvalue="Gradle.올바른괄호Test.test" />
-        <item itemvalue="Application.이진수찾기_2248" />
+        <item itemvalue="JUnit.leetcode_785_BipartiteGraphTest.test" />
+        <item itemvalue="JUnit.KMPTest.test" />
+        <item itemvalue="JUnit.KMPTest" />
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="JUnit.위장Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -857,14 +388,8 @@
       <workItem from="1626838674200" duration="530000" />
       <workItem from="1626839287347" duration="342000" />
       <workItem from="1626839658186" duration="4897000" />
-      <workItem from="1627050789096" duration="1335000" />
-    </task>
-    <task id="LOCAL-00006" summary="study java">
-      <created>1618238192489</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1618238192489</updated>
+      <workItem from="1627050789096" duration="10370000" />
+      <workItem from="1627101963886" duration="66842000" />
     </task>
     <task id="LOCAL-00007" summary="study java">
       <created>1618411988408</created>
@@ -1202,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626784915914</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="modify project (basicJavaPrj to gradleJavaPrj)">
+      <created>1627052247443</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1627052247443</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1421,6 +953,31 @@
           <line>8</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="13" />
@@ -1428,7 +985,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_79_WordSearch.java</url>
           <line>54</line>
-          <properties class="me.elyowon.leetcode.backtracking.leetcode_79_WordSearch" method="backtrack">
+          <properties class="me.elyowon.leetcode.backtracking.leetcode_79_WordSearch">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="16" />
@@ -1436,7 +993,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/me/elyowon/leetcode/backtracking/leetcode_46_permutation.java</url>
           <line>31</line>
-          <properties class="me.elyowon.leetcode.backtracking.leetcode_46_permutation" method="dfs">
+          <properties class="me.elyowon.leetcode.backtracking.leetcode_46_permutation">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="69" />
@@ -1444,7 +1001,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/me/elyowon/programers/L2/L2_210629_짝지어제거하기.java</url>
           <line>53</line>
-          <properties class="me.elyowon.programers.L2.L2_210629_짝지어제거하기" method="solve">
+          <properties class="me.elyowon.programers.L2.L2_210629_짝지어제거하기">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="96" />
@@ -1452,7 +1009,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/me/elyowon/boj/dp/RGB거리.java</url>
           <line>50</line>
-          <properties class="me.elyowon.boj.dp.RGB거리" method="RGB">
+          <properties class="me.elyowon.boj.dp.RGB거리">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="110" />
@@ -1464,6 +1021,38 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java</url>
+          <line>91</line>
+          <properties class="elyowon.programers.prgmStudy.week_3.네트워크" method="unionParent">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java</url>
+          <line>105</line>
+          <properties class="elyowon.programers.prgmStudy.week_3.네트워크" method="getParent">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/test/java/elyowon/programers/prgmStudy/week_2/위장Test.java</url>
+          <line>35</line>
+          <properties class="elyowon.programers.prgmStudy.week_2.위장Test" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$USER_HOME$/TIL/tdd/ps-in-java/ps/src/main/java/elyowon/leetcode/graph/leetcode_785_BipartiteGraph.java</url>
+          <line>45</line>
+          <properties class="elyowon.leetcode.graph.leetcode_785_BipartiteGraph" method="vaildColor">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/me/elyowon/boj/dp/스티커_9465.java</url>
