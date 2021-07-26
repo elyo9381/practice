@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="elyowon.programers.prgmStudy.week_2.주식가격Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-26T13:54:17" hostname="yoelui-MacBookPro.local" time="0.031">
+  <properties/>
+  <testcase name="test()" classname="elyowon.programers.prgmStudy.week_2.주식가격Test" time="0.031"/>
+  <system-out><![CDATA[i = 1
+i = 1
+i = 1
+i = 1
+i = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
