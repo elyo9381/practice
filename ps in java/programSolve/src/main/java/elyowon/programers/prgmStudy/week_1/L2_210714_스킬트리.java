@@ -13,6 +13,20 @@ import java.util.List;
  */
 public class L2_210714_스킬트리 {
 
+    // 프로그래머스 제출한 코드 startWith의 방법으로도 풀이가 가능함을 생각하자
+    public int solution2(String skill, String[] skill_trees) {
+        int answer = 0;
+        for (String tree : skill_trees) {
+            String temp = "";
+            for (int i = 0; i < tree.length(); i++) {
+                String t = String.valueOf(tree.charAt(i));
+                if (skill.contains(t)) {temp += t;}
+            }
+            if(skill.startsWith(temp)) answer++;
+        }
+        return answer;
+    }
+
     public int solution(String skill, String[] skill_trees) {
         int answer = 0;
 

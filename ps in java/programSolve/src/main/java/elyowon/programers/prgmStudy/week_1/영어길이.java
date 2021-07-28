@@ -11,25 +11,25 @@ public class 영어길이 {
     public class Solution {
         public int[] solution(int n, String[] words) {
 
+            int[] answer = new int[2];
 
             HashSet<String> hs = new HashSet<String>();
 
-            int failWordsIdx = 0;
             hs.add(words[0]);
-            for(int i = 1; i < words.length; i++){
-
-                if(hs.contains(words[i])) break;
-                hs.add(words[i]);
+            for(int i = 1; i <words.length; i++){
 
                 char lastChar = words[i-1].charAt(words[i-1].length()-1);
                 char firstChar = words[i].charAt(0);
-                if(lastChar != firstChar) break;
 
-
+                if(lastChar != firstChar || hs.contains(words[i])){
+                    answer[0]= i % n +1;
+                    answer[1]= i / n +1;
+                    break;
+                }
+                hs.add(words[i]);
             }
-            if(failWordsIdx == words.length) return new int[]{0,0};
 
-            return new int[]{(failWordsIdx)%n + 1,(failWordsIdx)/n + 1};
+            return answer;
         }
     }
 }
