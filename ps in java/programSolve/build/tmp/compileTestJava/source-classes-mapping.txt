@@ -4,3 +4,5 @@ elyowon/programers/prgmStudy/week_2/주식가격Test.java
  elyowon.programers.prgmStudy.week_2.주식가격Test
 elyowon/programers/prgmStudy/week_2/완주하지못한선수Test.java
  elyowon.programers.prgmStudy.week_2.완주하지못한선수Test
+elyowon/programers/prgmStudy/week_3/단어변환Test.java
+ elyowon.programers.prgmStudy.week_3.단어변환Test

@@ -173,12 +173,12 @@ elyowon/programers/L1/L1_210626_약수의합.java
  elyowon.programers.L1.L1_210626_약수의합
 elyowon/leetcode/array/leetcode_48.java
  elyowon.leetcode.array.leetcode_48
-elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.java
- elyowon.programers.prgmStudy.week_1.L2_210714_스킬트리
+elyowon/programers/L1/L1_210626_최대공약수최소공배수.java
+ elyowon.programers.L1.L1_210626_최대공약수최소공배수
 elyowon/programers/L2/L2_210630_타켓넘버_nextPermutation.java
  elyowon.programers.L2.L2_210630_타켓넘버_nextPermutation
-elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.java
- elyowon.programers.prgmStudy.week_1.L1_210714_소수만들기
+elyowon/leetcode/ListNode.java
+ elyowon.leetcode.ListNode
 elyowon/leetcode/array/leetcode_581.java
  elyowon.leetcode.array.leetcode_581
 elyowon/ndb796/_7_왕실나이트.java
@@ -368,9 +368,8 @@ elyowon/leetcode/backtracking/leetcode_37_sudoku.java
 elyowon/leetcode/tree/Trie.java
  elyowon.leetcode.tree.Trie
  elyowon.leetcode.tree.Trie$TrieNode
-elyowon/programers/prgmStudy/week_1/영어길이.java
- elyowon.programers.prgmStudy.week_1.영어길이
- elyowon.programers.prgmStudy.week_1.영어길이$Solution
+elyowon/leetcode/array/leetcode_240.java
+ elyowon.leetcode.array.leetcode_240
 elyowon/programers/L2/L2_210702_뉴스클러스터링.java
  elyowon.programers.L2.L2_210702_뉴스클러스터링
 elyowon/programers/L1/레벨1_소수만들기.java
@@ -458,9 +457,14 @@ elyowon/programers/L2/L2_210708_거리두기확인하기.java
  elyowon.programers.L2.L2_210708_거리두기확인하기
 elyowon/leetcode/LinkedList/leetcode_2_ReverseTwoAdd.java
  elyowon.leetcode.LinkedList.leetcode_2_ReverseTwoAdd
-elyowon/leetcode/ListNode.java
- elyowon.leetcode.ListNode
-elyowon/programers/L1/L1_210626_최대공약수최소공배수.java
- elyowon.programers.L1.L1_210626_최대공약수최소공배수
-elyowon/leetcode/array/leetcode_240.java
- elyowon.leetcode.array.leetcode_240
+elyowon/programers/prgmStudy/week_1/영어길이.java
+ elyowon.programers.prgmStudy.week_1.영어길이
+ elyowon.programers.prgmStudy.week_1.영어길이$Solution
+elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.java
+ elyowon.programers.prgmStudy.week_1.L2_210714_스킬트리
+elyowon/programers/prgmStudy/week_3/단어변환.java
+ elyowon.programers.prgmStudy.week_3.단어변환
+elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.java
+ elyowon.programers.prgmStudy.week_1.L1_210714_소수만들기
+elyowon/programers/prgmStudy/week_3/더맵게.java
+ elyowon.programers.prgmStudy.week_3.더맵게
