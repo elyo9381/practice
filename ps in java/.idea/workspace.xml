@@ -23,29 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/게임맵최단거리.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/타켓넘버.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/test/java/elyowon/programers/prgmStudy/week_3/타켓넘버Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/기능개발.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/다리를지나는트럭.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/위장.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/전화번호목록.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/라면공장.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Dp2n타일링.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Dp3n타일링.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Greedy체육복.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.class" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/L1_210714_소수만들기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.class" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/L2_210714_스킬트리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/영어길이$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/classes/java/main/elyowon/programers/prgmStudy/week_1/영어길이$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/단어변환.java" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/단어변환.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +164,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -218,14 +207,14 @@
       <recent name="elyowon.programers.prgmStudy.week_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="elyowon.programers.prgmStudy.week_3" />
+      <recent name="elyowon.programers.prgmStudy.week_4" />
       <recent name="elyowon.programers.prgmStudy.week_2" />
+      <recent name="elyowon.programers.prgmStudy.week_3" />
       <recent name="me.elyowon.programers.prgmStudy.week_1" />
       <recent name="me.elyowon.programers.prgmStudy" />
-      <recent name="me.elyowon.programers.L3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.타켓넘버Test.test">
+  <component name="RunManager" selected="Gradle.주식가격Test.test">
     <configuration name="주식가격Test.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -377,8 +366,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.타켓넘버Test.test" />
-        <item itemvalue="JUnit.단어변환Test.test" />
         <item itemvalue="Gradle.주식가격Test.test" />
         <item itemvalue="JUnit.주식가격Test.test" />
         <item itemvalue="JUnit.leetcode_785_BipartiteGraphTest.test" />
@@ -455,14 +442,8 @@
       <workItem from="1627306836707" duration="271000" />
       <workItem from="1627307135101" duration="8615000" />
       <workItem from="1627483507580" duration="31000" />
-      <workItem from="1627483730061" duration="13327000" />
-    </task>
-    <task id="LOCAL-00009" summary="java ps in programes">
-      <created>1618577350334</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1618577350334</updated>
+      <workItem from="1627483730061" duration="29686000" />
+      <workItem from="1627824336505" duration="1522000" />
     </task>
     <task id="LOCAL-00010" summary="study ps in programers">
       <created>1618583898521</created>
@@ -800,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627483458239</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="solve dfs, bfs">
+      <created>1627570219508</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1627570219508</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,7 +807,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study programes 키패드 누르기" />
     <MESSAGE value="study programmers 폰켓몬, 체육복" />
     <MESSAGE value="study programmers 조합,정규표현식 문제" />
     <MESSAGE value="study programmers 배열" />
@@ -844,7 +831,8 @@
     <MESSAGE value="modify project (basicJavaPrj to gradleJavaPrj)" />
     <MESSAGE value="solve priorityQueue" />
     <MESSAGE value="solve dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve dfs" />
+    <MESSAGE value="solve dfs, bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve dfs, bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
