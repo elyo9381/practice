@@ -23,17 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52880e79-0ccd-42fd-898e-fa4a0b45ae8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/기능개발.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/다리를지나는트럭.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/위장.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_2/전화번호목록.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/네트워크.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/라면공장.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Dp2n타일링.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/special/patten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/special/빙고.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Dp3n타일링.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/Greedy체육복.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/구명보트.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/도둑질.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/입국심사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/정수삼각형.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programSolve/src/test/java/elyowon/programers/prgmStudy/week_4/정수삼각형Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/programSolve.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/programSolve.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/L2/L2_210707_순위검색.java" beforeDir="false" afterPath="$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/L2/L2_210707_순위검색.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +131,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -201,6 +201,7 @@
       <recent name="me.elyowon.leetcode.tree" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="elyowon.programers.prgmStudy.week_4" />
       <recent name="elyowon.programers.prgmStudy.week_3" />
       <recent name="elyowon.leetcode.graph" />
       <recent name="elyowon.leetcode.algorithm" />
@@ -208,10 +209,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="elyowon.programers.prgmStudy.week_4" />
+      <recent name="elyowon.programers.prgmStudy.special" />
       <recent name="elyowon.programers.prgmStudy.week_2" />
       <recent name="elyowon.programers.prgmStudy.week_3" />
       <recent name="me.elyowon.programers.prgmStudy.week_1" />
-      <recent name="me.elyowon.programers.prgmStudy" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.주식가격Test.test">
@@ -246,6 +247,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="elyowon.programers.prgmStudy.week_2" />
       <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_2.주식가격Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="정수삼각형Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programSolve.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elyowon.programers.prgmStudy.week_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elyowon.programers.prgmStudy.week_4" />
+      <option name="MAIN_CLASS_NAME" value="elyowon.programers.prgmStudy.week_4.정수삼각형Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -443,14 +460,14 @@
       <workItem from="1627307135101" duration="8615000" />
       <workItem from="1627483507580" duration="31000" />
       <workItem from="1627483730061" duration="29686000" />
-      <workItem from="1627824336505" duration="1522000" />
-    </task>
-    <task id="LOCAL-00010" summary="study ps in programers">
-      <created>1618583898521</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1618583898521</updated>
+      <workItem from="1627824336505" duration="6155000" />
+      <workItem from="1627877440290" duration="598000" />
+      <workItem from="1627981189785" duration="16116000" />
+      <workItem from="1628140544330" duration="425000" />
+      <workItem from="1628140991742" duration="6292000" />
+      <workItem from="1628154237715" duration="262000" />
+      <workItem from="1628173847296" duration="5986000" />
+      <workItem from="1628308206763" duration="11965000" />
     </task>
     <task id="LOCAL-00011" summary="study ps">
       <created>1618671086401</created>
@@ -788,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627570219508</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="solve programmers">
+      <created>1627829573165</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1627829573165</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +831,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="study programmers 폰켓몬, 체육복" />
     <MESSAGE value="study programmers 조합,정규표현식 문제" />
     <MESSAGE value="study programmers 배열" />
     <MESSAGE value="study programmers 조합,실패율" />
@@ -832,7 +855,8 @@
     <MESSAGE value="solve priorityQueue" />
     <MESSAGE value="solve dfs" />
     <MESSAGE value="solve dfs, bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve dfs, bfs" />
+    <MESSAGE value="solve programmers" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve programmers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1051,6 +1075,11 @@
           <url>file://$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_3/단어변환.java</url>
           <line>65</line>
           <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/programSolve/src/main/java/elyowon/programers/prgmStudy/week_4/정수삼각형.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

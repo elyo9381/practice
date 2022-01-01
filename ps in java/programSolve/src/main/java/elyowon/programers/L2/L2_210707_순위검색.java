@@ -20,12 +20,9 @@ public class L2_210707_순위검색 {
     public int[] solution(String[] info,String[] query) {
         int[] answer = new int[query.length];
 
-
         makeKey(info);
 
-
         hs.forEach((key,value) -> Collections.sort(value));
-
 
         for (int i = 0; i < query.length; i++) {
             String[] temp = query[i].replaceAll(" and ", " ").split(" ");
@@ -169,7 +166,6 @@ public class L2_210707_순위검색 {
             int count = 0;
             for (Apply info : appliesInfo) {
 
-
                 if((query.language.equals(info.language) || query.language.equals("-"))
                         && (query.department.equals(info.department) || query.department.equals("-"))
                         && (query.career.equals(info.career) || query.career.equals("-"))
@@ -179,12 +175,10 @@ public class L2_210707_순위검색 {
                         count += 1;
                     }
                 }
-
             }
             System.out.println("count = " + count);
             result.add(count);
         }
-
         return result.stream().mapToInt(i->i).toArray();
     }
 }
