@@ -1,13 +1,13 @@
 package leetcode.greedy
 
 
-fun minDeleteCost( str : String, cost : IntArray): Int {
+fun minDeleteCost( str : String, costs : IntArray): Int {
 
     var maxCost = 0
     var result = 0
     var lastChar : String = ""
 
-    cost.forEachIndexed { idx , cost ->
+    costs.forEachIndexed { idx , cost ->
         val findChar = str[idx].toString()
 
         if( findChar != lastChar ){
