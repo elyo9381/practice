@@ -1,10 +1,11 @@
+package practice.dp.java;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class PS1103 {
+public class Solve1103 {
 
     static int N , M ;
     static int[][] board;
