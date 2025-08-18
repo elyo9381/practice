@@ -1,4 +1,3 @@
-package practice.dp.java;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.BufferedReader;
