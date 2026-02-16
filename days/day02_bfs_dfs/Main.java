@@ -35,34 +35,28 @@ public class Main {
         }
     }
 
-    // 이 메서드를 작성해
-    public static int solution() {
+    public static int solution(){
+        int answer = 0;
 
-        int result = 0 ;
-        int[][] temp = maps;
-
-        for(int i = 0 ; i<N ; i++){
-            for(int j = 0 ; j<M ; j++) {
-                if(!visited[i][j] && maps[i][j] == 1){
-                    result += dfs(i, j,temp);
+        for(int i = 0 ; i<N; i++){
+            for(int j = 0 ;j<M;j++){
+                if(!visited[i][j] && maps[i][j] ==){
+                    dfs(i,j);
+                    answer++;
                 }
             }
         }
-        return result;
+        return answer;
     }
 
-    private static int dfs(int x, int y , int[][] maps){
-        if( x < 0 || y < 0 || x>=N || y >= M ) return 0;
-        if( visited[x][y] || maps[x][y] == 0 ) return 0;
-
-        visited[x][y] = true;
-
-        int count = 1;
-        result = Math.max(result,1+dfs( x+1 , y, maps));
-        result = Math.max(result,dfs( x , y+1, maps));
-        result = Math.max(result,dfs( x-1 , y, maps));
-        result = Math.max(result,dfs( x , y-1, maps));
-
-        return result;
+    private static void dfs(int x , int y ){
+        if( x < 0 || y < 0 || x >= N || y >=M ) return ;
+        if(visited[x][y] || maps[x][y] == 0) return ;
+        visited[x][y]= true;
+        
+        dfs(x+1,y);
+        dfs(x,y+1);
+        dfs(x-1,y);
+        dfs(x,y-1);
     }
 }
