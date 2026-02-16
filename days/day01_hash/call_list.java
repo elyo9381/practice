@@ -1,7 +1,9 @@
-import java.util.*
+import java.util.*;
 
 public static void main(String[] args) {
-    public boolean Solution(String[] phone_book){
+
+    
+    public static boolean Solution(String[] phone_book){
         boolean answer = true;
         Set set = new HashSet<>();
 

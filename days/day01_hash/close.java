@@ -2,7 +2,7 @@ import java.util.*;
 
 public static void main(String[] args) {
 
-    public int Solution(String[][] clothes){
+    public static int Solution(String[][] clothes){
         int answer =0 ;
 
         Map map = new HashMap<String,Integer>();
