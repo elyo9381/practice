@@ -1,5 +1,6 @@
 import java.util.*;
 
+// 위장
 public static void main(String[] args) {
 
     public static int Solution(String[][] clothes){

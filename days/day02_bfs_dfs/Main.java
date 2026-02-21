@@ -40,7 +40,7 @@ public class Main {
 
         for(int i = 0 ; i<N; i++){
             for(int j = 0 ;j<M;j++){
-                if(!visited[i][j] && maps[i][j] ==){
+                if(!visited[i][j] && maps[i][j] == 1){
                     dfs(i,j);
                     answer++;
                 }

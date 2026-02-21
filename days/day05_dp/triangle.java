@@ -31,7 +31,7 @@ public class triangle{
                 int fromLeftUp = ( j>0 ) ? dp[i-1][j-1] : 0 ;
                 int fromUp =  (j<i) ? dp[i-1][j] : 0;
                 dp[i][j] = Math.max(fromLeftUp,fromUp)+ triangle[i][j];
-            }   
+            }
             
         }
 

@@ -1,11 +1,10 @@
 import java.util.*;
 
-public static void main(String[] args) {
+public class call_list {
 
-    
     public static boolean Solution(String[] phone_book){
         boolean answer = true;
-        Set set = new HashSet<>();
+        Set<String> set = new HashSet<>();
 
         for( String e : phone_book){
             set.add(e);

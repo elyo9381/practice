@@ -3,12 +3,12 @@ import java.util.*;
 import java.lang.*;
 
 
-public class Solution(){
+public class Solution {
 
     public int solution(String s){
 
-        if(len == 1) return 1;
         int len = s.length();
+        if(len == 1) return 1;
         int min = len;
 
         for(int i = 1; i<=len/2; i++){

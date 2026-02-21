@@ -1,90 +1,177 @@
-# days 실행 플랜 (RULEBOOK 연동판)
+# 코딩테스트 합격 집중 플랜 (쿠팡/토스/당근급)
 
-기준일: 2026-02-16
+갱신일: 2026-02-18 (Day 2 기준 전면 재편)
 대상 경로: `/Users/yowon/study/ps/practice/days`
 
 ## 적용 원칙
-- 일정/문제 배치 원본: `day11_2week_offer_routine/README.md`
-- 운영 규칙 원본: `RULEBOOK.md`
+- 운영 규칙 원본: `RULEBOOK.md` (컴파일 게이트 포함)
 - day01~day28 모든 실행은 RULEBOOK 우선 적용
+- 토픽 순서: **출제 빈도순** 재배치
+- 하루 문제 수: **4~5문제** (신규 3 + 복습 1~2)
+- 모의고사: **Day 5부터** 시작 (총 7회)
+- 컴파일 게이트: IntelliJ 컴파일 통과 후에만 "풀이 완료"
 
-## 현재 상태 요약
-- Day1~Day5: 코드 파일 존재
-- Day6~Day10: README 중심, 코드 공백 큼
-- 문서상 상태칸과 실제 풀이 상태 불일치 존재
+## 현재 상태 요약 (Day 2 기준)
+- Day1~Day5: 코드 파일 존재, **컴파일 에러 5개 수정 완료**
+- 템플릿 파일 5개 생성 완료 (BFS, DFS, 이분탐색, Dijkstra, Union-Find)
+- 강점: Greedy/투포인터(상), DP(상)
+- 약점: BFS/DFS 구현 미완성(중), 구현 정확도(중하), 이분탐색/최단경로/UF(미착수)
 
-## Day별 실행 체크리스트
+---
 
-### day01_hash
-- [ ] 3문제 제출형 코드 정리
-- [ ] T+1/T+3 등록
-- [ ] RULEBOOK Done Definition 5항목 체크
+## Phase 1: 기반 구축 (Day 2~4, 3일)
+> 목표: 컴파일 에러 제로, 구현 실수 제로의 습관 만들기
 
-### day02_bfs_dfs
-- [ ] BFS/DFS 3문제 제출형 코드 정리
-- [ ] D1 복기 1문제 수행
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 2-3: 기존 코드 수정 + 구현 드릴
+- [x] 기존 5개 컴파일 에러 파일 전부 수정
+  - `day01/rhkfgh.java` — Character 오타, isEmpty() 수정
+  - `day01/call_list.java` — class 래퍼 추가
+  - `day02/Main.java` — 43번줄 조건문 완성
+  - `day03/string_sort.java` — 반환타입 수정
+  - `day03/Solution.java` — 생성자 문법 수정
+- [x] 각 파일 컴파일 확인
+- [x] 템플릿 파일 생성: BFS, DFS, 이분탐색, Dijkstra, Union-Find
+- [ ] 기존 Day1~5 코드 복습 + T+1 재풀이
 
-### day03_impl_string
-- [ ] 문자열/구현 3문제 제출형 코드 정리
-- [ ] 엣지케이스 5개 기록
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 4: 구현/시뮬레이션 집중 (5문제)
+- [ ] BOJ 14503 로봇청소기 (시뮬레이션)
+- [ ] BOJ 14888 연산자 끼워넣기 (백트래킹)
+- [ ] BOJ 15683 감시 (구현)
+- [ ] BOJ 14502 연구소 (BFS+백트래킹)
+- [ ] BOJ 3190 뱀 (시뮬레이션)
 
-### day04_greedy_twopointer
-- [ ] 3문제 제출형 확정
-- [ ] 투포인터 경계 실수 복기
-- [ ] RULEBOOK Done Definition 5항목 체크
+---
 
-### day05_dp
-- [ ] 정수 삼각형/동전2 완성
-- [ ] 점화식/상태 정의 오답노트 기록
-- [ ] RULEBOOK Done Definition 5항목 체크
+## Phase 2: 핵심 알고리즘 드릴 (Day 5~14, 10일)
+> 목표: 출제 빈도 TOP 5 알고리즘을 40분 내 풀 수 있는 수준으로
 
-### day06_binsearch
-- [ ] 입국심사/기타레슨/디스크컨트롤러 코드 작성
-- [ ] 파라메트릭서치 템플릿 고정
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 5: 미니 모의고사 #1
+- [ ] 2시간 타이머, 프로그래머스 L2 3문제
+- [ ] 끝난 후 즉시 오답 분석 + T+1 등록
 
-### day07_mock1
-- [ ] 2시간 모의 1회
-- [ ] 오답 즉시 재구현 1문제
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 6-7: BFS/DFS 집중 (하루 4~5문제)
+- [ ] BOJ 2206 벽 부수고 이동하기 (3차원 BFS)
+- [ ] BOJ 7569 토마토 (3D BFS)
+- [ ] BOJ 1697 숨바꼭질 (BFS)
+- [ ] BOJ 2667 단지번호붙이기 (DFS)
+- [ ] BOJ 16236 아기상어 (BFS 심화)
+- [ ] Programmers 타겟넘버 (DFS)
+- [ ] Programmers 여행경로 (DFS 백트래킹)
+- [ ] BOJ 2573 빙산 (BFS+시뮬)
 
-### day08_review
-- [ ] Day7 약점 유형 2문제 보강
-- [ ] 백지구현 1문제
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 8-9: DP 심화 (하루 4문제)
+- [ ] BOJ 12865 평범한 배낭 (0-1 Knapsack)
+- [ ] BOJ 9251 LCS
+- [ ] BOJ 11053 LIS
+- [ ] BOJ 1149 RGB거리
+- [ ] BOJ 1463 1로 만들기
+- [ ] BOJ 11066 파일합치기 (구간DP)
+- [ ] Programmers 정수삼각형 (복습)
+- [ ] BOJ 2565 전깃줄 (LIS 응용)
 
-### day09_sql
-- [ ] SQL 4문제 완료
-- [ ] JOIN/GROUP BY 오답 유형 기록
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 10: 미니 모의고사 #2
+- [ ] 프로그래머스 L2~L3 혼합 3문제
+- [ ] 오답 분석
 
-### day10_mock2
-- [ ] 2시간 모의 2회차
-- [ ] 오답 즉시 재구현 1문제
-- [ ] RULEBOOK Done Definition 5항목 체크
+### Day 11-12: 이분탐색 + 파라메트릭 (하루 4문제)
+- [ ] BOJ 1920 수 찾기 (기본)
+- [ ] BOJ 2805 나무 자르기 (파라메트릭)
+- [ ] BOJ 1654 랜선 자르기 (파라메트릭)
+- [ ] BOJ 2110 공유기 설치 (파라메트릭)
+- [ ] BOJ 1300 K번째 수
+- [ ] Programmers 입국심사
+- [ ] BOJ 2343 기타레슨
 
-### day11 (컨트롤 타워)
-- [ ] Day1~Day28 상태칸 갱신
-- [ ] 주차별 KPI 점검
-- [ ] RULEBOOK 준수율 점검
+### Day 13-14: 최단경로 + Union-Find (하루 3~4문제)
+- [ ] BOJ 1753 최단경로 (Dijkstra 기본)
+- [ ] BOJ 1916 최소비용 구하기
+- [ ] BOJ 1717 집합의 표현 (Union-Find 기본)
+- [ ] BOJ 1197 최소스패닝트리 (Kruskal)
+- [ ] BOJ 4485 녹색 옷 입은 애가 젤다지 (Dijkstra 응용)
+- [ ] BOJ 1976 여행 가자 (Union-Find 응용)
+
+---
+
+## Phase 3: 실전 적응 (Day 15~21, 7일)
+> 목표: 모의고사 3회 + 약점 보강
+
+### Day 15: 모의고사 #3
+- [ ] 2시간, L2 2문제 + L3 1문제
+
+### Day 16: 오답 집중 복습
+- [ ] 약점 유형 3문제
+
+### Day 17-18: 문자열 + 그리디 보강 (하루 4문제)
+- [ ] Programmers 오픈채팅방
+- [ ] Programmers 뉴스 클러스터링
+- [ ] BOJ 1541 잃어버린 괄호
+- [ ] BOJ 1715 카드 정렬하기
+- [ ] BOJ 1806 부분합 (투포인터)
+- [ ] BOJ 1644 소수의 연속합
+- [ ] Programmers 문자열 압축 (복습)
+- [ ] BOJ 5430 AC (덱)
+
+### Day 19: 모의고사 #4
+- [ ] 2시간
+
+### Day 20-21: 복합문제 + 약점 드릴 (하루 4문제)
+- [ ] 약점으로 드러난 유형 집중
+- [ ] 이전 모의고사 틀린 문제 T+3 재풀이
+
+---
+
+## Phase 4: 파이널 스프린트 (Day 22~28, 7일)
+> 목표: 실전과 동일한 조건에서 안정적 풀이
+
+### Day 22-23: 기출 유사문제 (하루 4문제)
+- [ ] 쿠팡/토스 기출로 알려진 유형 집중
+- [ ] 카카오 기출 (구현 중심)
+
+### Day 24: 모의고사 #5
+- [ ] 2시간, 실전 동일 조건
+
+### Day 25: 최종 오답 정리
+- [ ] 템플릿 암기 확인
+
+### Day 26: 모의고사 #6 (최종)
+- [ ] 2시간
+
+### Day 27: 가벼운 복습
+- [ ] 쉬운 문제 3개 + 템플릿 리뷰
+
+### Day 28: 휴식 + 멘탈 관리
+
+---
 
 ## 하루 운영 프로토콜
-1. 문제 풀이 완료
-2. 오답노트 3줄 기록
-3. T+1/T+3 등록
-4. Done Definition 5항목 체크
-5. OpenClaw 일일 보고 스키마로 전송
+1. 시작 선언 (학습 시작 시각 공유)
+2. 문제 풀이 (40분 하드 타임박스)
+3. **컴파일 게이트 통과 확인**
+4. 오답노트 3줄 기록 (5분 내)
+5. T+1/T+3 등록
+6. Done Definition 6항목 체크
+7. OpenClaw 일일 보고 스키마로 전송
 
 ## 주간 운영 프로토콜
-1. 모의코테 최소 1회
+1. 모의코테 최소 1~2회
 2. 구현 7문제 이상
 3. 24시간 재구현 완료율 90% 이상
 4. 규칙 위반 0회 목표
+5. 일요일 주간 회고 (약점 3개/개선 3개/다음 주 전략 3개)
 
-## 우선순위
-1. Day1~Day3 제출형 코드 안정화
-2. Day4~Day6 완성
-3. Day7~Day10 실전 루틴 실행
-4. Day11~Day28 고정 페이스 유지
+## 우선순위 (출제 빈도순)
+1. 구현/시뮬레이션 (80%+)
+2. BFS/DFS (60%)
+3. DP (60%)
+4. 그리디 (40%)
+5. 이분탐색 (30%)
+6. 문자열/파싱 (30%)
+7. 최단경로 (20%)
+8. Union-Find (10%)
+
+## 템플릿 파일 목록
+- `templates/bfs_template.java` — 2D/3D BFS
+- `templates/dfs_template.java` — 그리드 DFS, 순열, 조합
+- `templates/binary_search_template.java` — 이분탐색, 파라메트릭, lower/upper bound
+- `templates/dijkstra_template.java` — 그래프/그리드 Dijkstra
+- `templates/unionfind_template.java` — Union-Find, Kruskal MST
