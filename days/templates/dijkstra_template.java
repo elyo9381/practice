@@ -50,8 +50,8 @@ public class dijkstra_template {
         System.out.print(sb);
     }
 
-    static int[] dijkstra(int V, int start) {
-        int[] dist = new int[V + 1];
+    static int[] dijkstra(int numNodes, int start) {
+        int[] dist = new int[numNodes + 1];
         Arrays.fill(dist, INF);
         dist[start] = 0;
 
