@@ -17,20 +17,20 @@ public class boj_14888 {
 
         int[] arr = new int[n];
 
-
+        st = new StringTokenizer(br.readLine());
         for(int i = 0 ; i<n; i++){
-            st = new StringTokenizer(br.readLine());
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
         int[] ops = new int[4];
+        st = new StringTokenizer(br.readLine());
         for(int i = 0 ; i<4; i++){
-            st = new StringTokenizer(br.readLine());
             ops[i] = Integer.parseInt(st.nextToken());
         }
 
         dfs(1,arr[0] , arr, ops);
-        System.out.println();
+        System.out.println(max);
+        System.out.println(min);
     }
 
     private static void dfs(int idx , int sum , int[] arr, int[] ops ){
@@ -55,9 +55,9 @@ public class boj_14888 {
 
         if(ops == 0){
             sum += target;
-        } else if(ops == 0){
+        } else if(ops == 1){
             sum -= target;
-        } else if(ops == 0){
+        } else if(ops == 2){
             sum *= target;
         } else {
             sum /= target;
