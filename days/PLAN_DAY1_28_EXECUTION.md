@@ -60,13 +60,13 @@
 
 ### Day 6-7: BFS/DFS 집중 (하루 4~5문제)
 - [x] BOJ 2206 벽 부수고 이동하기 (3차원 BFS)
-- [ ] BOJ 7569 토마토 (3D BFS)
+- [x] BOJ 7569 토마토 (3D BFS)
 - [x] BOJ 1697 숨바꼭질 (BFS)
 - [x] BOJ 2667 단지번호붙이기 (DFS)
-- [ ] BOJ 16236 아기상어 (BFS 심화)
+- [x] BOJ 16236 아기상어 (BFS 심화)
 - [x] Programmers 타겟넘버 (DFS)
-- [ ] Programmers 여행경로 (DFS 백트래킹)
-- [ ] BOJ 2573 빙산 (BFS+시뮬)
+- [x] Programmers 여행경로 (DFS 백트래킹)
+- [x] BOJ 2573 빙산 (BFS+시뮬)
 
 ### Day 8-9: DP 심화 (하루 4문제)
 - [ ] BOJ 12865 평범한 배낭 (0-1 Knapsack)
