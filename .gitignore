@@ -4,6 +4,7 @@
 # Gradle files
 .gradle/
 build/
+*.class
 
 # IDE files
 .idea/
